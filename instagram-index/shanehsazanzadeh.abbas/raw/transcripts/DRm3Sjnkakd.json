@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "transcripts": [
+    {
+      "id": "3775948505350252829",
+      "text": "اینا رو زیر سبزه، زیر سبز نزدی زیر هدفت زدی پیامد زیر سبز زدن زیر چیه؟ هدف زدن",
+      "shortcode": "DRm3Sjnkakd",
+      "transcript_with_timestamp": [
+        {
+          "end": 2.279,
+          "text": "اینا رو زیر سبزه، زیر سبز نزدی",
+          "start": 0
+        },
+        {
+          "end": 4.549,
+          "text": "زیر هدفت زدی",
+          "start": 2.279
+        },
+        {
+          "end": 8.891,
+          "text": "پیامد زیر سبز زدن زیر چیه؟ هدف زدن",
+          "start": 4.549
+        }
+      ]
+    }
+  ],
+  "duration_minutes": 0.15,
+  "duration_seconds": 8.891
+}

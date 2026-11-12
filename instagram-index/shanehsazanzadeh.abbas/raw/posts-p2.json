@@ -1,0 +1,2250 @@
+{
+  "user": {
+    "id": "40932383998",
+    "pk": "40932383998",
+    "fbid_v2": "17841441039956547",
+    "username": "shanehsazanzadeh.abbas",
+    "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+    "is_cannes": false,
+    "is_private": false,
+    "is_verified": false,
+    "strong_id__": "40932383998",
+    "follower_count": 6545,
+    "profile_pic_id": "3613695597700076379_40932383998",
+    "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+    "profile_grid_display_type": "default"
+  },
+  "items": [
+    {
+      "id": "3772265477243183367_40932383998",
+      "url": "https://www.instagram.com/p/DRZx3cZjKEH/",
+      "code": "DRZx3cZjKEH",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "18092304913909205",
+        "text": "“چشم هاتون گولتون میزنه 👀\nگوش هاتون گولتون می‌ره 👂🏻\nگاهی ما در دنیای اطرافمون، درگیر جزئیات و هیاهویی می‌شیم که صرفاً یه فریبِ ظاهریه. \nدقت نکردن به عمقِ چیزها باعث می‌شه باور کنیم همه‌چیز همونطور که به نظر می‌رسه، هست. اما خیلی وقتا، در پشت هر ظاهر زیبا، داستانی متفاوت نهفته است.\nوقتشه که به چیزی بیشتر از ظاهر نگاه کنیم.”\n#رفاه_مالی#رفاه_حالی#توسعه_فردی#کوچینگ #اهواز#هدف #هدف_اهواز",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3772265477243183367",
+        "bit_flags": 0,
+        "created_at": 1763910568,
+        "is_covered": false,
+        "strong_id__": "18092304913909205",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1763910568,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1763910567,
+      "has_audio": true,
+      "video_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m367/AQM-1PqRvLdh4APoYzx0rBge63whzqCNZIjh-oWS2Ual70SPF-mVB3PJPY2_6spJm1gkUyQigJWHXt3Jfj5f_IswKWz27OyeXoyyRkE.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=JHHeeoIZq3EQ7kNvwHwUzW9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6ODk0MTI0ODAyOTY4ODI3LCJhc3NldF9hZ2VfZGF5cyI6MzU0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8369f6010f2a91dd&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC85QjQ3N0M5NzI5NDk4MDgwQjdBMDMwNDgxRTM3RDY5NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzg5MTc0MjM2MTA1Nzk4XzU3NTM4Mjg5MTI1MjEwMDU2MzgubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvazoPT0zJYDFQIoAkMzLBdALyHKwIMSbxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR7Ta7zlD1EUQytmBOwp7IUrt_A1STqYDg8wXAdWkovvw&oe=6AFBC50F",
+      "created_at": "2025-11-23T15:09:27.000Z",
+      "like_count": 104,
+      "media_type": 2,
+      "play_count": 1580,
+      "display_uri": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/587032135_18070109630367999_6133600536586944058_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=Mzc3MjI2NTQ3NzI0MzE4MzM2NzE4MDcwMTA5NjI3MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=nHY1cDqtAggQ7kNvwF-sRVa&_nc_oc=AdpcJ2La_hjdPRyQaegRod7nEXfvAGn0wyutW-JeMonTwxSKdjxG5vk3xFNHmxytO-c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTc9A2BDfjXqpnBzJOO2SpK2FtB1us-e1G2o2tG7UjX6Q&oe=6AFBC9F2",
+      "product_type": "clips",
+      "comment_count": 23,
+      "ig_play_count": 1580,
+      "carousel_media": null,
+      "music_metadata": null,
+      "video_duration": 15.566,
+      "video_versions": [
+        {
+          "url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m367/AQM-1PqRvLdh4APoYzx0rBge63whzqCNZIjh-oWS2Ual70SPF-mVB3PJPY2_6spJm1gkUyQigJWHXt3Jfj5f_IswKWz27OyeXoyyRkE.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=JHHeeoIZq3EQ7kNvwHwUzW9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6ODk0MTI0ODAyOTY4ODI3LCJhc3NldF9hZ2VfZGF5cyI6MzU0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8369f6010f2a91dd&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC85QjQ3N0M5NzI5NDk4MDgwQjdBMDMwNDgxRTM3RDY5NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzg5MTc0MjM2MTA1Nzk4XzU3NTM4Mjg5MTI1MjEwMDU2MzgubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvazoPT0zJYDFQIoAkMzLBdALyHKwIMSbxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR7Ta7zlD1EUQytmBOwp7IUrt_A1STqYDg8wXAdWkovvw&oe=6AFBC50F",
+          "type": 101,
+          "width": 720,
+          "height": 1278
+        },
+        {
+          "url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m367/AQM-1PqRvLdh4APoYzx0rBge63whzqCNZIjh-oWS2Ual70SPF-mVB3PJPY2_6spJm1gkUyQigJWHXt3Jfj5f_IswKWz27OyeXoyyRkE.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=JHHeeoIZq3EQ7kNvwHwUzW9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6ODk0MTI0ODAyOTY4ODI3LCJhc3NldF9hZ2VfZGF5cyI6MzU0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8369f6010f2a91dd&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC85QjQ3N0M5NzI5NDk4MDgwQjdBMDMwNDgxRTM3RDY5NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzg5MTc0MjM2MTA1Nzk4XzU3NTM4Mjg5MTI1MjEwMDU2MzgubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvazoPT0zJYDFQIoAkMzLBdALyHKwIMSbxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR7Ta7zlD1EUQytmBOwp7IUrt_A1STqYDg8wXAdWkovvw&oe=6AFBC50F",
+          "type": 102,
+          "width": 720,
+          "height": 1278
+        },
+        {
+          "url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m367/AQM-1PqRvLdh4APoYzx0rBge63whzqCNZIjh-oWS2Ual70SPF-mVB3PJPY2_6spJm1gkUyQigJWHXt3Jfj5f_IswKWz27OyeXoyyRkE.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=JHHeeoIZq3EQ7kNvwHwUzW9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6ODk0MTI0ODAyOTY4ODI3LCJhc3NldF9hZ2VfZGF5cyI6MzU0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MTUsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=8369f6010f2a91dd&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC85QjQ3N0M5NzI5NDk4MDgwQjdBMDMwNDgxRTM3RDY5NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzg5MTc0MjM2MTA1Nzk4XzU3NTM4Mjg5MTI1MjEwMDU2MzgubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvazoPT0zJYDFQIoAkMzLBdALyHKwIMSbxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQR7Ta7zlD1EUQytmBOwp7IUrt_A1STqYDg8wXAdWkovvw&oe=6AFBC50F",
+          "type": 103,
+          "width": 720,
+          "height": 1278
+        }
+      ],
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/587032135_18070109630367999_6133600536586944058_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=Mzc3MjI2NTQ3NzI0MzE4MzM2NzE4MDcwMTA5NjI3MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=nHY1cDqtAggQ7kNvwF-sRVa&_nc_oc=AdpcJ2La_hjdPRyQaegRod7nEXfvAGn0wyutW-JeMonTwxSKdjxG5vk3xFNHmxytO-c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTc9A2BDfjXqpnBzJOO2SpK2FtB1us-e1G2o2tG7UjX6Q&oe=6AFBC9F2",
+            "width": 480,
+            "height": 853
+          }
+        ],
+        "additional_candidates": {
+          "first_frame": {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/587690948_1394776105522941_6750412278445831862_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=F5fZTvrpD84Q7kNvwESt0m5&_nc_oc=AdpiAAxwMX_p-YXnf8VLeViX5MMabn8XKBh5Qldlvahbc15Y0fHwTuWypoygngbxi0Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSmozFs74eCoQAe-tFdwvoE-Szlz2FJQPsZYM0Mjk6awg&oe=6AFBC3DC",
+            "width": 480,
+            "height": 852
+          },
+          "igtv_first_frame": {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/587690948_1394776105522941_6750412278445831862_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=F5fZTvrpD84Q7kNvwESt0m5&_nc_oc=AdpiAAxwMX_p-YXnf8VLeViX5MMabn8XKBh5Qldlvahbc15Y0fHwTuWypoygngbxi0Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSmozFs74eCoQAe-tFdwvoE-Szlz2FJQPsZYM0Mjk6awg&oe=6AFBC3DC",
+            "width": 480,
+            "height": 852
+          }
+        },
+        "scrubber_spritesheet_info_candidates": {
+          "default": {
+            "file_size_kb": 281,
+            "sprite_width": 1500,
+            "video_length": 15.548,
+            "sprite_height": 1232,
+            "rendered_width": 96,
+            "thumbnail_width": 100,
+            "thumbnail_height": 176,
+            "thumbnail_duration": 0.14807619047619,
+            "thumbnails_per_row": 15,
+            "max_thumbnails_per_sprite": 105,
+            "total_thumbnail_num_per_sprite": 105
+          }
+        }
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": null,
+      "video_sticker_locales": []
+    },
+    {
+      "id": "3752121886319943689_40932383998",
+      "url": "https://www.instagram.com/p/DQSNvncEaAJ/",
+      "code": "DQSNvncEaAJ",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "18533280544019058",
+        "text": "موفقیت چیزی جز یک تصمیم نیست!\n\nچندبار برای خودت هدف گذاشتی و شکست خوردی؟!\nچندبار تو زندگیت یا کسب و‌کارت تلاش کردی اما با نتیجه دلخواهتو نگرفتی؟!\n\nباید بهت بگم ایراد از تو نیست، ایزاد از انگیزت یا تلاشت نیست\nایراد تو سیستم توئه، توی طراحی سیستمی که کردی\n\nاینو بدون موفقیت فقط یه سیستم سازی میخواد\n\nکه با هدف گذاری به روش stomp یه طراحی سیستم منحصر به فرد درست میکنی👌\n\nبرای اطلاعات بیشتر دایر.کت پیام دهید…",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3752121886319943689",
+        "bit_flags": 0,
+        "created_at": 1761507807,
+        "is_covered": false,
+        "strong_id__": "18533280544019058",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1761507807,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1761507806,
+      "has_audio": null,
+      "created_at": "2025-10-26T19:43:26.000Z",
+      "like_count": 57,
+      "media_type": 8,
+      "play_count": null,
+      "display_uri": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572146555_18067627898367999_1052903635627269242_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU0MDU0Nzc5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzk0LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=vEiiK0xCBO0Q7kNvwFocgLK&_nc_oc=AdoCTLF1p6GwY52Qm1oiH3ifLdqiSLTkYmMSWqOccGuib1LeCCP3etq9I7sKEZ-55Ew&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQgLkqzGxfz0WI7TvCF_cQxqUZpp793N-D8VaeKL1W3mQ&oe=6AFBC0A7",
+      "product_type": "carousel_container",
+      "comment_count": 4,
+      "ig_play_count": null,
+      "carousel_media": [
+        {
+          "id": "POLARIS_3752121875540547791",
+          "pk": "3752121875540547791",
+          "code": "DQSNvdZkRjP",
+          "taken_at": 1761507804,
+          "usertags": {
+            "in": [
+              {
+                "user": {
+                  "id": "1806854555",
+                  "pk": "1806854555",
+                  "username": "shanehsazan.abbas",
+                  "full_name": "عباس شانه سازان",
+                  "is_private": false,
+                  "is_verified": false,
+                  "strong_id__": "1806854555",
+                  "profile_pic_id": "2878765306173947160_1806854555",
+                  "profile_pic_url": "https://scontent-iad3-1.cdninstagram.com/v/t51.2885-19/292765657_3303476476599130_1711495870578637991_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=GNk-cxFaW_mNfrwLAKc8YyhtdMAXbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44NDkuQzMifQ%3D%3D&_nc_ohc=zS9lgUIDnXIQ7kNvwHaaHTu&_nc_oc=Adqxncj26zVpNM3tOZ0khUko0cLzPQ1LiSzEHHr9wAV4i4WWEezNLkfsrnM2T__gVQk&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ss=7239b&oh=00_AQQkvck73t3X7vqOk7ihbhQ_v5np72MrV2YGSzbzBQMxYA&oe=6AFBC4A8"
+                },
+                "position": [
+                  0.5,
+                  0.5
+                ]
+              },
+              {
+                "user": {
+                  "id": "2036203076",
+                  "pk": "2036203076",
+                  "username": "ostorehsazan",
+                  "full_name": "گروه آموزشی اسطوره سازان",
+                  "is_private": false,
+                  "is_verified": false,
+                  "strong_id__": "2036203076",
+                  "profile_pic_id": "2389275532020092474_2036203076",
+                  "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/118642715_307386707215536_2990901068062587343_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=GBtYEgewBH4LkRcBAM-5NMis0IEpbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy44MDAuQzMifQ%3D%3D&_nc_ohc=hEjLeVYkfwcQ7kNvwHl3ysU&_nc_oc=Adokd_AxClxjdObGDQCnlNOmxe9rprTEyyoRFHnC90t_rNKIWZMZ58drDbSUpw5rZfA&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQSInxFc5R2QoEibnv5LmdIF13vZPmkBxgprDSQd42V9JQ&oe=6AFBDA04"
+                },
+                "position": [
+                  0.5,
+                  0.5
+                ]
+              }
+            ]
+          },
+          "has_audio": null,
+          "__typename": "XDTMediaDict",
+          "media_type": 1,
+          "display_uri": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572146555_18067627898367999_1052903635627269242_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU0MDU0Nzc5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzk0LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=vEiiK0xCBO0Q7kNvwFocgLK&_nc_oc=AdoCTLF1p6GwY52Qm1oiH3ifLdqiSLTkYmMSWqOccGuib1LeCCP3etq9I7sKEZ-55Ew&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQgLkqzGxfz0WI7TvCF_cQxqUZpp793N-D8VaeKL1W3mQ&oe=6AFBC0A7",
+          "strong_id__": "3752121875540547791_40932383998",
+          "original_width": 794,
+          "video_versions": null,
+          "image_versions2": {
+            "candidates": [
+              {
+                "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572146555_18067627898367999_1052903635627269242_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU0MDU0Nzc5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzk0LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=vEiiK0xCBO0Q7kNvwFocgLK&_nc_oc=AdoCTLF1p6GwY52Qm1oiH3ifLdqiSLTkYmMSWqOccGuib1LeCCP3etq9I7sKEZ-55Ew&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQgLkqzGxfz0WI7TvCF_cQxqUZpp793N-D8VaeKL1W3mQ&oe=6AFBC0A7",
+                "width": 794,
+                "height": 1058
+              },
+              {
+                "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572146555_18067627898367999_1052903635627269242_n.jpg?stp=dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU0MDU0Nzc5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzk0LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=vEiiK0xCBO0Q7kNvwFocgLK&_nc_oc=AdoCTLF1p6GwY52Qm1oiH3ifLdqiSLTkYmMSWqOccGuib1LeCCP3etq9I7sKEZ-55Ew&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQReF3GX8NA8dmQFoaUQd_WvtQHrON7xuuCvNVsjjuqoFQ&oe=6AFBC0A7",
+                "width": 480,
+                "height": 640
+              }
+            ]
+          },
+          "original_height": 1058,
+          "carousel_parent_id": "3752121886319943689_40932383998",
+          "number_of_qualities": null,
+          "video_dash_manifest": null,
+          "accessibility_caption": null
+        },
+        {
+          "id": "POLARIS_3752121875565749632",
+          "pk": "3752121875565749632",
+          "code": "DQSNvdbEaWA",
+          "taken_at": 1761507804,
+          "usertags": null,
+          "has_audio": null,
+          "__typename": "XDTMediaDict",
+          "media_type": 1,
+          "display_uri": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/567235694_18067627910367999_6529393194090874445_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU2NTc0OTYzMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=4-FE_ODppYwQ7kNvwG022xU&_nc_oc=AdrpaQKC007BT8cDVrtnGevaMh5gEA2sI9HRaLZPPkYWm_yD6_3OZNbhH5k9tnEJKCo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQRjBNpaDb5da4X7kRJxxa5jwv_mfhACEgeUeuxcXEt5Ww&oe=6AFBD911",
+          "strong_id__": "3752121875565749632_40932383998",
+          "original_width": 992,
+          "video_versions": null,
+          "image_versions2": {
+            "candidates": [
+              {
+                "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/567235694_18067627910367999_6529393194090874445_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU2NTc0OTYzMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=4-FE_ODppYwQ7kNvwG022xU&_nc_oc=AdrpaQKC007BT8cDVrtnGevaMh5gEA2sI9HRaLZPPkYWm_yD6_3OZNbhH5k9tnEJKCo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQRjBNpaDb5da4X7kRJxxa5jwv_mfhACEgeUeuxcXEt5Ww&oe=6AFBD911",
+                "width": 992,
+                "height": 1322
+              },
+              {
+                "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/567235694_18067627910367999_6529393194090874445_n.jpg?stp=dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU2NTc0OTYzMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=4-FE_ODppYwQ7kNvwG022xU&_nc_oc=AdrpaQKC007BT8cDVrtnGevaMh5gEA2sI9HRaLZPPkYWm_yD6_3OZNbhH5k9tnEJKCo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSYsyc_qKCr1dmPMkMCxD7sshfzLZbetrhOWUPvcolDwg&oe=6AFBD911",
+                "width": 480,
+                "height": 640
+              }
+            ]
+          },
+          "original_height": 1322,
+          "carousel_parent_id": "3752121886319943689_40932383998",
+          "number_of_qualities": null,
+          "video_dash_manifest": null,
+          "accessibility_caption": null
+        },
+        {
+          "id": "POLARIS_3752121875574117410",
+          "pk": "3752121875574117410",
+          "code": "DQSNvdbkVQi",
+          "taken_at": 1761507804,
+          "usertags": null,
+          "has_audio": null,
+          "__typename": "XDTMediaDict",
+          "media_type": 1,
+          "display_uri": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572121652_18067627958367999_5997735131363291445_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU3NDExNzQxMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=M8853Fna2c0Q7kNvwG9OXGm&_nc_oc=AdpIq7OWgxhcFrvx7fPvaZDEJMxHTMBX2xYIPvZQT0Dq8UIPCSuCFAyqnAMm39PmGhs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSNOk-u8DXUtMAsm-bcNcyRR6lbcce1OVNGlI7uUS9q2A&oe=6AFBCB20",
+          "strong_id__": "3752121875574117410_40932383998",
+          "original_width": 992,
+          "video_versions": null,
+          "image_versions2": {
+            "candidates": [
+              {
+                "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572121652_18067627958367999_5997735131363291445_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU3NDExNzQxMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=M8853Fna2c0Q7kNvwG9OXGm&_nc_oc=AdpIq7OWgxhcFrvx7fPvaZDEJMxHTMBX2xYIPvZQT0Dq8UIPCSuCFAyqnAMm39PmGhs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSNOk-u8DXUtMAsm-bcNcyRR6lbcce1OVNGlI7uUS9q2A&oe=6AFBCB20",
+                "width": 992,
+                "height": 1322
+              },
+              {
+                "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572121652_18067627958367999_5997735131363291445_n.jpg?stp=dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU3NDExNzQxMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=M8853Fna2c0Q7kNvwG9OXGm&_nc_oc=AdpIq7OWgxhcFrvx7fPvaZDEJMxHTMBX2xYIPvZQT0Dq8UIPCSuCFAyqnAMm39PmGhs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQR70GWrgTe1RTsvaTDRe8lOenHVgy6k4JLAaDC2bUTH9g&oe=6AFBCB20",
+                "width": 480,
+                "height": 640
+              }
+            ]
+          },
+          "original_height": 1322,
+          "carousel_parent_id": "3752121886319943689_40932383998",
+          "number_of_qualities": null,
+          "video_dash_manifest": null,
+          "accessibility_caption": null
+        },
+        {
+          "id": "POLARIS_3752121875565767110",
+          "pk": "3752121875565767110",
+          "code": "DQSNvdbEenG",
+          "taken_at": 1761507804,
+          "usertags": null,
+          "has_audio": null,
+          "__typename": "XDTMediaDict",
+          "media_type": 1,
+          "display_uri": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/566120634_18067627967367999_6725743087472967270_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU2NTc2NzExMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=ZCpuLQAMWN0Q7kNvwFk6eQT&_nc_oc=Adpae9kuquIoN2G6juhMox9KgDszby27WT12sYDU_yaL74oZX5EtRW7CDdfDnHoHbJc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTAiqBHNdhvDx_7Yt9bboOGUyKPAgdp3mShRBj7z2ZTOw&oe=6AFBD18B",
+          "strong_id__": "3752121875565767110_40932383998",
+          "original_width": 992,
+          "video_versions": null,
+          "image_versions2": {
+            "candidates": [
+              {
+                "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/566120634_18067627967367999_6725743087472967270_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU2NTc2NzExMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=ZCpuLQAMWN0Q7kNvwFk6eQT&_nc_oc=Adpae9kuquIoN2G6juhMox9KgDszby27WT12sYDU_yaL74oZX5EtRW7CDdfDnHoHbJc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTAiqBHNdhvDx_7Yt9bboOGUyKPAgdp3mShRBj7z2ZTOw&oe=6AFBD18B",
+                "width": 992,
+                "height": 1322
+              },
+              {
+                "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/566120634_18067627967367999_6725743087472967270_n.jpg?stp=dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU2NTc2NzExMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=ZCpuLQAMWN0Q7kNvwFk6eQT&_nc_oc=Adpae9kuquIoN2G6juhMox9KgDszby27WT12sYDU_yaL74oZX5EtRW7CDdfDnHoHbJc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQR2Rj6eMi41LkEV4WpDWdgV8AvITPV9FC2hPh4HOojvqg&oe=6AFBD18B",
+                "width": 480,
+                "height": 640
+              }
+            ]
+          },
+          "original_height": 1322,
+          "carousel_parent_id": "3752121886319943689_40932383998",
+          "number_of_qualities": null,
+          "video_dash_manifest": null,
+          "accessibility_caption": null
+        },
+        {
+          "id": "POLARIS_3752121875557358354",
+          "pk": "3752121875557358354",
+          "code": "DQSNvdakZsS",
+          "taken_at": 1761507804,
+          "usertags": null,
+          "has_audio": null,
+          "__typename": "XDTMediaDict",
+          "media_type": 1,
+          "display_uri": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/570845733_18067627979367999_7276309081369102735_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU1NzM1ODM1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=J4HHpnObEdUQ7kNvwGIwoaB&_nc_oc=AdoZ_6_Y6ITp5A3VrwOBRDLca6T2rRAeuT8U7TT6TSYhr620xzq_6gpLCVCBUzM3xcc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSSK9fnJHOqcLyW76nQg5_aicO7QygpFL6NymhlhFbwOQ&oe=6AFBC075",
+          "strong_id__": "3752121875557358354_40932383998",
+          "original_width": 992,
+          "video_versions": null,
+          "image_versions2": {
+            "candidates": [
+              {
+                "url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/570845733_18067627979367999_7276309081369102735_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU1NzM1ODM1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=J4HHpnObEdUQ7kNvwGIwoaB&_nc_oc=AdoZ_6_Y6ITp5A3VrwOBRDLca6T2rRAeuT8U7TT6TSYhr620xzq_6gpLCVCBUzM3xcc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSSK9fnJHOqcLyW76nQg5_aicO7QygpFL6NymhlhFbwOQ&oe=6AFBC075",
+                "width": 992,
+                "height": 1322
+              },
+              {
+                "url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/570845733_18067627979367999_7276309081369102735_n.jpg?stp=dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU1NzM1ODM1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTkyLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=J4HHpnObEdUQ7kNvwGIwoaB&_nc_oc=AdoZ_6_Y6ITp5A3VrwOBRDLca6T2rRAeuT8U7TT6TSYhr620xzq_6gpLCVCBUzM3xcc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQkUkbximjv683Na5P6hhrxxLSG94EXE7BVS0QkLDY96g&oe=6AFBC075",
+                "width": 480,
+                "height": 640
+              }
+            ]
+          },
+          "original_height": 1322,
+          "carousel_parent_id": "3752121886319943689_40932383998",
+          "number_of_qualities": null,
+          "video_dash_manifest": null,
+          "accessibility_caption": null
+        },
+        {
+          "id": "POLARIS_3752121875574112694",
+          "pk": "3752121875574112694",
+          "code": "DQSNvdbkUG2",
+          "taken_at": 1761507804,
+          "usertags": null,
+          "has_audio": null,
+          "__typename": "XDTMediaDict",
+          "media_type": 1,
+          "display_uri": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572545546_18067627997367999_1365231006105148632_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU3NDExMjY5NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuODk5LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=Dr6TL0SXdbwQ7kNvwETZSE5&_nc_oc=AdoinZNQdpjvL8nn8owKOphif56eccFKdhiznxhqKxPwOsYHDTqsuWrn6OW2gWz_b0E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQRWELQ8I2qOlPVmUkK2Bpu4gE4uA10xibMGsvmfe_sSnw&oe=6AFBCF66",
+          "strong_id__": "3752121875574112694_40932383998",
+          "original_width": 899,
+          "video_versions": null,
+          "image_versions2": {
+            "candidates": [
+              {
+                "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572545546_18067627997367999_1365231006105148632_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU3NDExMjY5NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuODk5LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=Dr6TL0SXdbwQ7kNvwETZSE5&_nc_oc=AdoinZNQdpjvL8nn8owKOphif56eccFKdhiznxhqKxPwOsYHDTqsuWrn6OW2gWz_b0E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQRWELQ8I2qOlPVmUkK2Bpu4gE4uA10xibMGsvmfe_sSnw&oe=6AFBCF66",
+                "width": 899,
+                "height": 1198
+              },
+              {
+                "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572545546_18067627997367999_1365231006105148632_n.jpg?stp=dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU3NDExMjY5NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuODk5LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=Dr6TL0SXdbwQ7kNvwETZSE5&_nc_oc=AdoinZNQdpjvL8nn8owKOphif56eccFKdhiznxhqKxPwOsYHDTqsuWrn6OW2gWz_b0E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQR1dUghsfnBpahgnVmt63GENLnzosaI0-bM8lj8QiVZJw&oe=6AFBCF66",
+                "width": 480,
+                "height": 640
+              }
+            ]
+          },
+          "original_height": 1198,
+          "carousel_parent_id": "3752121886319943689_40932383998",
+          "number_of_qualities": null,
+          "video_dash_manifest": null,
+          "accessibility_caption": null
+        }
+      ],
+      "music_metadata": {
+        "music_info": null,
+        "original_sound_info": null
+      },
+      "video_duration": null,
+      "video_versions": null,
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572146555_18067627898367999_1052903635627269242_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU0MDU0Nzc5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzk0LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=vEiiK0xCBO0Q7kNvwFocgLK&_nc_oc=AdoCTLF1p6GwY52Qm1oiH3ifLdqiSLTkYmMSWqOccGuib1LeCCP3etq9I7sKEZ-55Ew&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQgLkqzGxfz0WI7TvCF_cQxqUZpp793N-D8VaeKL1W3mQ&oe=6AFBC0A7",
+            "width": 794,
+            "height": 1058
+          },
+          {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/572146555_18067627898367999_1052903635627269242_n.jpg?stp=dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzc1MjEyMTg3NTU0MDU0Nzc5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzk0LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=vEiiK0xCBO0Q7kNvwFocgLK&_nc_oc=AdoCTLF1p6GwY52Qm1oiH3ifLdqiSLTkYmMSWqOccGuib1LeCCP3etq9I7sKEZ-55Ew&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQReF3GX8NA8dmQFoaUQd_WvtQHrON7xuuCvNVsjjuqoFQ&oe=6AFBC0A7",
+            "width": 480,
+            "height": 640
+          }
+        ],
+        "additional_candidates": null,
+        "scrubber_spritesheet_info_candidates": null
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": 6,
+      "video_sticker_locales": null
+    },
+    {
+      "id": "3686657803896805750_40932383998",
+      "url": "https://www.instagram.com/p/DMpo71psNl2/",
+      "code": "DMpo71psNl2",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "17981814452854459",
+        "text": "این سفـــر ، تفریحـــی نیست❗️\n\nبوتکمپ نَفْسا جاییه که کنار شادی و‌خنده،اشک و غمم داری\nجاییه که رشد میکنی\nمتحول میشی\n\nترس های عمیقتو باهاش مواجه میشی\n\nو درنهایت تغییر میکنی👌🏻\n\n#بوتکمپ_نَفْسا",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3686657803896805750",
+        "bit_flags": 0,
+        "created_at": 1753704963,
+        "is_covered": false,
+        "strong_id__": "17981814452854459",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1753704963,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1753704962,
+      "has_audio": true,
+      "video_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQPxe7a2x87OvdNS6vsAFtJHW9N7lHQ9RFkb7HrFDUkoWj9bZHVMdlDgEfAXMMbK7_0NSBPJ3TQps4XO5NsgKqISzd51gaQhmGducjA.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=TLnPbw0emhcQ7kNvwGAcU2c&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTI5MzU0OTE0MjMzODUyNywiYXNzZXRfYWdlX2RheXMiOjQ3MiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=2335d1702000ad22&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9EQTQ4MUUwMkM2RkU2Qjc4NzhCNDcyNDMxNTQxOTU4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zNTgxNjQ0NTUxOTY5MTQ1XzczODUyNDg3NzQ2ODQxODAxODgubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJr6vh5K8nswEFQIoAkMzLBdARrul41P3zxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRk4or3Vb1CWnwoPvO5oihe03_5KhtrALlTmPz3vBP8ag&oe=6AFBCD52",
+      "created_at": "2025-07-28T12:16:02.000Z",
+      "like_count": 102,
+      "media_type": 2,
+      "play_count": 1992,
+      "display_uri": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/524504881_18057564737367999_3574503523217549601_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=MzY4NjY1NzgwMzg5NjgwNTc1MDE4MDU3NTY0NzM0MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=i2i_TY0-jL0Q7kNvwF4jCpy&_nc_oc=AdrCdHeEEWMszTZ8fNJwWNVnGU6JZCtaIUYp83w6-uNxCZmqGYq6t_gNLnengwZOUZ4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTmYOVqacNmNswieS81GzRMuVHLmUmXKECfcWGnS_GblA&oe=6AFBB67F",
+      "product_type": "clips",
+      "comment_count": 20,
+      "ig_play_count": 1992,
+      "carousel_media": null,
+      "music_metadata": null,
+      "video_duration": 45.466,
+      "video_versions": [
+        {
+          "url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQPxe7a2x87OvdNS6vsAFtJHW9N7lHQ9RFkb7HrFDUkoWj9bZHVMdlDgEfAXMMbK7_0NSBPJ3TQps4XO5NsgKqISzd51gaQhmGducjA.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=TLnPbw0emhcQ7kNvwGAcU2c&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTI5MzU0OTE0MjMzODUyNywiYXNzZXRfYWdlX2RheXMiOjQ3MiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=2335d1702000ad22&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9EQTQ4MUUwMkM2RkU2Qjc4NzhCNDcyNDMxNTQxOTU4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zNTgxNjQ0NTUxOTY5MTQ1XzczODUyNDg3NzQ2ODQxODAxODgubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJr6vh5K8nswEFQIoAkMzLBdARrul41P3zxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRk4or3Vb1CWnwoPvO5oihe03_5KhtrALlTmPz3vBP8ag&oe=6AFBCD52",
+          "type": 101,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQPxe7a2x87OvdNS6vsAFtJHW9N7lHQ9RFkb7HrFDUkoWj9bZHVMdlDgEfAXMMbK7_0NSBPJ3TQps4XO5NsgKqISzd51gaQhmGducjA.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=TLnPbw0emhcQ7kNvwGAcU2c&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTI5MzU0OTE0MjMzODUyNywiYXNzZXRfYWdlX2RheXMiOjQ3MiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=2335d1702000ad22&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9EQTQ4MUUwMkM2RkU2Qjc4NzhCNDcyNDMxNTQxOTU4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zNTgxNjQ0NTUxOTY5MTQ1XzczODUyNDg3NzQ2ODQxODAxODgubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJr6vh5K8nswEFQIoAkMzLBdARrul41P3zxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRk4or3Vb1CWnwoPvO5oihe03_5KhtrALlTmPz3vBP8ag&oe=6AFBCD52",
+          "type": 102,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQPxe7a2x87OvdNS6vsAFtJHW9N7lHQ9RFkb7HrFDUkoWj9bZHVMdlDgEfAXMMbK7_0NSBPJ3TQps4XO5NsgKqISzd51gaQhmGducjA.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=TLnPbw0emhcQ7kNvwGAcU2c&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTI5MzU0OTE0MjMzODUyNywiYXNzZXRfYWdlX2RheXMiOjQ3MiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=2335d1702000ad22&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9EQTQ4MUUwMkM2RkU2Qjc4NzhCNDcyNDMxNTQxOTU4NV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zNTgxNjQ0NTUxOTY5MTQ1XzczODUyNDg3NzQ2ODQxODAxODgubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJr6vh5K8nswEFQIoAkMzLBdARrul41P3zxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRk4or3Vb1CWnwoPvO5oihe03_5KhtrALlTmPz3vBP8ag&oe=6AFBCD52",
+          "type": 103,
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/524504881_18057564737367999_3574503523217549601_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=MzY4NjY1NzgwMzg5NjgwNTc1MDE4MDU3NTY0NzM0MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=i2i_TY0-jL0Q7kNvwF4jCpy&_nc_oc=AdrCdHeEEWMszTZ8fNJwWNVnGU6JZCtaIUYp83w6-uNxCZmqGYq6t_gNLnengwZOUZ4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTmYOVqacNmNswieS81GzRMuVHLmUmXKECfcWGnS_GblA&oe=6AFBB67F",
+            "width": 480,
+            "height": 853
+          }
+        ],
+        "additional_candidates": {
+          "first_frame": {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/504337812_2262482257527614_6291296332521965403_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=UQbSVT5CCikQ7kNvwGoPx8O&_nc_oc=AdoAe6TBJ4uY2u19LK3t9QYNbkq3X6tQ6iCbp4KUxdxLPqHC8ZMDnzNbmuqZWN_IiR8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSqps4wit847g3XvbVvs2VN-Wj5zzKZxrUWC4rg0jVRTQ&oe=6AFBBAE5",
+            "width": 480,
+            "height": 852
+          },
+          "igtv_first_frame": {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/504337812_2262482257527614_6291296332521965403_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=UQbSVT5CCikQ7kNvwGoPx8O&_nc_oc=AdoAe6TBJ4uY2u19LK3t9QYNbkq3X6tQ6iCbp4KUxdxLPqHC8ZMDnzNbmuqZWN_IiR8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSqps4wit847g3XvbVvs2VN-Wj5zzKZxrUWC4rg0jVRTQ&oe=6AFBBAE5",
+            "width": 480,
+            "height": 852
+          }
+        },
+        "scrubber_spritesheet_info_candidates": {
+          "default": {
+            "file_size_kb": 399,
+            "sprite_width": 1500,
+            "video_length": 45.433,
+            "sprite_height": 1246,
+            "rendered_width": 96,
+            "thumbnail_width": 100,
+            "thumbnail_height": 178,
+            "thumbnail_duration": 0.43269523809524,
+            "thumbnails_per_row": 15,
+            "max_thumbnails_per_sprite": 105,
+            "total_thumbnail_num_per_sprite": 105
+          }
+        }
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": null,
+      "video_sticker_locales": []
+    },
+    {
+      "id": "3684672280823315502_40932383998",
+      "url": "https://www.instagram.com/p/DMilerMM7wu/",
+      "code": "DMilerMM7wu",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "18024857435720173",
+        "text": "⁨\t⁨\t✨ روز اول تور آموزشی نَفَسا\nدر دل طبیعتِ باغبهادران، شروع شد... 🌿☀️\nجایی که نفس‌ها تازه می‌شن، ذهن‌ها آروم می‌گیرن و دل‌ها آماده‌ی یادگیری می‌شن.\n\nقراره این همراه‌های بی‌نظیر، ۸ روز پُر از آموزش، رشد، تجربه و حال خوب رو کنار هم زندگی کنن.\nاین فقط یک تور نیست...\nاین شروعیه برای یک شروع تازه. 🌱🛤️\n\n#نفسا\n#تور_آموزشی\n#باغبهادران\n#شروع_تازه\n#آرامش_درونی\n#سفر_رشد\n#آموزش_زندگی\n#نفس_بکش#عباس_شانه_سازان⁩⁩",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3684672280823315502",
+        "bit_flags": 0,
+        "created_at": 1753641461,
+        "is_covered": false,
+        "strong_id__": "18024857435720173",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1753641461,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1753468089,
+      "has_audio": true,
+      "video_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQMxbl2X7xO2UWTfKKCcONRbrReFs2cIl0ibekVbFwHGAxdgAW0xQXreYbKJREiq3WtWRQQmDiebGa4roFt7ooQoW6iyLJshA_GiL-Q.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=NsH6jE_kMTYQ7kNvwHewWG9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzUyOTc1NTYzODc3ODgyLCJhc3NldF9hZ2VfZGF5cyI6NDc0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=ad61ddadcbc065b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9FQTRGNjVFMTc5MDg4NTg5QTlEMTA2NTMxMkY4NjNCMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ1MzY3ODEwMzg2Nzc5Xzg0Mzk4NzM2MDQ4MjkxMzk5MzYubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvS3k5D5tNYCFQIoAkMzLBdASgzMzMzMzRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRWO27Cwd-M4YBsmO2mCTimO25lUH8Lj5SKjWloPZVr4A&oe=6AFBB244",
+      "created_at": "2025-07-25T18:28:09.000Z",
+      "like_count": 125,
+      "media_type": 2,
+      "play_count": 3326,
+      "display_uri": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/523923293_18057500345367999_221309012654563847_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=MzY4NDY3MjI4MDgyMzMxNTUwMjE4MDU3NTAwMzM2MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=Nj8RMM3NLLAQ7kNvwHKEQxg&_nc_oc=AdreFkSSYGYDeTmzxTrElU0uWX-j4nWPO-vtSXKo_-sG5AQzG5rA9t63_ws1Iz2deGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQScVg2hXymR_Ko2pi3xRuqJsYVn5PJ1OMClIUJaQQRdQ&oe=6AFBD696",
+      "product_type": "clips",
+      "comment_count": 18,
+      "ig_play_count": 3326,
+      "carousel_media": null,
+      "music_metadata": null,
+      "video_duration": 52.1,
+      "video_versions": [
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQMxbl2X7xO2UWTfKKCcONRbrReFs2cIl0ibekVbFwHGAxdgAW0xQXreYbKJREiq3WtWRQQmDiebGa4roFt7ooQoW6iyLJshA_GiL-Q.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=NsH6jE_kMTYQ7kNvwHewWG9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzUyOTc1NTYzODc3ODgyLCJhc3NldF9hZ2VfZGF5cyI6NDc0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=ad61ddadcbc065b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9FQTRGNjVFMTc5MDg4NTg5QTlEMTA2NTMxMkY4NjNCMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ1MzY3ODEwMzg2Nzc5Xzg0Mzk4NzM2MDQ4MjkxMzk5MzYubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvS3k5D5tNYCFQIoAkMzLBdASgzMzMzMzRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRWO27Cwd-M4YBsmO2mCTimO25lUH8Lj5SKjWloPZVr4A&oe=6AFBB244",
+          "type": 101,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQMxbl2X7xO2UWTfKKCcONRbrReFs2cIl0ibekVbFwHGAxdgAW0xQXreYbKJREiq3WtWRQQmDiebGa4roFt7ooQoW6iyLJshA_GiL-Q.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=NsH6jE_kMTYQ7kNvwHewWG9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzUyOTc1NTYzODc3ODgyLCJhc3NldF9hZ2VfZGF5cyI6NDc0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=ad61ddadcbc065b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9FQTRGNjVFMTc5MDg4NTg5QTlEMTA2NTMxMkY4NjNCMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ1MzY3ODEwMzg2Nzc5Xzg0Mzk4NzM2MDQ4MjkxMzk5MzYubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvS3k5D5tNYCFQIoAkMzLBdASgzMzMzMzRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRWO27Cwd-M4YBsmO2mCTimO25lUH8Lj5SKjWloPZVr4A&oe=6AFBB244",
+          "type": 102,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQMxbl2X7xO2UWTfKKCcONRbrReFs2cIl0ibekVbFwHGAxdgAW0xQXreYbKJREiq3WtWRQQmDiebGa4roFt7ooQoW6iyLJshA_GiL-Q.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=NsH6jE_kMTYQ7kNvwHewWG9&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzUyOTc1NTYzODc3ODgyLCJhc3NldF9hZ2VfZGF5cyI6NDc0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=ad61ddadcbc065b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9FQTRGNjVFMTc5MDg4NTg5QTlEMTA2NTMxMkY4NjNCMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ1MzY3ODEwMzg2Nzc5Xzg0Mzk4NzM2MDQ4MjkxMzk5MzYubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvS3k5D5tNYCFQIoAkMzLBdASgzMzMzMzRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRWO27Cwd-M4YBsmO2mCTimO25lUH8Lj5SKjWloPZVr4A&oe=6AFBB244",
+          "type": 103,
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/523923293_18057500345367999_221309012654563847_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=MzY4NDY3MjI4MDgyMzMxNTUwMjE4MDU3NTAwMzM2MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=Nj8RMM3NLLAQ7kNvwHKEQxg&_nc_oc=AdreFkSSYGYDeTmzxTrElU0uWX-j4nWPO-vtSXKo_-sG5AQzG5rA9t63_ws1Iz2deGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQScVg2hXymR_Ko2pi3xRuqJsYVn5PJ1OMClIUJaQQRdQ&oe=6AFBD696",
+            "width": 480,
+            "height": 853
+          }
+        ],
+        "additional_candidates": {
+          "first_frame": {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/523904669_781741201043633_231485138137159696_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=zkM8jUeUbf4Q7kNvwH2OKS2&_nc_oc=Adq6U4jamWQmXqcaJHSnH-V7r0KGS5LX2C3XwiuyagFvEv--SsdZ8cRmNYlygG0yL8U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQngkSS1FdHUCn9UcDB84aXLH-7VGdCkt97wtF3XgtSJg&oe=6AFBBA77",
+            "width": 480,
+            "height": 852
+          },
+          "igtv_first_frame": {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/523904669_781741201043633_231485138137159696_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=zkM8jUeUbf4Q7kNvwH2OKS2&_nc_oc=Adq6U4jamWQmXqcaJHSnH-V7r0KGS5LX2C3XwiuyagFvEv--SsdZ8cRmNYlygG0yL8U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQngkSS1FdHUCn9UcDB84aXLH-7VGdCkt97wtF3XgtSJg&oe=6AFBBA77",
+            "width": 480,
+            "height": 852
+          }
+        },
+        "scrubber_spritesheet_info_candidates": {
+          "default": {
+            "file_size_kb": 430,
+            "sprite_width": 1500,
+            "video_length": 52.066,
+            "sprite_height": 1246,
+            "rendered_width": 96,
+            "thumbnail_width": 100,
+            "thumbnail_height": 178,
+            "thumbnail_duration": 0.49586666666667,
+            "thumbnails_per_row": 15,
+            "max_thumbnails_per_sprite": 105,
+            "total_thumbnail_num_per_sprite": 105
+          }
+        }
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": null,
+      "video_sticker_locales": []
+    },
+    {
+      "id": "3681053588432572914_40932383998",
+      "url": "https://www.instagram.com/p/DMVurxRs1Hy/",
+      "code": "DMVurxRs1Hy",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "18090962815638211",
+        "text": "� نَفْسا\nسفری درونی برای شناخت، شفا، پذیرش و بازآفرینی خویشتن 🌿\n\n👣 اگر خجالت، ترس از قضاوت، حس بی‌ارزشی یا اضطراب اجتماعی همراه همیشگی‌اته…\n🕊️ وقتشه که با نَفْسا، به خودت برگردی.\nنَفْسا یک مسیر آموزشی نیست،\n🌱 نَفْسا تولد دوباره‌ی توست.\n\n🗓️ شروع بوت‌کمپ: چهارشنبه، یک مرداد ۱۴۰۴\n📍 باغ بهادران - اصفهان\n\n✨ منتظرتیم تا با هم قدم اول رو به سمت رهایی برداریم.\n🎟️ ظرفیت محدوده، همین حالا تصمیم بگیر.\n\n─────\n💬 خسته‌ای از تظاهر؟\nنَفْسا، جایی برای رها شدن، دیده شدن، و خودت بودن.\nبرای اطلاعات بیشتر بوت‌کمپ\n📲 برام پیام بده 🌿\n\n#نَفْسا #سفر_درونی #شفای_درون #خودت_باش #پذیرش_خویشتن #سلامت_روان #اضطراب_اجتماعی #تولد_دوباره #رهایی_از_نقاب #بوتکمپ_نَفْسا #باغ_بهادران #اصفهان #رشد_فردی #توسعه_شخصی #آگاهی_درونی #ریلزفارسی #کپشن_عمیق",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3681053588432572914",
+        "bit_flags": 0,
+        "created_at": 1753036171,
+        "is_covered": false,
+        "strong_id__": "18090962815638211",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1753036171,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1753036168,
+      "has_audio": true,
+      "video_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m367/AQNA7QiPoWU3y1exBh6rLQ2MNnvS0thDSkMEe2cYcbJ4Vtlux3rTBtmBeb9kpGOG441VyAD_R1UFbGbKLMDNVJ7JO1EJ5hFPkSSnatM.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=znh1QR6-WfsQ7kNvwFc3yow&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzA5Nzc2NTU4NjQxMjczLCJhc3NldF9hZ2VfZGF5cyI6NDc5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=f3f470022fe11cc8&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9BNzRCNDhCMjI4MkM1NUQ1MDg3ODg0RTIxQjU0MjY5OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ4OTMyNDk3MDIzMDQzXzc3MjM0ODg1Nzg4MzQyOTI4NjUubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvLBrrq34sICFQIoAkMzLBdAT5U_fO2RaBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRyBcGQWb3Dpm17oUzIbS_tNa5U9v2KCWq5naT8GJzJyg&oe=6AFBD673",
+      "created_at": "2025-07-20T18:29:28.000Z",
+      "like_count": 89,
+      "media_type": 2,
+      "play_count": 4230,
+      "display_uri": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/522228462_18056831870367999_202529115403328060_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=MzY4MTA1MzU4ODQzMjU3MjkxNDE4MDU2ODMxODY0MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=3gkM1AkdGxwQ7kNvwFFtUXL&_nc_oc=Adp8Ocs13TUgtI6IQBxMYF81wFeT8_0oL6ptz0rIQXH67nl0SfESFsuHTApPSVVA6OE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTz1qCDlQaf44eClYLWUwKfCmHmv8f_aTKB0m9fBX1IZQ&oe=6AFBD89B",
+      "product_type": "clips",
+      "comment_count": 27,
+      "ig_play_count": 4230,
+      "carousel_media": null,
+      "music_metadata": null,
+      "video_duration": 63.166,
+      "video_versions": [
+        {
+          "url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m367/AQNA7QiPoWU3y1exBh6rLQ2MNnvS0thDSkMEe2cYcbJ4Vtlux3rTBtmBeb9kpGOG441VyAD_R1UFbGbKLMDNVJ7JO1EJ5hFPkSSnatM.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=znh1QR6-WfsQ7kNvwFc3yow&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzA5Nzc2NTU4NjQxMjczLCJhc3NldF9hZ2VfZGF5cyI6NDc5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=f3f470022fe11cc8&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9BNzRCNDhCMjI4MkM1NUQ1MDg3ODg0RTIxQjU0MjY5OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ4OTMyNDk3MDIzMDQzXzc3MjM0ODg1Nzg4MzQyOTI4NjUubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvLBrrq34sICFQIoAkMzLBdAT5U_fO2RaBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRyBcGQWb3Dpm17oUzIbS_tNa5U9v2KCWq5naT8GJzJyg&oe=6AFBD673",
+          "type": 101,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m367/AQNA7QiPoWU3y1exBh6rLQ2MNnvS0thDSkMEe2cYcbJ4Vtlux3rTBtmBeb9kpGOG441VyAD_R1UFbGbKLMDNVJ7JO1EJ5hFPkSSnatM.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=znh1QR6-WfsQ7kNvwFc3yow&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzA5Nzc2NTU4NjQxMjczLCJhc3NldF9hZ2VfZGF5cyI6NDc5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=f3f470022fe11cc8&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9BNzRCNDhCMjI4MkM1NUQ1MDg3ODg0RTIxQjU0MjY5OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ4OTMyNDk3MDIzMDQzXzc3MjM0ODg1Nzg4MzQyOTI4NjUubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvLBrrq34sICFQIoAkMzLBdAT5U_fO2RaBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRyBcGQWb3Dpm17oUzIbS_tNa5U9v2KCWq5naT8GJzJyg&oe=6AFBD673",
+          "type": 102,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m367/AQNA7QiPoWU3y1exBh6rLQ2MNnvS0thDSkMEe2cYcbJ4Vtlux3rTBtmBeb9kpGOG441VyAD_R1UFbGbKLMDNVJ7JO1EJ5hFPkSSnatM.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=znh1QR6-WfsQ7kNvwFc3yow&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzA5Nzc2NTU4NjQxMjczLCJhc3NldF9hZ2VfZGF5cyI6NDc5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NjMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=f3f470022fe11cc8&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9BNzRCNDhCMjI4MkM1NUQ1MDg3ODg0RTIxQjU0MjY5OV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ4OTMyNDk3MDIzMDQzXzc3MjM0ODg1Nzg4MzQyOTI4NjUubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJvLBrrq34sICFQIoAkMzLBdAT5U_fO2RaBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRyBcGQWb3Dpm17oUzIbS_tNa5U9v2KCWq5naT8GJzJyg&oe=6AFBD673",
+          "type": 103,
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/522228462_18056831870367999_202529115403328060_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=MzY4MTA1MzU4ODQzMjU3MjkxNDE4MDU2ODMxODY0MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=3gkM1AkdGxwQ7kNvwFFtUXL&_nc_oc=Adp8Ocs13TUgtI6IQBxMYF81wFeT8_0oL6ptz0rIQXH67nl0SfESFsuHTApPSVVA6OE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTz1qCDlQaf44eClYLWUwKfCmHmv8f_aTKB0m9fBX1IZQ&oe=6AFBD89B",
+            "width": 480,
+            "height": 853
+          }
+        ],
+        "additional_candidates": {
+          "first_frame": {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/521813472_2130542107356631_4381481029683105930_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=pjWcu6Nl1T0Q7kNvwEbMwB7&_nc_oc=AdqNZpQ-c2JtYG4go1QdMgh1qMPEkdGxysHCJK-jvkuDVnl9CcIVNGd3hcmCERiZkkA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSs9MPlOa5wsNkLFqulijLbZsrXkPer5yukyMzvUh1SZw&oe=6AFBB7CA",
+            "width": 480,
+            "height": 852
+          },
+          "igtv_first_frame": {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/521813472_2130542107356631_4381481029683105930_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=pjWcu6Nl1T0Q7kNvwEbMwB7&_nc_oc=AdqNZpQ-c2JtYG4go1QdMgh1qMPEkdGxysHCJK-jvkuDVnl9CcIVNGd3hcmCERiZkkA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSs9MPlOa5wsNkLFqulijLbZsrXkPer5yukyMzvUh1SZw&oe=6AFBB7CA",
+            "width": 480,
+            "height": 852
+          }
+        },
+        "scrubber_spritesheet_info_candidates": {
+          "default": {
+            "file_size_kb": 361,
+            "sprite_width": 1500,
+            "video_length": 63.141,
+            "sprite_height": 1246,
+            "rendered_width": 96,
+            "thumbnail_width": 100,
+            "thumbnail_height": 178,
+            "thumbnail_duration": 0.60134285714286,
+            "thumbnails_per_row": 15,
+            "max_thumbnails_per_sprite": 105,
+            "total_thumbnail_num_per_sprite": 105
+          }
+        }
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": null,
+      "video_sticker_locales": []
+    },
+    {
+      "id": "3670261082792463180_40932383998",
+      "url": "https://www.instagram.com/p/DLvYwJIyQtM/",
+      "code": "DLvYwJIyQtM",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "18284677627269889",
+        "text": "⁨\t⸻\n\n🔥 ۵ درس رهبری از مکتب عاشورا\nبا نگاهی به امام حسین (ع) و حضرت عباس (ع)\n\n🖤 عاشورا فقط سوگ نیست… مدرسه‌ای‌ست برای هر کسی که می‌خواد رهبر زندگی خودش باشه.\n\n🔹 ۱. تصمیم شجاعانه، حتی در اقلیت\nامام حسین تنها موند… اما ایستاد. رهبر کسیه که وقتی همه عقب می‌کشن، هنوز ایستاده.\n\n🔹 ۲. وفاداری، ستون رهبری‌ست\nحضرت عباس می‌تونست برگرده… اما موند، چون ریشه داشت، عهد داشت. رهبری بدون وفاداری، فقط تاکتیکه.\n\n🔹 ۳. وضوح هدف، حتی تا پای جان\nامام می‌دونست چرا حرکت می‌کنه. کسی که هدف نداره، راحت فریب “امنیت” رو می‌خوره.\n\n🔹 ۴. شفقت در اوج قدرت\nرهبری یعنی حتی با دشمن، اگر تشنه است، آب بدی… یعنی بر “خود” غلبه کنی، نه فقط بر دیگران.\n\n🔹 ۵. رهبری با دل، نه با دستور\nامام فرمانده نبود، راه‌بر بود. دل‌ها رو با خودش همراه کرد، نه فقط قدم‌ها رو.\n\n✨ عاشورا برای ما فقط تاریخ نیست؛\nنقشه‌ی راهیه برای رهبری آگاهانه، زندگی معنادار و انتخاب شجاعانه.\n\n#عاشورا_مدرسه_رهبری\n#درس_های_عاشورا #رشد_فردی #رهبری_آگاهانه\n#امام_حسین #حضرت_عباس #بوتکمپ_رشد #تحول_شخصی #وفاداری #آرامش_درون #عباس_شانه_سازان #توسعه_فردی #⁩",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3670261082792463180",
+        "bit_flags": 0,
+        "created_at": 1751750863,
+        "is_covered": false,
+        "strong_id__": "18284677627269889",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1751750863,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1751749446,
+      "has_audio": true,
+      "video_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQNq_XxvTX79efYSV6jD9IxTNUwKxCG4tKJUC3DkU5kiHv77yOTq7TwVpAZZ4k-IAXP46SL_DJrUSjpILWvAJcz0XypoqMyxJkvMwnY.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=JLgwlTu0dIcQ7kNvwHmjVpt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTkxNzU1OTg3NTY3NTI4NiwiYXNzZXRfYWdlX2RheXMiOjQ5NCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjU0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=cdbd2cf2b39e6d7f&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8wMDQ5MEYzNjc3RTMxQzAyRDY1Mzg4MjNBNjgyMUY4Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNDAyMjU1MTg0NDM4NzA4XzEwODIyMTA4NjE0MzE1NTczMjEubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJqySzbPWgOgGFQIoAkMzLBdAS0hysCDEnBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTCcXkvmGA2GbFeyXrr4pWp2iJk4GrvJIs3ikbgD9WCag&oe=6AFBBB84",
+      "created_at": "2025-07-05T21:04:06.000Z",
+      "like_count": 67,
+      "media_type": 2,
+      "play_count": 2182,
+      "display_uri": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/515252929_18055412570367999_705725081277948760_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=MzY3MDI2MTA4Mjc5MjQ2MzE4MDE4MDU1NDEyNTY3MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjM4NC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=18qC-1lOnecQ7kNvwEZtfUi&_nc_oc=Adrgp3rRuiQr2JeQG3x7o47TG2xj2MWnO4l4FS7ckSHDQUKnykKxcCN8ViYCIxiqR_A&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQR_13pgKHZws7mYj2-bkPYhjcxxf14thCjU2pnp0iHtIg&oe=6AFBB4D3",
+      "product_type": "clips",
+      "comment_count": 6,
+      "ig_play_count": 2182,
+      "carousel_media": null,
+      "music_metadata": null,
+      "video_duration": 54.566,
+      "video_versions": [
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQNq_XxvTX79efYSV6jD9IxTNUwKxCG4tKJUC3DkU5kiHv77yOTq7TwVpAZZ4k-IAXP46SL_DJrUSjpILWvAJcz0XypoqMyxJkvMwnY.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=JLgwlTu0dIcQ7kNvwHmjVpt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTkxNzU1OTg3NTY3NTI4NiwiYXNzZXRfYWdlX2RheXMiOjQ5NCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjU0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=cdbd2cf2b39e6d7f&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8wMDQ5MEYzNjc3RTMxQzAyRDY1Mzg4MjNBNjgyMUY4Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNDAyMjU1MTg0NDM4NzA4XzEwODIyMTA4NjE0MzE1NTczMjEubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJqySzbPWgOgGFQIoAkMzLBdAS0hysCDEnBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTCcXkvmGA2GbFeyXrr4pWp2iJk4GrvJIs3ikbgD9WCag&oe=6AFBBB84",
+          "type": 101,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQNq_XxvTX79efYSV6jD9IxTNUwKxCG4tKJUC3DkU5kiHv77yOTq7TwVpAZZ4k-IAXP46SL_DJrUSjpILWvAJcz0XypoqMyxJkvMwnY.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=JLgwlTu0dIcQ7kNvwHmjVpt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTkxNzU1OTg3NTY3NTI4NiwiYXNzZXRfYWdlX2RheXMiOjQ5NCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjU0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=cdbd2cf2b39e6d7f&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8wMDQ5MEYzNjc3RTMxQzAyRDY1Mzg4MjNBNjgyMUY4Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNDAyMjU1MTg0NDM4NzA4XzEwODIyMTA4NjE0MzE1NTczMjEubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJqySzbPWgOgGFQIoAkMzLBdAS0hysCDEnBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTCcXkvmGA2GbFeyXrr4pWp2iJk4GrvJIs3ikbgD9WCag&oe=6AFBBB84",
+          "type": 102,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQNq_XxvTX79efYSV6jD9IxTNUwKxCG4tKJUC3DkU5kiHv77yOTq7TwVpAZZ4k-IAXP46SL_DJrUSjpILWvAJcz0XypoqMyxJkvMwnY.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=JLgwlTu0dIcQ7kNvwHmjVpt&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTkxNzU1OTg3NTY3NTI4NiwiYXNzZXRfYWdlX2RheXMiOjQ5NCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjU0LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=cdbd2cf2b39e6d7f&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8wMDQ5MEYzNjc3RTMxQzAyRDY1Mzg4MjNBNjgyMUY4Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNDAyMjU1MTg0NDM4NzA4XzEwODIyMTA4NjE0MzE1NTczMjEubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJqySzbPWgOgGFQIoAkMzLBdAS0hysCDEnBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQTCcXkvmGA2GbFeyXrr4pWp2iJk4GrvJIs3ikbgD9WCag&oe=6AFBBB84",
+          "type": 103,
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/515252929_18055412570367999_705725081277948760_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=MzY3MDI2MTA4Mjc5MjQ2MzE4MDE4MDU1NDEyNTY3MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjM4NC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=18qC-1lOnecQ7kNvwEZtfUi&_nc_oc=Adrgp3rRuiQr2JeQG3x7o47TG2xj2MWnO4l4FS7ckSHDQUKnykKxcCN8ViYCIxiqR_A&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQR_13pgKHZws7mYj2-bkPYhjcxxf14thCjU2pnp0iHtIg&oe=6AFBB4D3",
+            "width": 384,
+            "height": 680
+          }
+        ],
+        "additional_candidates": {
+          "first_frame": {
+            "url": "https://scontent-iad3-2.cdninstagram.com/v/t51.71878-15/516907283_1069252897999523_8324997239743296551_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=uENFo6kr1UEQ7kNvwFUV8iY&_nc_oc=AdoNZ5FmXbqoRnsgqw27vGHch2Af3_oYEWPL_A64KQ_Xq95ZBpKB9BrFhCtL44Qo3vg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQpEF7xvSkOKAOGW8cCwlhumonOYvFR8_d7SCHeTplBIQ&oe=6AFBB4BE",
+            "width": 480,
+            "height": 852
+          },
+          "igtv_first_frame": {
+            "url": "https://scontent-iad3-2.cdninstagram.com/v/t51.71878-15/516907283_1069252897999523_8324997239743296551_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=uENFo6kr1UEQ7kNvwFUV8iY&_nc_oc=AdoNZ5FmXbqoRnsgqw27vGHch2Af3_oYEWPL_A64KQ_Xq95ZBpKB9BrFhCtL44Qo3vg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQpEF7xvSkOKAOGW8cCwlhumonOYvFR8_d7SCHeTplBIQ&oe=6AFBB4BE",
+            "width": 480,
+            "height": 852
+          }
+        },
+        "scrubber_spritesheet_info_candidates": {
+          "default": {
+            "file_size_kb": 315,
+            "sprite_width": 1500,
+            "video_length": 54.566,
+            "sprite_height": 1232,
+            "rendered_width": 96,
+            "thumbnail_width": 100,
+            "thumbnail_height": 176,
+            "thumbnail_duration": 0.51967619047619,
+            "thumbnails_per_row": 15,
+            "max_thumbnails_per_sprite": 105,
+            "total_thumbnail_num_per_sprite": 105
+          }
+        }
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": null,
+      "video_sticker_locales": []
+    },
+    {
+      "id": "3669418605116734004_40932383998",
+      "url": "https://www.instagram.com/p/DLsZMeqMTo0/",
+      "code": "DLsZMeqMTo0",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "18279133438258715",
+        "text": "⁨\t⁨\t⁨\t⁨\t⁨\t🔹 تاسوعای حسینی 🔹\nامشب فقط برای سوگواری نیست؛\nبرای درک یک اصل عمیق انسانی‌ست:\n\n«اگر تجربه‌هاتو نمی‌فهمی، اگر ازشون رشد نمی‌کنی…\nداری عقل و آگاهی‌تو دفن می‌کنی.»\n\n📌 امام حسین (ع) با زخم‌هایی که از نادانی مردم خورد،\nبه ما یاد داد که‌ تجربه‌ها مقدس‌اند،\nاگر بهشون آگاه بشیم و ازشون عبور کنیم.\n\n🧠 حالا نوبت من و توئه:\n🔸 از چرخه‌های تکراری رها شیم\n🔸 از خجالت و بی‌عملی بیرون بیایم\n🔸 این بار یه تصمیم برای خودمون برای دلمون برای بزرگ شدنمون بگیریم…\n\n✨ تاسوعا یعنی بلند شو!\nنه برای انتقام، نه برای اندوه…\nبرای شجاعت تغییر.\n#تاسوعای_حسنی \n#روانشناسی_اسلامی \n#خودآگاهی \n#رشد_شخصی \n#عباس_شانه_سازان \n#کوچینگ_زندگی \n#تحول_درونی \n#تصمیم_نو \n#از_تجربه_تا_تغییر \n#یادگیری_عمیق \n#اصلاح_ذهن \n#زندگی_با_آگاهی \n#خودسازی \n#خودباوری \n#هدفمند_زندگی_کن \n#بودکمپ_رشد \n#جرأت_تغییر \n#درمان_ریشه_ای \n#زندگی_سیستمی \n#روانشناسی_رفتار \n#هوشیاری_ذهن \n#نهضت_درونی \n#حسین_راه_آگاهی \n#حسین_نقطه_تأمل⁩⁩⁩⁩⁩",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3669418605116734004",
+        "bit_flags": 0,
+        "created_at": 1751659181,
+        "is_covered": false,
+        "strong_id__": "18279133438258715",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1751659181,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1751651125,
+      "has_audio": true,
+      "video_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQOL-xFI65d7UUZb77X7m4S5gFz3K3h1g5v_3ZKmSGptf1FMwUkIQBPpZztx1N8DvUlzV9gje9gEIDTM8bS2WiW2pn1krwF1dZV4yko.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=3OWdbDsVewsQ7kNvwEebC5A&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA3MjE1NTA2MDk2NTQ2NSwiYXNzZXRfYWdlX2RheXMiOjQ5NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjIxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=1779ae9db433410b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC85MjE0OEUzNTA1NTk0OUEyODk1NDJBNjA2QUVCNEQ4Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNDExNjkwODUwMjE2ODAxXzQ0MjQxNTIwMTU1NDczMDYwMjMubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJrLB7NjRx-cDFQIoAkMzLBdANQhysCDEnBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSCSHW_NSJxnhq3XtpcXrHjskFToIoym_2CVzoasKRuyg&oe=6AFBDB6C",
+      "created_at": "2025-07-04T17:45:25.000Z",
+      "like_count": 105,
+      "media_type": 2,
+      "play_count": 2753,
+      "display_uri": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/515590869_18055308413367999_3106919410239020280_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=MzY2OTQxODYwNTExNjczNDAwNDE4MDU1MzA4NDA3MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=wcyNO_0qKpQQ7kNvwEYEFt9&_nc_oc=AdpHOaCZEI3TjbOaF4UKlF9z80HWqH1azouzBz0ieQhhISd7mtKBa-EmjkBVF3hLvGQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQOXLfPD_zWM165EdOuaPbI7gp-TIGEPNu9H4u3zl19Bg&oe=6AFBCADE",
+      "product_type": "clips",
+      "comment_count": 4,
+      "ig_play_count": 2753,
+      "carousel_media": null,
+      "music_metadata": null,
+      "video_duration": 21.033,
+      "video_versions": [
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQOL-xFI65d7UUZb77X7m4S5gFz3K3h1g5v_3ZKmSGptf1FMwUkIQBPpZztx1N8DvUlzV9gje9gEIDTM8bS2WiW2pn1krwF1dZV4yko.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=3OWdbDsVewsQ7kNvwEebC5A&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA3MjE1NTA2MDk2NTQ2NSwiYXNzZXRfYWdlX2RheXMiOjQ5NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjIxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=1779ae9db433410b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC85MjE0OEUzNTA1NTk0OUEyODk1NDJBNjA2QUVCNEQ4Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNDExNjkwODUwMjE2ODAxXzQ0MjQxNTIwMTU1NDczMDYwMjMubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJrLB7NjRx-cDFQIoAkMzLBdANQhysCDEnBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSCSHW_NSJxnhq3XtpcXrHjskFToIoym_2CVzoasKRuyg&oe=6AFBDB6C",
+          "type": 101,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQOL-xFI65d7UUZb77X7m4S5gFz3K3h1g5v_3ZKmSGptf1FMwUkIQBPpZztx1N8DvUlzV9gje9gEIDTM8bS2WiW2pn1krwF1dZV4yko.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=3OWdbDsVewsQ7kNvwEebC5A&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA3MjE1NTA2MDk2NTQ2NSwiYXNzZXRfYWdlX2RheXMiOjQ5NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjIxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=1779ae9db433410b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC85MjE0OEUzNTA1NTk0OUEyODk1NDJBNjA2QUVCNEQ4Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNDExNjkwODUwMjE2ODAxXzQ0MjQxNTIwMTU1NDczMDYwMjMubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJrLB7NjRx-cDFQIoAkMzLBdANQhysCDEnBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSCSHW_NSJxnhq3XtpcXrHjskFToIoym_2CVzoasKRuyg&oe=6AFBDB6C",
+          "type": 102,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQOL-xFI65d7UUZb77X7m4S5gFz3K3h1g5v_3ZKmSGptf1FMwUkIQBPpZztx1N8DvUlzV9gje9gEIDTM8bS2WiW2pn1krwF1dZV4yko.mp4?_nc_cat=107&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=3OWdbDsVewsQ7kNvwEebC5A&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA3MjE1NTA2MDk2NTQ2NSwiYXNzZXRfYWdlX2RheXMiOjQ5NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjIxLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=1779ae9db433410b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC85MjE0OEUzNTA1NTk0OUEyODk1NDJBNjA2QUVCNEQ4Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xNDExNjkwODUwMjE2ODAxXzQ0MjQxNTIwMTU1NDczMDYwMjMubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJrLB7NjRx-cDFQIoAkMzLBdANQhysCDEnBgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSCSHW_NSJxnhq3XtpcXrHjskFToIoym_2CVzoasKRuyg&oe=6AFBDB6C",
+          "type": 103,
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/515590869_18055308413367999_3106919410239020280_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=MzY2OTQxODYwNTExNjczNDAwNDE4MDU1MzA4NDA3MzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjMyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=wcyNO_0qKpQQ7kNvwEYEFt9&_nc_oc=AdpHOaCZEI3TjbOaF4UKlF9z80HWqH1azouzBz0ieQhhISd7mtKBa-EmjkBVF3hLvGQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQOXLfPD_zWM165EdOuaPbI7gp-TIGEPNu9H4u3zl19Bg&oe=6AFBCADE",
+            "width": 320,
+            "height": 565
+          }
+        ],
+        "additional_candidates": {
+          "first_frame": {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/515857302_628333633611454_3184256841130286628_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=HdYaRvWwT2sQ7kNvwGVVcSz&_nc_oc=AdpRayecrwdawO0lwvJ5EgOpABkd9WgIZcIc0z73bD13mcrPcGX4LKzT5sA7MbnNog4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQRAZ4NpFL39ysbDS-6MMb1x14VV9tiQDzf_wzQRvfL2IA&oe=6AFBC6E1",
+            "width": 480,
+            "height": 852
+          },
+          "igtv_first_frame": {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/515857302_628333633611454_3184256841130286628_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=HdYaRvWwT2sQ7kNvwGVVcSz&_nc_oc=AdpRayecrwdawO0lwvJ5EgOpABkd9WgIZcIc0z73bD13mcrPcGX4LKzT5sA7MbnNog4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQRAZ4NpFL39ysbDS-6MMb1x14VV9tiQDzf_wzQRvfL2IA&oe=6AFBC6E1",
+            "width": 480,
+            "height": 852
+          }
+        },
+        "scrubber_spritesheet_info_candidates": {
+          "default": {
+            "file_size_kb": 297,
+            "sprite_width": 1500,
+            "video_length": 21.033,
+            "sprite_height": 1246,
+            "rendered_width": 96,
+            "thumbnail_width": 100,
+            "thumbnail_height": 178,
+            "thumbnail_duration": 0.20031428571429,
+            "thumbnails_per_row": 15,
+            "max_thumbnails_per_sprite": 105,
+            "total_thumbnail_num_per_sprite": 105
+          }
+        }
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": null,
+      "video_sticker_locales": []
+    },
+    {
+      "id": "3648474337139040446_40932383998",
+      "url": "https://www.instagram.com/p/DKh_BRFTSC-/",
+      "code": "DKh_BRFTSC-",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "18504090370022655",
+        "text": "زن، ستون استوار تاریخ این سرزمین است؛\nاز الهه‌ها و بانوانِ خردمند ایران باستان، تا زنانی که امروز، در سکوت و شجاعت، ایستاده‌اند.\n\nاسلام، جایگاه زن را از نو تعریف کرد؛\nبه او کرامت داد، شأنی الهی بخشید و نگاه انسان‌محور به او داشت.\nدر آیات قرآن و سیره‌ی پیامبر (ص)، زن نه موجودی فرودست، که انسانی شریف، صاحب اراده و اثرگذار است.\n\nاما امروز…\nدر هیاهوی بی‌مهری‌ها و قضاوت‌ها، گاهی کرامت زن، امنیت زن، و حتی مفهوم «ناموس» تحریف می‌شود.\nناموس، فقط غیرت لحظه‌ای نیست؛\nناموس، یعنی زن بتواند بی‌هراس زندگی کند، رشد کند، تصمیم بگیرد و محترم بماند.\n\nو در این روزگار، زنانی هستند که تصمیم گرفتند در هر شرایطی رشد کنند.\nنه منتظر اجازه ماندند، نه دل‌سرد از مانع شدند.\nبلکه با شرافت و قدرت، مسیر را برای خودشان ساختند.\n\n🎗 خانم الهه حسین‌نژاد،\nشما فقط یک نام نیستید؛ نماد تلاش، تعهد و عزت\nزنانی هستید که در پی لقمه‌ای شرافتمندانه، مسیر خود را ساخت\nدرست مثل هزاران دختر این سرزمین.\n\nروحت شاد.\nاین جمله، تنها سوگ نیست؛ افتخاری‌ست برای تمام زنانی که بی‌ادعا زیستند، جنگیدند و ماندگار شدند.\n\nامروز، به احترام همه زنانی که انتخاب کردند قوی باشند، این جمله را تکرار می‌کنم:\nزن، شایسته‌ی امن‌ترین بستر برای شکوفایی‌ست.\nنه ترس، نه قضاوت، نه محدودیت…\n\n#الهه_حسین_نژاد #عباس_شانسازان #کوچینگ #کوچ_فردی #کوچ_بیزنسی \n#افزایش_عملکرد #زن_در_اسلام #کرامت_زن #امنیت_زنان \n#زنان_قوی #زن_ایرانی #توسعه_فردی #توسعه_رهبری \n#حق_زن #زن_موفق #بانوی_ایرانی #رشد_شخصی",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3648474337139040446",
+        "bit_flags": 0,
+        "created_at": 1749152178,
+        "is_covered": false,
+        "strong_id__": "18504090370022655",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1749152178,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1749152176,
+      "has_audio": true,
+      "video_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQOo-B8QxcMuj5bxkizArFRi4yFsQkSvsrUEFTHPFgvg6N3ZEEOdFcEB-HdEKjeMdrr7XkyY3cMy5TUngmk_89yfn00Je3Aku35OU4M.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=hytvd2Jxb0AQ7kNvwHTbVTI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NjEyOTY1Nzc3ODAyMzUwLCJhc3NldF9hZ2VfZGF5cyI6NTI0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=3bc227921e8b3dab&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8wNTQ1QzNBM0NGNEQyQ0IzMzM3QkU4RjFEM0MzMzY5OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzkzOTgzNDY1MjIwMTkwXzUyMzg3NjQ2NzU5Mzg4Mzk4OTIubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJtyRkPem35YCFQIoAkMzLBdASjul41P3zxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQbKo2ULvgGXiibCRrRrTpK4Xy1byy7r5RfVk1j9QVD5g&oe=6AFBE1F7",
+      "created_at": "2025-06-05T19:36:16.000Z",
+      "like_count": 113,
+      "media_type": 2,
+      "play_count": 2090,
+      "display_uri": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/503856243_1262965118817391_5963979085765160601_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=MzY0ODQ3NDMzNzEzOTA0MDQ0NjYxMjk2NjU4NzgwMjI2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=PGNQ7oY2HAoQ7kNvwE8sn13&_nc_oc=Adr3pbPE1seBZjGzP86YZcH6kkxeQLDJPgPaIxvnkCPlwkugDEeXYVR-FpdX6V_BqCU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTkg5kvjLQw8p6Po_FIhkGmXECeP1g0TxljVdOabSy07w&oe=6AFBCB87",
+      "product_type": "clips",
+      "comment_count": 15,
+      "ig_play_count": 2090,
+      "carousel_media": null,
+      "music_metadata": null,
+      "video_duration": 52.466,
+      "video_versions": [
+        {
+          "url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQOo-B8QxcMuj5bxkizArFRi4yFsQkSvsrUEFTHPFgvg6N3ZEEOdFcEB-HdEKjeMdrr7XkyY3cMy5TUngmk_89yfn00Je3Aku35OU4M.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=hytvd2Jxb0AQ7kNvwHTbVTI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NjEyOTY1Nzc3ODAyMzUwLCJhc3NldF9hZ2VfZGF5cyI6NTI0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=3bc227921e8b3dab&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8wNTQ1QzNBM0NGNEQyQ0IzMzM3QkU4RjFEM0MzMzY5OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzkzOTgzNDY1MjIwMTkwXzUyMzg3NjQ2NzU5Mzg4Mzk4OTIubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJtyRkPem35YCFQIoAkMzLBdASjul41P3zxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQbKo2ULvgGXiibCRrRrTpK4Xy1byy7r5RfVk1j9QVD5g&oe=6AFBE1F7",
+          "type": 101,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQOo-B8QxcMuj5bxkizArFRi4yFsQkSvsrUEFTHPFgvg6N3ZEEOdFcEB-HdEKjeMdrr7XkyY3cMy5TUngmk_89yfn00Je3Aku35OU4M.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=hytvd2Jxb0AQ7kNvwHTbVTI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NjEyOTY1Nzc3ODAyMzUwLCJhc3NldF9hZ2VfZGF5cyI6NTI0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=3bc227921e8b3dab&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8wNTQ1QzNBM0NGNEQyQ0IzMzM3QkU4RjFEM0MzMzY5OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzkzOTgzNDY1MjIwMTkwXzUyMzg3NjQ2NzU5Mzg4Mzk4OTIubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJtyRkPem35YCFQIoAkMzLBdASjul41P3zxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQbKo2ULvgGXiibCRrRrTpK4Xy1byy7r5RfVk1j9QVD5g&oe=6AFBE1F7",
+          "type": 102,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQOo-B8QxcMuj5bxkizArFRi4yFsQkSvsrUEFTHPFgvg6N3ZEEOdFcEB-HdEKjeMdrr7XkyY3cMy5TUngmk_89yfn00Je3Aku35OU4M.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=hytvd2Jxb0AQ7kNvwHTbVTI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NjEyOTY1Nzc3ODAyMzUwLCJhc3NldF9hZ2VfZGF5cyI6NTI0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTIsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=3bc227921e8b3dab&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8wNTQ1QzNBM0NGNEQyQ0IzMzM3QkU4RjFEM0MzMzY5OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzkzOTgzNDY1MjIwMTkwXzUyMzg3NjQ2NzU5Mzg4Mzk4OTIubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJtyRkPem35YCFQIoAkMzLBdASjul41P3zxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQbKo2ULvgGXiibCRrRrTpK4Xy1byy7r5RfVk1j9QVD5g&oe=6AFBE1F7",
+          "type": 103,
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/503856243_1262965118817391_5963979085765160601_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=MzY0ODQ3NDMzNzEzOTA0MDQ0NjYxMjk2NjU4NzgwMjI2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=PGNQ7oY2HAoQ7kNvwE8sn13&_nc_oc=Adr3pbPE1seBZjGzP86YZcH6kkxeQLDJPgPaIxvnkCPlwkugDEeXYVR-FpdX6V_BqCU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTkg5kvjLQw8p6Po_FIhkGmXECeP1g0TxljVdOabSy07w&oe=6AFBCB87",
+            "width": 480,
+            "height": 852
+          }
+        ],
+        "additional_candidates": {
+          "first_frame": {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/504184434_1044018980610889_1695437260822555465_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_oNL4kG6XyEQ7kNvwHf6Tgg&_nc_oc=Adqx2RnKNXj6wnR4sHrRXYLWdKaoQSuKEM1F9MtvDu8xGr6UYBiMZ1Hzkn7DC5RGiho&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQRByqY4RK-Cs6wY5Rw0pQGTYMqTbDhfmy98_yO1vcEnAA&oe=6AFBC185",
+            "width": 480,
+            "height": 852
+          },
+          "igtv_first_frame": {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/504184434_1044018980610889_1695437260822555465_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_oNL4kG6XyEQ7kNvwHf6Tgg&_nc_oc=Adqx2RnKNXj6wnR4sHrRXYLWdKaoQSuKEM1F9MtvDu8xGr6UYBiMZ1Hzkn7DC5RGiho&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQRByqY4RK-Cs6wY5Rw0pQGTYMqTbDhfmy98_yO1vcEnAA&oe=6AFBC185",
+            "width": 480,
+            "height": 852
+          }
+        },
+        "scrubber_spritesheet_info_candidates": {
+          "default": {
+            "file_size_kb": 319,
+            "sprite_width": 1500,
+            "video_length": 52.403,
+            "sprite_height": 1246,
+            "rendered_width": 96,
+            "thumbnail_width": 100,
+            "thumbnail_height": 178,
+            "thumbnail_duration": 0.49907619047619,
+            "thumbnails_per_row": 15,
+            "max_thumbnails_per_sprite": 105,
+            "total_thumbnail_num_per_sprite": 105
+          }
+        }
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": null,
+      "video_sticker_locales": []
+    },
+    {
+      "id": "3630292304443669571_40932383998",
+      "url": "https://www.instagram.com/p/DJhY53lMvxD/",
+      "code": "DJhY53lMvxD",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "18067465865068248",
+        "text": "رشد واقعی وقتی شروع میشه که جرات کنی از \nمنطقه امن بیرون بیای و با چالش‌ها روبه‌رو بشی. ✨\n\nزندگی همیشه فرصتی برای بهتر شدن بهت میده،\n فقط باید باور کنی و اقدام کنی!»👌🏻\n@shanehsazanzadeh.abbas \n@shanehsazanzadeh.abbas \n\n#کار_زندگی #رشد_شخصی #رشدفردی #هدفگذاری #چالش #مسئله #performance_coach \n#coachperformance",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3630292304443669571",
+        "bit_flags": 0,
+        "created_at": 1749041442,
+        "is_covered": false,
+        "strong_id__": "18067465865068248",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1749041442,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1746984621,
+      "has_audio": true,
+      "video_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQN83vrvMmdRKoSdf2bh1jlDX9ICQSgsgGXtjLJTLh506TcNTeqvrA-ycuvS7XnAmFZhmzc0Qcbmb9NTJXX26n2h59RvA1n0HeyikRE.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=9neAuNWYMhIQ7kNvwF7b5-m&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzIxMDA5MzcwMzU0MzI1LCJhc3NldF9hZ2VfZGF5cyI6NTQ5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=eb44053f29f554dd&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8zMzg5QTIzRjUxQjg0MEQzQjA1NTgwNTFDNzBEOTI1RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMDM3NTg1MTcxNjQ1OTMxXzIzMjczMjQwNDcwNTU4NTc4MDAubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJqrKsrai8McCFQIoAkMzLBdAO3dLxqfvnhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQxnJi-9MeYopEG9KsFerDqK5FJp680L4Gra96ELNfNsg&oe=6AFBD23F",
+      "created_at": "2025-05-11T17:30:21.000Z",
+      "like_count": 112,
+      "media_type": 2,
+      "play_count": 1812,
+      "display_uri": "https://scontent-iad3-1.cdninstagram.com/v/t51.75761-15/497529138_18050141411367999_8132026575692588067_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=MzYzMDI5MjMwNDQ0MzY2OTU3MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=tXDHFsy4iqAQ7kNvwGYYg3N&_nc_oc=Adq1rzFcoDDxiAnrX12qfzDQTXvShHNOuKONfIkHNjw0kqgAbeOT-3si55pWZw7NIXY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSTD097tE5K4H7Pq7EnLxRox2epBTtBH8rXe28jvdRVTQ&oe=6AFBBC95",
+      "product_type": "clips",
+      "comment_count": 15,
+      "ig_play_count": 1812,
+      "carousel_media": null,
+      "music_metadata": null,
+      "video_duration": 27.466,
+      "video_versions": [
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQN83vrvMmdRKoSdf2bh1jlDX9ICQSgsgGXtjLJTLh506TcNTeqvrA-ycuvS7XnAmFZhmzc0Qcbmb9NTJXX26n2h59RvA1n0HeyikRE.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=9neAuNWYMhIQ7kNvwF7b5-m&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzIxMDA5MzcwMzU0MzI1LCJhc3NldF9hZ2VfZGF5cyI6NTQ5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=eb44053f29f554dd&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8zMzg5QTIzRjUxQjg0MEQzQjA1NTgwNTFDNzBEOTI1RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMDM3NTg1MTcxNjQ1OTMxXzIzMjczMjQwNDcwNTU4NTc4MDAubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJqrKsrai8McCFQIoAkMzLBdAO3dLxqfvnhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQxnJi-9MeYopEG9KsFerDqK5FJp680L4Gra96ELNfNsg&oe=6AFBD23F",
+          "type": 101,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQN83vrvMmdRKoSdf2bh1jlDX9ICQSgsgGXtjLJTLh506TcNTeqvrA-ycuvS7XnAmFZhmzc0Qcbmb9NTJXX26n2h59RvA1n0HeyikRE.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=9neAuNWYMhIQ7kNvwF7b5-m&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzIxMDA5MzcwMzU0MzI1LCJhc3NldF9hZ2VfZGF5cyI6NTQ5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=eb44053f29f554dd&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8zMzg5QTIzRjUxQjg0MEQzQjA1NTgwNTFDNzBEOTI1RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMDM3NTg1MTcxNjQ1OTMxXzIzMjczMjQwNDcwNTU4NTc4MDAubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJqrKsrai8McCFQIoAkMzLBdAO3dLxqfvnhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQxnJi-9MeYopEG9KsFerDqK5FJp680L4Gra96ELNfNsg&oe=6AFBD23F",
+          "type": 102,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m367/AQN83vrvMmdRKoSdf2bh1jlDX9ICQSgsgGXtjLJTLh506TcNTeqvrA-ycuvS7XnAmFZhmzc0Qcbmb9NTJXX26n2h59RvA1n0HeyikRE.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=9neAuNWYMhIQ7kNvwF7b5-m&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzIxMDA5MzcwMzU0MzI1LCJhc3NldF9hZ2VfZGF5cyI6NTQ5LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MjcsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=eb44053f29f554dd&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC8zMzg5QTIzRjUxQjg0MEQzQjA1NTgwNTFDNzBEOTI1RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMDM3NTg1MTcxNjQ1OTMxXzIzMjczMjQwNDcwNTU4NTc4MDAubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJqrKsrai8McCFQIoAkMzLBdAO3dLxqfvnhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQxnJi-9MeYopEG9KsFerDqK5FJp680L4Gra96ELNfNsg&oe=6AFBD23F",
+          "type": 103,
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.75761-15/497529138_18050141411367999_8132026575692588067_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=MzYzMDI5MjMwNDQ0MzY2OTU3MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=tXDHFsy4iqAQ7kNvwGYYg3N&_nc_oc=Adq1rzFcoDDxiAnrX12qfzDQTXvShHNOuKONfIkHNjw0kqgAbeOT-3si55pWZw7NIXY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSTD097tE5K4H7Pq7EnLxRox2epBTtBH8rXe28jvdRVTQ&oe=6AFBBC95",
+            "width": 480,
+            "height": 853
+          }
+        ],
+        "additional_candidates": {
+          "first_frame": {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/495298629_721009597020969_3106141922853939423_n.jpg?stp=dst-jpegr_e15_p480x480_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=HngAZrXkDdsQ7kNvwF7cVTt&_nc_oc=Adq1h4MdByBh7n0dchdQzR0zmvgywN0EOWTYMgMgYMmubu0Z1UM6_qDIdkyDzc-gHv0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTD_HAVM3U7JLKbnFH2KE5J1qZy2f0k6v46waog7BCBdQ&oe=6AFBB11B",
+            "width": 480,
+            "height": 852
+          },
+          "igtv_first_frame": {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t39.30808-6/495298629_721009597020969_3106141922853939423_n.jpg?stp=dst-jpegr_e15_p480x480_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=HngAZrXkDdsQ7kNvwF7cVTt&_nc_oc=Adq1h4MdByBh7n0dchdQzR0zmvgywN0EOWTYMgMgYMmubu0Z1UM6_qDIdkyDzc-gHv0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTD_HAVM3U7JLKbnFH2KE5J1qZy2f0k6v46waog7BCBdQ&oe=6AFBB11B",
+            "width": 480,
+            "height": 852
+          }
+        },
+        "scrubber_spritesheet_info_candidates": {
+          "default": {
+            "file_size_kb": 260,
+            "sprite_width": 1500,
+            "video_length": 27.466,
+            "sprite_height": 1246,
+            "rendered_width": 96,
+            "thumbnail_width": 100,
+            "thumbnail_height": 178,
+            "thumbnail_duration": 0.26158095238095,
+            "thumbnails_per_row": 15,
+            "max_thumbnails_per_sprite": 105,
+            "total_thumbnail_num_per_sprite": 105
+          }
+        }
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": null,
+      "video_sticker_locales": []
+    },
+    {
+      "id": "3629598462149079315_40932383998",
+      "url": "https://www.instagram.com/p/DJe7JIlszET/",
+      "code": "DJe7JIlszET",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "17880739983295035",
+        "text": "تعادل بین کار و زندگی یه هنره\n که کیفیت زندگی رو بالا می‌بره!\n\nبرای شروع، این سه گام ساده رو تمرین کن:\n\n1️⃣ اولویت‌بندی: کارهای مهم رو مشخص کن.\n\n2️⃣ مرز بذار: زمان کار رو از زمان استراحت جدا کن.\n\n3️⃣ زمان خودت: هر روز وقتی برای خودت بذار.\n\nشما برای تعادل چه راه‌هایی دارید؟ 👇 کامنت بذارید!\n\n#تعادل_بین_کار_و_زندگی #توسعهٔ_فردی #کوچینگ #کوچینگ_موفقیت #خودشناسی #تعادل_کاری",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3629598462149079315",
+        "bit_flags": 0,
+        "created_at": 1746902354,
+        "is_covered": false,
+        "strong_id__": "17880739983295035",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1746902354,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1746902352,
+      "has_audio": true,
+      "video_url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQMiEn-_dvBqd7BKPe7XUK97rKs3oPZxnz_IryhrHTf8bkqm-l85__QX7aIGSxTfGUssWC4Kgaaebx89q8RB49e5wkVn-Jb9dIQqSR4.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=yqybE-Nv87kQ7kNvwFIMQRw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NjAwNzU0NTQyMjk0MDMwLCJhc3NldF9hZ2VfZGF5cyI6NTUwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NDQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=77f81a4c1e8e705b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9ERjQ3NTgwN0ZDMEY1NEY4OTk5NEJDN0Q1QTY3RDhCQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ4OTQwMjg5OTI3NzIxXzYxNjY3NDkwMDA3ODU2NjU3NDIubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJpzQuZHCmJECFQIoAkMzLBdARiZmZmZmZhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRN8XX355k7XGlDD-QIp24N6KCQYRECY32HeBMhL-eeiA&oe=6AFBC4C9",
+      "created_at": "2025-05-10T18:39:12.000Z",
+      "like_count": 130,
+      "media_type": 2,
+      "play_count": 5010,
+      "display_uri": "https://scontent-iad6-1.cdninstagram.com/v/t51.75761-15/497268261_18050038673367999_1518775894231817585_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=MzYyOTU5ODQ2MjE0OTA3OTMxNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=M0dHe21HAYkQ7kNvwFpNavH&_nc_oc=Adost_YAifCC1W3jbQVHigKuHSe06DX7s2TnHesqju3maCHwpPyV9FggKA5G538NMIA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQRphckGrN5uZ2fs2A4jifuLs_N5pxhAyMsKsMNXE9X2LA&oe=6AFBD745",
+      "product_type": "clips",
+      "comment_count": 17,
+      "ig_play_count": 5010,
+      "carousel_media": null,
+      "music_metadata": null,
+      "video_duration": 44.3,
+      "video_versions": [
+        {
+          "url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQMiEn-_dvBqd7BKPe7XUK97rKs3oPZxnz_IryhrHTf8bkqm-l85__QX7aIGSxTfGUssWC4Kgaaebx89q8RB49e5wkVn-Jb9dIQqSR4.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=yqybE-Nv87kQ7kNvwFIMQRw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NjAwNzU0NTQyMjk0MDMwLCJhc3NldF9hZ2VfZGF5cyI6NTUwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NDQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=77f81a4c1e8e705b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9ERjQ3NTgwN0ZDMEY1NEY4OTk5NEJDN0Q1QTY3RDhCQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ4OTQwMjg5OTI3NzIxXzYxNjY3NDkwMDA3ODU2NjU3NDIubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJpzQuZHCmJECFQIoAkMzLBdARiZmZmZmZhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRN8XX355k7XGlDD-QIp24N6KCQYRECY32HeBMhL-eeiA&oe=6AFBC4C9",
+          "type": 101,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQMiEn-_dvBqd7BKPe7XUK97rKs3oPZxnz_IryhrHTf8bkqm-l85__QX7aIGSxTfGUssWC4Kgaaebx89q8RB49e5wkVn-Jb9dIQqSR4.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=yqybE-Nv87kQ7kNvwFIMQRw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NjAwNzU0NTQyMjk0MDMwLCJhc3NldF9hZ2VfZGF5cyI6NTUwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NDQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=77f81a4c1e8e705b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9ERjQ3NTgwN0ZDMEY1NEY4OTk5NEJDN0Q1QTY3RDhCQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ4OTQwMjg5OTI3NzIxXzYxNjY3NDkwMDA3ODU2NjU3NDIubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJpzQuZHCmJECFQIoAkMzLBdARiZmZmZmZhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRN8XX355k7XGlDD-QIp24N6KCQYRECY32HeBMhL-eeiA&oe=6AFBC4C9",
+          "type": 102,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-1.cdninstagram.com/o1/v/t2/f2/m367/AQMiEn-_dvBqd7BKPe7XUK97rKs3oPZxnz_IryhrHTf8bkqm-l85__QX7aIGSxTfGUssWC4Kgaaebx89q8RB49e5wkVn-Jb9dIQqSR4.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=yqybE-Nv87kQ7kNvwFIMQRw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NjAwNzU0NTQyMjk0MDMwLCJhc3NldF9hZ2VfZGF5cyI6NTUwLCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NDQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=77f81a4c1e8e705b&_nc_vs=HBksFQIYQGlnX2VwaGVtZXJhbC9ERjQ3NTgwN0ZDMEY1NEY4OTk5NEJDN0Q1QTY3RDhCQV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMjQ4OTQwMjg5OTI3NzIxXzYxNjY3NDkwMDA3ODU2NjU3NDIubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJpzQuZHCmJECFQIoAkMzLBdARiZmZmZmZhgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQRN8XX355k7XGlDD-QIp24N6KCQYRECY32HeBMhL-eeiA&oe=6AFBC4C9",
+          "type": 103,
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.75761-15/497268261_18050038673367999_1518775894231817585_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=MzYyOTU5ODQ2MjE0OTA3OTMxNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=M0dHe21HAYkQ7kNvwFpNavH&_nc_oc=Adost_YAifCC1W3jbQVHigKuHSe06DX7s2TnHesqju3maCHwpPyV9FggKA5G538NMIA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQRphckGrN5uZ2fs2A4jifuLs_N5pxhAyMsKsMNXE9X2LA&oe=6AFBD745",
+            "width": 480,
+            "height": 853
+          }
+        ],
+        "additional_candidates": {
+          "first_frame": {
+            "url": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/495416097_600755802293904_2502182846948608403_n.jpg?stp=dst-jpegr_e15_p480x480_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=Q2ZGQ2V1zXUQ7kNvwE0m6Ym&_nc_oc=AdqKQoe2Q1XMxNf0MQWk_ahwMBfQfnotbIfx1ODbdUZdnvJCkk5qYjd82RpdTqCr7ow&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQ80WRpE6_RYIGOEpZ3LgQ8P9viIFHLMgkQDagxjsolJA&oe=6AFBDFB5",
+            "width": 480,
+            "height": 852
+          },
+          "igtv_first_frame": {
+            "url": "https://scontent-iad3-2.cdninstagram.com/v/t39.30808-6/495416097_600755802293904_2502182846948608403_n.jpg?stp=dst-jpegr_e15_p480x480_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=Q2ZGQ2V1zXUQ7kNvwE0m6Ym&_nc_oc=AdqKQoe2Q1XMxNf0MQWk_ahwMBfQfnotbIfx1ODbdUZdnvJCkk5qYjd82RpdTqCr7ow&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQQ80WRpE6_RYIGOEpZ3LgQ8P9viIFHLMgkQDagxjsolJA&oe=6AFBDFB5",
+            "width": 480,
+            "height": 852
+          }
+        },
+        "scrubber_spritesheet_info_candidates": {
+          "default": {
+            "file_size_kb": 238,
+            "sprite_width": 1500,
+            "video_length": 44.3,
+            "sprite_height": 1246,
+            "rendered_width": 96,
+            "thumbnail_width": 100,
+            "thumbnail_height": 178,
+            "thumbnail_duration": 0.42190476190476,
+            "thumbnails_per_row": 15,
+            "max_thumbnails_per_sprite": 105,
+            "total_thumbnail_num_per_sprite": 105
+          }
+        }
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": null,
+      "video_sticker_locales": []
+    },
+    {
+      "id": "3619405766063048344_40932383998",
+      "url": "https://www.instagram.com/p/DI6tl4oMEaY/",
+      "code": "DI6tl4oMEaY",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "18075977380836589",
+        "text": "«#شجاعت یعنی #ترسیدن \nو با این حال #اقدام کردن»\n\n*این جمله رو مارک تواین می‌گه👆🏻\n\nوقتی ترس از شکست، جلوی حرکتت رو می‌گیره، مغزت آلارم خطر می‌زنه؛ اما لحظه‌ای که با ترست روبه‌رو می‌شی و حتی یه قدم کوچیک برمی‌داری، سیستم پاداش مغزت فعال می‌شه. دوپامین آزاد میشه و قدرت دیدن #فرصت‌ های بزرگ‌تر رو پیدا می‌کنی.\n\n (منبع: Harvard Health Publishing)\n\n🚀\n\n✅ وقتشه اون قدم کوچیک؛ اما مهم رو برداری.\nیادت باشه، عمل کردن همیشه بزرگ‌ترین ریسک\nو بهترین سرمایه‌ گذاریه!\n\n________________________________\nبرام بنویس:\n\nچی جلوی تصمیمت رو گرفته؟\n\n|شاید همین جواب، اولین قدمت باشه.✨|\n\n____________________________\n\n#روانشناسی_موفقیت #ترس_از_شکست #تصمیم_گیری #رشد_فردی #ذهن_پیروز\n#مارک_تواین \n#کسب_و_کار #رشد_مدیران #افزایش_فروش #عباس_شانه_سازان \n#بیزینس_کوچینگ #بیزینس_موفق #کوچینگ_مدیران_ارشد \n#فلج_تصمیم_گیری \n @shanehsazanzadeh.abbas \n#mark_twain \n#کوچینگ #کوچینگ_فردی #کوچینگ_مدیریت_و_رهبری #تربیت_کوچ_حرفه_ای #تربیت_کوچ  #موفقیت_فردی #توسعه_فردی #فلج_تصمیم_گیری_در_معامله_گران",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3619405766063048344",
+        "bit_flags": 0,
+        "created_at": 1745812055,
+        "is_covered": false,
+        "strong_id__": "18075977380836589",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1745812055,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1745686800,
+      "has_audio": true,
+      "video_url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m86/AQOVV-UGy06X-5zNvaC0peBFcOK6FXW9SZRB3iHXP3HKe0XiCEFI6SqH-OMrvqbWCDqtbTUMLHz67IGnmJG1b4TmuiBQzIvgqTEULow.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=z5tFuACrInsQ7kNvwGHwNdB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTAyMTczOTg0MjgyMTUyOSwiYXNzZXRfYWdlX2RheXMiOjU2NSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a15e8df013131598&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ENDRDNDJGNkJGNkM1MTNGMTlDNDRFNzI1NTc0Mzc5N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRWlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82OTQ5NjI0MTI5MjM3MDFfOTMxOTQ1Njg5MzU4Mjk4NTYzLm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACay9pKGi9HQAxUCKAJDMywXQEg7peNT988YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQK06nJwRLyNubwACVsYKr0pUQ6d_F29jvG82GPepPiOA&oe=6AF7DCD1",
+      "created_at": "2025-04-26T17:00:00.000Z",
+      "like_count": 141,
+      "media_type": 2,
+      "play_count": 3873,
+      "display_uri": "https://scontent-iad6-1.cdninstagram.com/v/t51.75761-15/491470033_18048708452367999_6234661119458067874_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=MzYxOTQwNTc2NjA2MzA0ODM0NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIzMDQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=ryLArUM1aHsQ7kNvwEH1LJG&_nc_oc=AdpnJrqOzdm-krk-waMFFVjZ536balXwjp32ifmW6Tl9SWlV6OyBnyrYc-d9BRDK7fw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSAfzDyrO_Vk6hfFenb6QhZspTKlNsNxhpp7ZbT8NRJmQ&oe=6AFBC041",
+      "product_type": "clips",
+      "comment_count": 18,
+      "ig_play_count": 3873,
+      "carousel_media": null,
+      "music_metadata": null,
+      "video_duration": 48.507,
+      "video_versions": [
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m86/AQOVV-UGy06X-5zNvaC0peBFcOK6FXW9SZRB3iHXP3HKe0XiCEFI6SqH-OMrvqbWCDqtbTUMLHz67IGnmJG1b4TmuiBQzIvgqTEULow.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=z5tFuACrInsQ7kNvwGHwNdB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTAyMTczOTg0MjgyMTUyOSwiYXNzZXRfYWdlX2RheXMiOjU2NSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a15e8df013131598&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ENDRDNDJGNkJGNkM1MTNGMTlDNDRFNzI1NTc0Mzc5N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRWlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82OTQ5NjI0MTI5MjM3MDFfOTMxOTQ1Njg5MzU4Mjk4NTYzLm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACay9pKGi9HQAxUCKAJDMywXQEg7peNT988YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQK06nJwRLyNubwACVsYKr0pUQ6d_F29jvG82GPepPiOA&oe=6AF7DCD1",
+          "type": 101,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m86/AQOVV-UGy06X-5zNvaC0peBFcOK6FXW9SZRB3iHXP3HKe0XiCEFI6SqH-OMrvqbWCDqtbTUMLHz67IGnmJG1b4TmuiBQzIvgqTEULow.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=z5tFuACrInsQ7kNvwGHwNdB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTAyMTczOTg0MjgyMTUyOSwiYXNzZXRfYWdlX2RheXMiOjU2NSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a15e8df013131598&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ENDRDNDJGNkJGNkM1MTNGMTlDNDRFNzI1NTc0Mzc5N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRWlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82OTQ5NjI0MTI5MjM3MDFfOTMxOTQ1Njg5MzU4Mjk4NTYzLm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACay9pKGi9HQAxUCKAJDMywXQEg7peNT988YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQK06nJwRLyNubwACVsYKr0pUQ6d_F29jvG82GPepPiOA&oe=6AF7DCD1",
+          "type": 102,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad3-2.cdninstagram.com/o1/v/t2/f2/m86/AQOVV-UGy06X-5zNvaC0peBFcOK6FXW9SZRB3iHXP3HKe0XiCEFI6SqH-OMrvqbWCDqtbTUMLHz67IGnmJG1b4TmuiBQzIvgqTEULow.mp4?_nc_cat=104&_nc_sid=5e9851&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ohc=z5tFuACrInsQ7kNvwGHwNdB&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTAyMTczOTg0MjgyMTUyOSwiYXNzZXRfYWdlX2RheXMiOjU2NSwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjQ4LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a15e8df013131598&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ENDRDNDJGNkJGNkM1MTNGMTlDNDRFNzI1NTc0Mzc5N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYRWlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82OTQ5NjI0MTI5MjM3MDFfOTMxOTQ1Njg5MzU4Mjk4NTYzLm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACay9pKGi9HQAxUCKAJDMywXQEg7peNT988YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQQK06nJwRLyNubwACVsYKr0pUQ6d_F29jvG82GPepPiOA&oe=6AF7DCD1",
+          "type": 103,
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad6-1.cdninstagram.com/v/t51.75761-15/491470033_18048708452367999_6234661119458067874_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=MzYxOTQwNTc2NjA2MzA0ODM0NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjIzMDQuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=ryLArUM1aHsQ7kNvwEH1LJG&_nc_oc=AdpnJrqOzdm-krk-waMFFVjZ536balXwjp32ifmW6Tl9SWlV6OyBnyrYc-d9BRDK7fw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSAfzDyrO_Vk6hfFenb6QhZspTKlNsNxhpp7ZbT8NRJmQ&oe=6AFBC041",
+            "width": 480,
+            "height": 853
+          }
+        ],
+        "additional_candidates": {
+          "first_frame": {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/494208172_1728914408057690_2627652288813320215_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=jrTteYRGiZ0Q7kNvwHk-Bex&_nc_oc=Adqd18V2k3hSF3SRe1h1Vr5CnA9djoUnNgL1hhU8E-TwZgcy-SIZbjhsEY31qkQ9mJU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSMRYYTOdPZKEpF8kwux2r_dcrJbYo-OuBG9yf6Thjopw&oe=6AFBB15C",
+            "width": 480,
+            "height": 852
+          },
+          "igtv_first_frame": {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/494208172_1728914408057690_2627652288813320215_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=jrTteYRGiZ0Q7kNvwHk-Bex&_nc_oc=Adqd18V2k3hSF3SRe1h1Vr5CnA9djoUnNgL1hhU8E-TwZgcy-SIZbjhsEY31qkQ9mJU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSMRYYTOdPZKEpF8kwux2r_dcrJbYo-OuBG9yf6Thjopw&oe=6AFBB15C",
+            "width": 480,
+            "height": 852
+          }
+        },
+        "scrubber_spritesheet_info_candidates": {
+          "default": {
+            "file_size_kb": 256,
+            "sprite_width": 1500,
+            "video_length": 48.467,
+            "sprite_height": 1246,
+            "rendered_width": 96,
+            "thumbnail_width": 100,
+            "thumbnail_height": 178,
+            "thumbnail_duration": 0.46159047619048,
+            "thumbnails_per_row": 15,
+            "max_thumbnails_per_sprite": 105,
+            "total_thumbnail_num_per_sprite": 105
+          }
+        }
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": null,
+      "video_sticker_locales": []
+    },
+    {
+      "id": "3618536159018375966_40932383998",
+      "url": "https://www.instagram.com/p/DI3n3b9Mlse/",
+      "code": "DI3n3b9Mlse",
+      "user": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "owner": {
+        "id": "40932383998",
+        "pk": "40932383998",
+        "fbid_v2": "17841441039956547",
+        "username": "shanehsazanzadeh.abbas",
+        "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+        "__typename": "XDTUserDict",
+        "is_private": false,
+        "is_verified": false,
+        "strong_id__": "40932383998",
+        "account_type": 1,
+        "fan_club_info": {
+          "fan_club_id": null,
+          "fan_club_name": null,
+          "subscriber_count": null,
+          "connected_member_count": null,
+          "is_fan_club_gifting_eligible": null,
+          "is_fan_club_referral_eligible": null,
+          "has_enough_subscribers_for_ssc": null,
+          "autosave_to_exclusive_highlight": null,
+          "fan_consideration_page_revamp_eligiblity": null
+        },
+        "is_unpublished": false,
+        "profile_pic_id": "3613695597700076379_40932383998",
+        "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F",
+        "feed_post_reshare_disabled": false,
+        "transparency_product_enabled": false,
+        "has_anonymous_profile_picture": false,
+        "third_party_downloads_enabled": 1,
+        "show_account_transparency_details": true
+      },
+      "caption": {
+        "pk": "18040228103576111",
+        "text": "و آخرین سریال کوتاه دیگه‌ای که باید ببینی 🎬\n\nدرباره‌ی برند شخصی، مدیریت فشار، کار تیمی و رهبری:\nمستند The last dance \n\nروایتی عمیق و هیجان‌انگیز از دوران حرفه‌ای مایکل جردن، \nبه‌ویژه فصل آخر حضورش در شیکاگو بولز هست.\nاین مستند با مصاحبه‌های اختصاصی، تصاویر پشت‌صحنه\n و بازگشت به گذشته، داستان صعود، شکست، انگیزه، \nرقابت‌جویی و رهبری جردن رو به‌ خوبی نشون می‌ده…\n\n_________________\n#فیلم#سریال#انگیزشی#موفقیت#معرفی_سریال#مستند#معرفی_فیلم #زندگینامه#فیلم_خوب #فیلمبازان #تاثیر#باور#ذهنیت#پیشرفت",
+        "type": 1,
+        "user": {
+          "id": "40932383998",
+          "fbid_v2": "17841441039956547",
+          "username": "shanehsazanzadeh.abbas",
+          "full_name": "عباس شانه‌سازان | مربی تحول‌آفرین | کوچ افزایش عملکرد",
+          "is_private": false,
+          "is_verified": false,
+          "strong_id__": "40932383998",
+          "profile_pic_id": "3613695597700076379_40932383998",
+          "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.2885-19/491422623_1661602964476685_8456916641565776279_n.jpg?stp=dst-jpg_e0_s150x150_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=GJ_DSh0Nk3QWOOcFAJcZnvvgAF11bkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=ZkLLwQw-41gQ7kNvwEcbNDA&_nc_oc=Adp5w3irYkEhSHcls42d_dO9xD3-9wyd5oi0jqMC7B5xad9VWzMCndL-9bTyMaY2NAI&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_ss=7239b&oh=00_AQQ8HlUEgjv2QJn0brTbaQaBjR01nhK3KJIBTY2WigAiQQ&oe=6AFBB28F"
+        },
+        "status": "Active",
+        "media_id": "3618536159018375966",
+        "bit_flags": 0,
+        "created_at": 1745583479,
+        "is_covered": false,
+        "strong_id__": "18040228103576111",
+        "content_type": "comment",
+        "share_enabled": false,
+        "created_at_utc": 1745583479,
+        "has_translation": null,
+        "is_ranked_comment": false,
+        "did_report_as_spam": false,
+        "private_reply_status": 0
+      },
+      "taken_at": 1745583478,
+      "has_audio": true,
+      "video_url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQO4CPNo0leM1cxC4E_frVM2KXXhDIGyH4XobN9spt9mYppNUVr8ryUHbtw1zacDUE0z0TJSspLZK7qhynhfGEpqJ9z1sRG1eOp5UZ4.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=MVS-bsXTeGAQ7kNvwFVOoWE&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjM3ODE4MDIzNTkzMTcxNCwiYXNzZXRfYWdlX2RheXMiOjU2NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjExLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=9bb015ae80c025f8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wNzQ1RTA0OUM4Mjk3MjI5REQzNzVGRkFBQzQxODFCM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzkxNzY5ODc1MTg0Mjc0XzE5NTkyMDY0MDI2NDY0NjE0NTUubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJoTB5cKnvLkIFQIoAkMzLBdAJmLQ5WBBiRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSUG32zVyHEzX1jekW_32EzliGft8A1ZPavjayv61UXQw&oe=6AF7BF4F",
+      "created_at": "2025-04-25T12:17:58.000Z",
+      "like_count": 4167,
+      "media_type": 2,
+      "play_count": 195832,
+      "display_uri": "https://scontent-iad3-1.cdninstagram.com/v/t51.75761-15/491465022_18048616223367999_7044496646158937355_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=MzYxODUzNjE1OTAxODM3NTk2NjE4MDQ4NjE2MjIwMzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyOTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=172F24S7-1cQ7kNvwEPiulb&_nc_oc=Adr-hXNTbAWEvCW8aVWUpKGOg9GOtCSRflVkB490k1TbYPpeEcqbNLdhg2yL3vNIzS8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSSNH_RvAv3KOeyk-CO5tNnU-tI8XCtPbR8CN9pzwUOuA&oe=6AFBB9AC",
+      "product_type": "clips",
+      "comment_count": 45,
+      "ig_play_count": 195832,
+      "carousel_media": null,
+      "music_metadata": null,
+      "video_duration": 11.263,
+      "video_versions": [
+        {
+          "url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQO4CPNo0leM1cxC4E_frVM2KXXhDIGyH4XobN9spt9mYppNUVr8ryUHbtw1zacDUE0z0TJSspLZK7qhynhfGEpqJ9z1sRG1eOp5UZ4.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=MVS-bsXTeGAQ7kNvwFVOoWE&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjM3ODE4MDIzNTkzMTcxNCwiYXNzZXRfYWdlX2RheXMiOjU2NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjExLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=9bb015ae80c025f8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wNzQ1RTA0OUM4Mjk3MjI5REQzNzVGRkFBQzQxODFCM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzkxNzY5ODc1MTg0Mjc0XzE5NTkyMDY0MDI2NDY0NjE0NTUubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJoTB5cKnvLkIFQIoAkMzLBdAJmLQ5WBBiRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSUG32zVyHEzX1jekW_32EzliGft8A1ZPavjayv61UXQw&oe=6AF7BF4F",
+          "type": 101,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQO4CPNo0leM1cxC4E_frVM2KXXhDIGyH4XobN9spt9mYppNUVr8ryUHbtw1zacDUE0z0TJSspLZK7qhynhfGEpqJ9z1sRG1eOp5UZ4.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=MVS-bsXTeGAQ7kNvwFVOoWE&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjM3ODE4MDIzNTkzMTcxNCwiYXNzZXRfYWdlX2RheXMiOjU2NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjExLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=9bb015ae80c025f8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wNzQ1RTA0OUM4Mjk3MjI5REQzNzVGRkFBQzQxODFCM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzkxNzY5ODc1MTg0Mjc0XzE5NTkyMDY0MDI2NDY0NjE0NTUubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJoTB5cKnvLkIFQIoAkMzLBdAJmLQ5WBBiRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSUG32zVyHEzX1jekW_32EzliGft8A1ZPavjayv61UXQw&oe=6AF7BF4F",
+          "type": 102,
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "url": "https://scontent-iad6-1.cdninstagram.com/o1/v/t2/f2/m86/AQO4CPNo0leM1cxC4E_frVM2KXXhDIGyH4XobN9spt9mYppNUVr8ryUHbtw1zacDUE0z0TJSspLZK7qhynhfGEpqJ9z1sRG1eOp5UZ4.mp4?_nc_cat=110&_nc_sid=5e9851&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_ohc=MVS-bsXTeGAQ7kNvwFVOoWE&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjM3ODE4MDIzNTkzMTcxNCwiYXNzZXRfYWdlX2RheXMiOjU2NiwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjExLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=9bb015ae80c025f8&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8wNzQ1RTA0OUM4Mjk3MjI5REQzNzVGRkFBQzQxODFCM192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYR2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xMzkxNzY5ODc1MTg0Mjc0XzE5NTkyMDY0MDI2NDY0NjE0NTUubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJoTB5cKnvLkIFQIoAkMzLBdAJmLQ5WBBiRgSZGFzaF9iYXNlbGluZV8xX3YxEQB1_gdl5p0BAA&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSUG32zVyHEzX1jekW_32EzliGft8A1ZPavjayv61UXQw&oe=6AF7BF4F",
+          "type": 103,
+          "width": 720,
+          "height": 1280
+        }
+      ],
+      "image_versions2": {
+        "candidates": [
+          {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.75761-15/491465022_18048616223367999_7044496646158937355_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=MzYxODUzNjE1OTAxODM3NTk2NjE4MDQ4NjE2MjIwMzY3OTk5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyOTAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=172F24S7-1cQ7kNvwEPiulb&_nc_oc=Adr-hXNTbAWEvCW8aVWUpKGOg9GOtCSRflVkB490k1TbYPpeEcqbNLdhg2yL3vNIzS8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQSSNH_RvAv3KOeyk-CO5tNnU-tI8XCtPbR8CN9pzwUOuA&oe=6AFBB9AC",
+            "width": 480,
+            "height": 853
+          }
+        ],
+        "additional_candidates": {
+          "first_frame": {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/491449126_23939704908988298_5399275858761895005_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=UnOTkRsLaNUQ7kNvwEpnMsD&_nc_oc=AdrDcuYYDBPpIUki3jexrQzqOpRzSL587sCFCIjhcidixKZSMIdBf63bikOzUYkWTyI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTvfm2ZZ-AgYGsjBJMPql_oLEybRyebj7yPlT8Be2uAmQ&oe=6AFBBC3F",
+            "width": 480,
+            "height": 852
+          },
+          "igtv_first_frame": {
+            "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/491449126_23939704908988298_5399275858761895005_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fYWRkaXRpb25hbF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=UnOTkRsLaNUQ7kNvwEpnMsD&_nc_oc=AdrDcuYYDBPpIUki3jexrQzqOpRzSL587sCFCIjhcidixKZSMIdBf63bikOzUYkWTyI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_gid=r9jW08Xrxh1e8YK50pPkZw&_nc_ss=7239b&oh=00_AQTvfm2ZZ-AgYGsjBJMPql_oLEybRyebj7yPlT8Be2uAmQ&oe=6AFBBC3F",
+            "width": 480,
+            "height": 852
+          }
+        },
+        "scrubber_spritesheet_info_candidates": {
+          "default": {
+            "file_size_kb": 229,
+            "sprite_width": 1500,
+            "video_length": 11.237,
+            "sprite_height": 1246,
+            "rendered_width": 96,
+            "thumbnail_width": 100,
+            "thumbnail_height": 178,
+            "thumbnail_duration": 0.10701904761905,
+            "thumbnails_per_row": 15,
+            "max_thumbnails_per_sprite": 105,
+            "total_thumbnail_num_per_sprite": 105
+          }
+        }
+      },
+      "is_paid_partnership": false,
+      "carousel_media_count": null,
+      "video_sticker_locales": []
+    }
+  ],
+  "success": true,
+  "next_max_id": "sc:eyJ2ZXJzaW9uIjoxLCJoYW5kbGUiOiJzaGFuZWhzYXphbnphZGVoLmFiYmFzIiwidXNlcklkIjoiNDA5MzIzODM5OTgiLCJjdXJzb3IiOiJBUUhUYnA2VGZLZTcybm51ZVcwbEtKdlB6NXJOZzl5Z1FhOWltRmRJMXJOMG1BTjNxYnVCVXFINHpKUXB5VDBSZ3NZT0hScEVOSVdDR1Rlbmd0eE1ia2ZpX2cifQ",
+  "num_results": 12,
+  "more_available": true
+}

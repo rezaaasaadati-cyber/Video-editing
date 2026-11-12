@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>@shanehsazanzadeh.abbas Reels Index</title>
+<style>
+:root { --bg:#f6f7f9; --surface:#fff; --fg:#121826; --muted:#5b6474; --line:#e3e6ec; --accent:#1f4fd1; --chip:#e8eefc; --chip-fg:#163a9c;
+  --sans:system-ui,-apple-system,"Segoe UI",sans-serif; --mono:ui-monospace,Consolas,monospace; }
+@media (prefers-color-scheme: dark) { :root { --bg:#0d1119; --surface:#151b26; --fg:#e8ecf3; --muted:#9aa4b5; --line:#263041; --accent:#8fb0ff; --chip:#1d2a47; --chip-fg:#c7d6ff; color-scheme:dark; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.5 var(--sans); }
+main { max-width:1180px; margin:0 auto; padding:28px 16px 56px; display:grid; gap:20px; }
+header { display:grid; gap:6px; }
+.eyebrow { font:600 12px var(--mono); letter-spacing:.06em; text-transform:uppercase; color:var(--muted); }
+h1 { font-size:clamp(24px,4vw,34px); line-height:1.15; margin:0; }
+.sub { color:var(--muted); margin:0; max-width:70ch; }
+.stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; }
+.stat { background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:12px 14px; display:grid; gap:2px; }
+.stat b { font-size:22px; font-variant-numeric:tabular-nums; }
+.stat span { color:var(--muted); font-size:13px; }
+.bar { display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+#q { flex:1 1 280px; max-width:440px; min-height:44px; padding:8px 12px; font:inherit; color:var(--fg); background:var(--surface); border:1px solid var(--line); border-radius:8px; }
+#count { color:var(--muted); font-size:13px; }
+.wrap { background:var(--surface); border:1px solid var(--line); border-radius:12px; overflow-x:auto; }
+table { border-collapse:collapse; width:100%; }
+th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { font-size:12px; font-weight:600; color:var(--muted); white-space:nowrap; }
+th button { all:unset; cursor:pointer; padding:4px 0; }
+th button[aria-sort="ascending"]::after { content:" ↑"; }
+th button[aria-sort="descending"]::after { content:" ↓"; }
+.num { font-variant-numeric:tabular-nums; white-space:nowrap; }
+.c-about { min-width:320px; }
+.c-cover img { display:block; width:72px; height:128px; object-fit:cover; border-radius:6px; background:var(--line); }
+.r-title { font-weight:700; font-size:16px; line-height:1.35; }
+.r-covers { margin-top:4px; }
+.r-gain { color:var(--muted); font-size:13px; margin-top:6px; }
+.src { font:500 11px var(--mono); color:var(--muted); border:1px solid var(--line); border-radius:4px; padding:0 4px; vertical-align:2px; }
+.chips { display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
+.chip { font-size:12px; background:var(--chip); color:var(--chip-fg); border-radius:999px; padding:1px 8px; }
+.kw { font:600 13px var(--mono); background:var(--chip); color:var(--chip-fg); border:0; border-radius:6px; padding:6px 9px; min-height:32px; cursor:pointer; }
+.kw.copied::after { content:"  copied"; font-weight:500; }
+.free { color:var(--muted); font-size:12px; margin-top:4px; max-width:160px; }
+.none { color:var(--muted); font-size:13px; }
+.lbl { display:none; }
+a { color:var(--accent); }
+a:focus-visible, button:focus-visible, #q:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+footer { color:var(--muted); font-size:13px; max-width:70ch; }
+@media (max-width:720px) {
+  thead { display:none; } table, tbody { display:block; }
+  tbody tr { display:grid; grid-template-columns:72px minmax(0,1fr); column-gap:12px; row-gap:4px; padding:12px; border-bottom:1px solid var(--line); }
+  td { padding:0; border:0; min-width:0; } .c-cover { grid-row:1 / span 7; } .c-about { min-width:0; }
+  .c-date { color:var(--muted); font-size:13px; }
+  .c-views, .c-likes, .c-comments { font-size:13px; color:var(--muted); } .lbl { display:inline; } .c-len { display:none; }
+  td:not(.c-cover) { grid-column:2; }
+}
+</style></head><body><main>
+<header>
+  <span class="eyebrow">Instagram · @shanehsazanzadeh.abbas</span>
+  <h1>Every @shanehsazanzadeh.abbas reel from 23 Nov 2025 to 9 Nov 2026</h1>
+  <p class="sub">13 reels. Each row has the title, what the reel covers, what you get, the tools it names and the word to comment for the free resource. Click a keyword to copy it.</p>
+</header>
+<section class="stats" aria-label="Totals">
+  <div class="stat"><b>13</b><span>reels</span></div>
+  <div class="stat"><b>6</b><span>with a comment keyword</span></div>
+  <div class="stat"><b>21,361</b><span>total views</span></div>
+  <div class="stat"><b>1,643</b><span>average views per reel</span></div>
+</section>
+<div class="bar">
+  <input type="search" id="q" placeholder="Search a tool, topic or keyword" aria-label="Search reels">
+  <span id="count" aria-live="polite">13 reels shown</span>
+</div>
+<div class="wrap"><table id="t"><thead><tr>
+<th>Cover</th><th><button type="button" aria-sort="descending">Date</button></th><th><button type="button">Keyword</button></th>
+<th><button type="button">Title · what it covers</button></th><th><button type="button" data-n>Views</button></th>
+<th><button type="button" data-n>Likes</button></th><th><button type="button" data-n>Comments</button></th>
+<th><button type="button" data-n>Length</button></th><th>Reel</th>
+</tr></thead><tbody>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/Dfh5iApBkUv/" target="_blank" rel="noopener"><img src="thumbs/Dfh5iApBkUv.jpg" alt="Cover of the reel from 2026-11-09" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2026-11-09">2026-11-09</td>
+<td class="c-kw" data-v="مذاکره"><button type="button" class="kw" data-kw="مذاکره" aria-label="Copy keyword مذاکره">مذاکره</button><div class="free">اطلاعات دوره «مذاکره‌کننده حرفه‌ای»</div></td>
+<td class="c-about" data-v="برو توی یک اتاق تاریک؛ اتفاقات جالبی میفته"><div class="r-title">برو توی یک اتاق تاریک؛ اتفاقات جالبی میفته</div><div class="r-covers">تکنیک «اتاق تاریک»: تمرین ذهنی گفت‌وگو با طرف مذاکره پیش از جلسه</div><div class="r-gain"><b>You get:</b> روشی برای آماده شدن پیش از مذاکره: پیش‌بینی اعتراض‌های طرف مقابل و پیدا کردن پاسخ برای هر کدام</div></td>
+<td class="c-views num" data-v="1939"><span class="lbl">Views </span>1,939</td>
+<td class="c-likes num" data-v="114"><span class="lbl">Likes </span>114</td>
+<td class="c-comments num" data-v="12"><span class="lbl">Comments </span>12</td>
+<td class="c-len num" data-v="89">89s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/Dfh5iApBkUv/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/DfSWczpppUC/" target="_blank" rel="noopener"><img src="thumbs/DfSWczpppUC.jpg" alt="Cover of the reel from 2026-11-03" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2026-11-03">2026-11-03</td>
+<td class="c-kw" data-v="بازار"><button type="button" class="kw" data-kw="بازار" aria-label="Copy keyword بازار">بازار</button><div class="free">اطلاعات دوره «حکمرانی بر بازار»</div></td>
+<td class="c-about" data-v="هدف‌گذاری چیه؟ اون چیزی نیست که همیشه فکر می‌کردی"><div class="r-title">هدف‌گذاری چیه؟ اون چیزی نیست که همیشه فکر می‌کردی</div><div class="r-covers">فرق هدف‌گذاری و برنامه‌ریزی؛ هدف باید شفاف و دور از دسترس اما دست‌یافتنی باشد</div><div class="r-gain"><b>You get:</b> معیارهای نوشتن یک هدف درست و تشخیص هدف از برنامه</div></td>
+<td class="c-views num" data-v="2267"><span class="lbl">Views </span>2,267</td>
+<td class="c-likes num" data-v="121"><span class="lbl">Likes </span>121</td>
+<td class="c-comments num" data-v="17"><span class="lbl">Comments </span>17</td>
+<td class="c-len num" data-v="112">112s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/DfSWczpppUC/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/DfKl0LZBO0l/" target="_blank" rel="noopener"><img src="thumbs/DfKl0LZBO0l.jpg" alt="Cover of the reel from 2026-10-31" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2026-10-31">2026-10-31</td>
+<td class="c-kw" data-v="مذاکره"><button type="button" class="kw" data-kw="مذاکره" aria-label="Copy keyword مذاکره">مذاکره</button><div class="free">اطلاعات دوره «مذاکره‌کننده حرفه‌ای»</div></td>
+<td class="c-about" data-v="مذاکره بلد نیستی! واسه همین فروشت پایینه"><div class="r-title">مذاکره بلد نیستی! واسه همین فروشت پایینه</div><div class="r-covers">تفاوت فروشنده و مذاکره‌کننده: نیازسنجی و پیدا کردن نقطهٔ مشترک با مشتری</div><div class="r-gain"><b>You get:</b> دید تازه برای فروش بیشتر: به جای توضیح ویژگی‌ها، نیاز مشتری را بسنج</div></td>
+<td class="c-views num" data-v="2229"><span class="lbl">Views </span>2,229</td>
+<td class="c-likes num" data-v="101"><span class="lbl">Likes </span>101</td>
+<td class="c-comments num" data-v="19"><span class="lbl">Comments </span>19</td>
+<td class="c-len num" data-v="89">89s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/DfKl0LZBO0l/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/DfAYV97xFQT/" target="_blank" rel="noopener"><img src="thumbs/DfAYV97xFQT.jpg" alt="Cover of the reel from 2026-10-27" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2026-10-27">2026-10-27</td>
+<td class="c-kw" data-v="بازار"><button type="button" class="kw" data-kw="بازار" aria-label="Copy keyword بازار">بازار</button><div class="free">اطلاعات دوره «حکمرانی بر بازار»</div></td>
+<td class="c-about" data-v="بدبختی پشت بدبختی؟ راس‌ات رو یاد بگیر"><div class="r-title">بدبختی پشت بدبختی؟ راس‌ات رو یاد بگیر</div><div class="r-covers">سیستم فعال‌ساز مشبک مغز (RAS) چطور توجه را فیلتر و بزرگ می‌کند</div><div class="r-gain"><b>You get:</b> تمرین ساده: هر شب اهداف و اتفاقات خوب فردا را تصور کن و بنویس</div></td>
+<td class="c-views num" data-v="1221"><span class="lbl">Views </span>1,221</td>
+<td class="c-likes num" data-v="108"><span class="lbl">Likes </span>108</td>
+<td class="c-comments num" data-v="16"><span class="lbl">Comments </span>16</td>
+<td class="c-len num" data-v="101">101s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/DfAYV97xFQT/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/De7GfmloGc0/" target="_blank" rel="noopener"><img src="thumbs/De7GfmloGc0.jpg" alt="Cover of the reel from 2026-10-25" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2026-10-25">2026-10-25</td>
+<td class="c-kw" data-v="هدف"><button type="button" class="kw" data-kw="هدف" aria-label="Copy keyword هدف">هدف</button><div class="free">اطلاعات کلاس «روانشناسی هدف»</div></td>
+<td class="c-about" data-v="STOMP? مدل ذهنی‌ای که باید یاد بگیری"><div class="r-title">STOMP? مدل ذهنی‌ای که باید یاد بگیری</div><div class="r-covers">مدل هدف‌گذاری STOMP: مشخص، زمان‌دار، دور از دسترس ولی دست‌یافتنی، قابل سنجش، شخصی</div><div class="r-gain"><b>You get:</b> یک چک‌لیست پنج‌مرحله‌ای برای نوشتن و سنجیدن هدف‌ها</div></td>
+<td class="c-views num" data-v="2490"><span class="lbl">Views </span>2,490</td>
+<td class="c-likes num" data-v="116"><span class="lbl">Likes </span>116</td>
+<td class="c-comments num" data-v="46"><span class="lbl">Comments </span>46</td>
+<td class="c-len num" data-v="78">78s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/De7GfmloGc0/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/DePa7ilB0bY/" target="_blank" rel="noopener"><img src="thumbs/DePa7ilB0bY.jpg" alt="Cover of the reel from 2026-10-08" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2026-10-08">2026-10-08</td>
+<td class="c-kw" data-v="کوچینگ"><button type="button" class="kw" data-kw="کوچینگ" aria-label="Copy keyword کوچینگ">کوچینگ</button><div class="free">اطلاعات دوره «لایف کوچینگ»</div></td>
+<td class="c-about" data-v="تو به فکرت تبدیل میشی! (دوره لایف کوچینگ)"><div class="r-title">تو به فکرت تبدیل میشی! (دوره لایف کوچینگ)</div><div class="r-covers">بخش غریزی ذهن با ترس و آشوب جلوی تغییر را می‌گیرد؛ باید مدل فکری را عوض کرد</div><div class="r-gain"><b>You get:</b> پیام انگیزشی؛ ابزار یا روش مشخصی ندارد</div></td>
+<td class="c-views num" data-v="1644"><span class="lbl">Views </span>1,644</td>
+<td class="c-likes num" data-v="125"><span class="lbl">Likes </span>125</td>
+<td class="c-comments num" data-v="29"><span class="lbl">Comments </span>29</td>
+<td class="c-len num" data-v="60">60s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/DePa7ilB0bY/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/DeM4ETDiPoB/" target="_blank" rel="noopener"><img src="thumbs/DeM4ETDiPoB.jpg" alt="Cover of the reel from 2026-10-07" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2026-10-07">2026-10-07</td>
+<td class="c-kw" data-v=""><span class="none">No keyword</span></td>
+<td class="c-about" data-v="شروع نکردن هم هزینه داره!"><div class="r-title">شروع نکردن هم هزینه داره!</div><div class="r-covers">پست تصویری: عقب انداختن شروع هم هزینه دارد، حتی اگر فاکتورش دیده نشود</div><div class="r-gain"><b>You get:</b> پیام انگیزشی؛ ابزار یا روش مشخصی ندارد</div></td>
+<td class="c-views num" data-v="0"><span class="lbl">Views </span>0</td>
+<td class="c-likes num" data-v="72"><span class="lbl">Likes </span>72</td>
+<td class="c-comments num" data-v="7"><span class="lbl">Comments </span>7</td>
+<td class="c-len num" data-v="0">0s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/DeM4ETDiPoB/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/DeFE_S3J9gF/" target="_blank" rel="noopener"><img src="thumbs/DeFE_S3J9gF.jpg" alt="Cover of the reel from 2026-10-04" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2026-10-04">2026-10-04</td>
+<td class="c-kw" data-v=""><span class="none">No keyword</span></td>
+<td class="c-about" data-v="مسیرت غلطه! مسیر سخت‌تر رو جدی بگیر"><div class="r-title">مسیرت غلطه! مسیر سخت‌تر رو جدی بگیر</div><div class="r-covers">کاری که راحت انجام می‌دهی رشدی نمی‌آورد؛ رشد در مسیر سخت است</div><div class="r-gain"><b>You get:</b> پیام انگیزشی؛ ابزار یا روش مشخصی ندارد</div></td>
+<td class="c-views num" data-v="2571"><span class="lbl">Views </span>2,571</td>
+<td class="c-likes num" data-v="157"><span class="lbl">Likes </span>157</td>
+<td class="c-comments num" data-v="37"><span class="lbl">Comments </span>37</td>
+<td class="c-len num" data-v="37">37s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/DeFE_S3J9gF/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/DXDCR7LjEaz/" target="_blank" rel="noopener"><img src="thumbs/DXDCR7LjEaz.jpg" alt="Cover of the reel from 2026-04-12" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2026-04-12">2026-04-12</td>
+<td class="c-kw" data-v=""><span class="none">No keyword</span></td>
+<td class="c-about" data-v="پیروزی، سهم ایستادگی‌ست"><div class="r-title">پیروزی، سهم ایستادگی‌ست</div><div class="r-covers">پست میهنی با پرچم ایران؛ بدون متن آموزشی</div><div class="r-gain"><b>You get:</b> پیام انگیزشی؛ ابزار یا روش مشخصی ندارد</div></td>
+<td class="c-views num" data-v="521"><span class="lbl">Views </span>521</td>
+<td class="c-likes num" data-v="20"><span class="lbl">Likes </span>20</td>
+<td class="c-comments num" data-v="1"><span class="lbl">Comments </span>1</td>
+<td class="c-len num" data-v="4">4s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/DXDCR7LjEaz/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/DRm3Sjnkakd/" target="_blank" rel="noopener"><img src="thumbs/DRm3Sjnkakd.jpg" alt="Cover of the reel from 2025-11-28" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2025-11-28">2025-11-28</td>
+<td class="c-kw" data-v=""><span class="none">No keyword</span></td>
+<td class="c-about" data-v="نزن زیر هدفت"><div class="r-title">نزن زیر هدفت</div><div class="r-covers">بی‌صبری و زدن زیر صبر یعنی زدن زیر هدف</div><div class="r-gain"><b>You get:</b> پیام انگیزشی؛ ابزار یا روش مشخصی ندارد</div></td>
+<td class="c-views num" data-v="2006"><span class="lbl">Views </span>2,006</td>
+<td class="c-likes num" data-v="68"><span class="lbl">Likes </span>68</td>
+<td class="c-comments num" data-v="4"><span class="lbl">Comments </span>4</td>
+<td class="c-len num" data-v="9">9s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/DRm3Sjnkakd/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/DRfGYc3jNcP/" target="_blank" rel="noopener"><img src="thumbs/DRfGYc3jNcP.jpg" alt="Cover of the reel from 2025-11-25" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2025-11-25">2025-11-25</td>
+<td class="c-kw" data-v=""><span class="none">No keyword</span></td>
+<td class="c-about" data-v="تفاوت صبوری و تحمل"><div class="r-title">تفاوت صبوری و تحمل</div><div class="r-covers">صبوری از قدرت می‌آید و تحمل از ترس؛ تحمل به انفجار یا آسیب به خود می‌رسد</div><div class="r-gain"><b>You get:</b> معیاری برای تشخیص اینکه صبوری می‌کنی یا فقط تحمل</div></td>
+<td class="c-views num" data-v="1318"><span class="lbl">Views </span>1,318</td>
+<td class="c-likes num" data-v="93"><span class="lbl">Likes </span>93</td>
+<td class="c-comments num" data-v="5"><span class="lbl">Comments </span>5</td>
+<td class="c-len num" data-v="19">19s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/DRfGYc3jNcP/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/DRdDNZPkVvE/" target="_blank" rel="noopener"><img src="thumbs/DRdDNZPkVvE.jpg" alt="Cover of the reel from 2025-11-24" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2025-11-24">2025-11-24</td>
+<td class="c-kw" data-v=""><span class="none">No keyword</span></td>
+<td class="c-about" data-v="روش بازی آدم لجباز"><div class="r-title">روش بازی آدم لجباز</div><div class="r-covers">لجبازی دو پیامد دارد: کنار کشیدن با برچسب شکست، یا تکرار بی‌نتیجهٔ همان کار</div><div class="r-gain"><b>You get:</b> شناختن الگوی لجبازی و ضررهایش در رسیدن به هدف</div></td>
+<td class="c-views num" data-v="1575"><span class="lbl">Views </span>1,575</td>
+<td class="c-likes num" data-v="74"><span class="lbl">Likes </span>74</td>
+<td class="c-comments num" data-v="10"><span class="lbl">Comments </span>10</td>
+<td class="c-len num" data-v="13">13s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/DRdDNZPkVvE/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+<tr>
+<td class="c-cover"><a href="https://www.instagram.com/reel/DRZx3cZjKEH/" target="_blank" rel="noopener"><img src="thumbs/DRZx3cZjKEH.jpg" alt="Cover of the reel from 2025-11-23" loading="lazy" width="72" height="128"></a></td>
+<td class="c-date num" data-v="2025-11-23">2025-11-23</td>
+<td class="c-kw" data-v=""><span class="none">No keyword</span></td>
+<td class="c-about" data-v="چشم‌ها و گوش‌هاتون گولتون میزنه"><div class="r-title">چشم‌ها و گوش‌هاتون گولتون میزنه</div><div class="r-covers">ظاهر فریب می‌دهد؛ اگر به لذت بردن از الان عادت نکنی، در مقصد هم لذت نمی‌بری</div><div class="r-gain"><b>You get:</b> پیام انگیزشی؛ ابزار یا روش مشخصی ندارد</div></td>
+<td class="c-views num" data-v="1580"><span class="lbl">Views </span>1,580</td>
+<td class="c-likes num" data-v="104"><span class="lbl">Likes </span>104</td>
+<td class="c-comments num" data-v="23"><span class="lbl">Comments </span>23</td>
+<td class="c-len num" data-v="16">16s</td>
+<td class="c-link"><a href="https://www.instagram.com/reel/DRZx3cZjKEH/" target="_blank" rel="noopener">Watch</a></td>
+</tr>
+</tbody></table></div>
+<footer>Unofficial index of public posts, not made or endorsed by @shanehsazanzadeh.abbas. Data pulled on 12 Nov 2026; view and like counts were correct on that day.</footer>
+</main>
+<script>
+const tb = document.querySelector('#t tbody'), count = document.getElementById('count');
+document.getElementById('q').addEventListener('input', ev => {
+  const q = ev.target.value.trim().toLowerCase(); let n = 0;
+  for (const tr of tb.rows) { const hit = !q || tr.textContent.toLowerCase().includes(q); tr.hidden = !hit; if (hit) n++; }
+  count.textContent = n + (n === 1 ? ' reel shown' : ' reels shown');
+});
+const heads = [...document.querySelectorAll('th button')];
+heads.forEach(b => b.addEventListener('click', () => {
+  const i = b.closest('th').cellIndex, asc = b.getAttribute('aria-sort') === 'descending';
+  heads.forEach(h => h.removeAttribute('aria-sort')); b.setAttribute('aria-sort', asc ? 'ascending' : 'descending');
+  const num = b.hasAttribute('data-n');
+  tb.append(...[...tb.rows].sort((x, y) => { const p = x.cells[i].dataset.v, q = y.cells[i].dataset.v; const r = num ? p - q : p.localeCompare(q); return asc ? r : -r; }));
+}));
+tb.addEventListener('click', ev => {
+  const k = ev.target.closest('.kw'); if (!k) return;
+  navigator.clipboard.writeText(k.dataset.kw).then(() => { k.classList.add('copied'); setTimeout(() => k.classList.remove('copied'), 1400); });
+});
+</script>
+</body></html>

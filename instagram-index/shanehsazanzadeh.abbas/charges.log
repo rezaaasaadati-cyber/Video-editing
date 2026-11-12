@@ -1,0 +1,14 @@
+{"endpoint": "/v2/instagram/user/posts", "input": {"handle": "shanehsazanzadeh.abbas", "trim": true}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.00188 (rule)"}
+{"endpoint": "/v2/instagram/user/posts", "input": {"handle": "shanehsazanzadeh.abbas", "trim": true, "next_max_id": "sc:eyJ2ZXJzaW9uIjoxLCJoYW5kbGUiOiJzaGFuZWhzYXphbnphZGVoLmFiYmFzIiwidXNlcklkIjoiNDA5MzIzODM5OTgiLCJjdXJzb3IiOiJBUUhUdXBjRzQ3OElHYm5RZTI3aEZQTjNXNnN2VkpNenVWTVg3T0I2aTEwWm5rbVNaU0hybGxIbUFRZEVHNmNjOWhYc18wWmtQWXA2eW1KbzhXYjZLWmh2V3cifQ"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.00188 (rule)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/Dfh5iApBkUv"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.002068 (rule)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/DfSWczpppUC"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.002068 (rule)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/DfKl0LZBO0l"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.002068 (rule)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/DfAYV97xFQT"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.002068 (rule)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/De7GfmloGc0"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.002068 (rule)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/DePa7ilB0bY"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.002068 (rule)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/DeFE_S3J9gF"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.002068 (rule)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/DXDCR7LjEaz"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.00188 (NO_RESULT)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/DRm3Sjnkakd"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.002068 (rule)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/DRfGYc3jNcP"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.002068 (rule)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/DRdDNZPkVvE"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.002068 (rule)"}
+{"endpoint": "/v2/instagram/media/transcript", "input": {"url": "https://www.instagram.com/reel/DRZx3cZjKEH"}, "exit": 0, "Status": "COMPLETED", "Charge": "$0.002068 (rule)"}
