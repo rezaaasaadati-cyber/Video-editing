@@ -251,7 +251,7 @@ def frame_end(f):
     if f >= 20:
         p = ease_out(min(1, (f - 20) / 8))
         draw_center(d, "سیو کن", font("Black", int(110 * (0.85 + 0.15 * p))), 1145, YELLOW)
-        bar_text(img, "برای شب‌های بلند یلدا", font("ExtraBold", 54), 1290, RED)
+        bar_text(img, "که بعداً گمش نکنی", font("ExtraBold", 54), 1290, RED)
         d = ImageDraw.Draw(img)
         draw_center(d, "کدومش رو دیدی؟", font("Bold", 46), 1400, WHITE)
     return img
