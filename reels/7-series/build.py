@@ -1,4 +1,4 @@
-"""Render the "MBA nakhoon / 7 series" reel (1080x1920, 30fps, silent), v4.
+"""Render the "MBA nakhoon / 7 series" reel (1080x1920, 30fps), v5. Audio from music.py.
 
 v3 look: kinetic typography on alternating flat navy / cream backgrounds, SAZAN brand
 colours, blur-in words, a rolling counter, a "save" button that gets tapped, logo outro.
@@ -44,8 +44,8 @@ FA_DIGITS = "۰۱۲۳۴۵۶۷۸۹"
 
 BEAT = 12              # hook word length in frames (0.4s)
 HOOK_F = BEAT * 4      # 1.6s
-EACH_F = 42            # 1.4s per series
-SAVE_F = 54            # 1.8s grid + save tap
+EACH_F = 48            # 1.6s per series = one bar at 150 BPM
+SAVE_F = 48            # 1.6s grid + save tap (tap on beat 4)
 OUTRO_F = 60           # 2.0s logo
 TOTAL = HOOK_F + EACH_F * len(SERIES) + SAVE_F + OUTRO_F
 
@@ -379,18 +379,6 @@ LOGO_CY = 860
 L_HANDLE = text_layer(HANDLE, rubik(46, "Medium"), CREAM, rtl=False)
 
 
-def glow(radius, colour, alpha):
-    size = int(radius * 2.6)
-    g = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-    ImageDraw.Draw(g).ellipse((size / 2 - radius, size / 2 - radius, size / 2 + radius, size / 2 + radius),
-                              fill=colour + (int(255 * alpha),))
-    return g.filter(ImageFilter.GaussianBlur(radius * 0.45))
-
-
-GLOW_C = glow(300, CYAN, 0.35)
-GLOW_O = glow(240, ORANGE, 0.30)
-
-
 def frame_outro(f):
     img = solid(NAVY)
     s = LOGO_S
@@ -399,10 +387,6 @@ def frame_outro(f):
     mark_final_x = left + MARK_W * s / 2
     word_final_x = left + (WORD_X + WORD.width / 2) * s
 
-    # 1. soft brand-coloured glows breathe in behind the mark
-    g = ease_out(f / 16)
-    place(img, GLOW_C, W / 2 - 120, LOGO_CY - 40, 0.5 + 0.6 * g, alpha=g)
-    place(img, GLOW_O, W / 2 + 160, LOGO_CY + 60, 0.5 + 0.6 * g, alpha=g)
 
     # 2. the S mark spins in at the centre with an overshoot
     pop = ease_back(f / 12, 1.8)
@@ -418,6 +402,11 @@ def frame_outro(f):
         word = WORD.resize((int(WORD.width * s), int(WORD.height * s)), Image.LANCZOS)
         m = Image.new("L", word.size, 0)
         ImageDraw.Draw(m).rectangle((0, 0, int(word.width * r), word.height), fill=255)
+        # never let the wordmark show through the gaps of the S mark
+        wx = word_final_x - 40 * (1 - r) - word.width / 2
+        hide = int(mx + MARK_W * mscale / 2 + 6 - wx)
+        if hide > 0:
+            ImageDraw.Draw(m).rectangle((0, 0, hide, word.height), fill=0)
         word.putalpha(Image.fromarray(np.minimum(np.array(word.getchannel("A")), np.array(m))))
         place(img, word, word_final_x - 40 * (1 - r), LOGO_CY, 1.0, blur=10 * (1 - r))
 
@@ -466,8 +455,9 @@ def render_frame(n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--safe", action="store_true")
-    ap.add_argument("--out", default=str(ROOT / "renders" / "7-series-v4.mp4"))
+    ap.add_argument("--out", default=str(ROOT / "renders" / "7-series-v5.mp4"))
     ap.add_argument("--stills")
+    ap.add_argument("--audio", default=str(A / "music.wav"), help="wav to lay under the video; 'none' for silent")
     a = ap.parse_args()
 
     if a.stills:
@@ -483,11 +473,11 @@ def main():
     Path(a.out).parent.mkdir(parents=True, exist_ok=True)
     cmd = ["ffmpeg", "-y", "-loglevel", "error",
            "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-           "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo",
+           *(["-i", a.audio] if a.audio != "none" else ["-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo"]),
            "-map", "0:v", "-map", "1:a", "-shortest",
            "-c:v", "libx264", "-preset", "slow", "-crf", "17", "-pix_fmt", "yuv420p",
            "-profile:v", "high", "-movflags", "+faststart",
-           "-c:a", "aac", "-b:a", "128k", a.out]
+           "-c:a", "aac", "-b:a", "192k", a.out]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     for n in range(TOTAL):
         im = render_frame(n)
