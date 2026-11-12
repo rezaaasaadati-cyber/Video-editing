@@ -1,7 +1,6 @@
 """Reel cover (1080x1920), v2, matched to the page's current covers:
 - dark background, olive glow from the left, big blurred stock-board digits top right
-- a symbolic object top left behind the people (here: a film strip with three series stills)
-- cut-out people large in the frame, heads in the upper half, bodies running off the bottom
+- one cut-out hero, large, head in the upper half, body running off the bottom
 - off-white title: Persian in Aref Ruqaa (closest free match to the covers' calligraphic
   title face), Latin in DM Serif Display (matches "STOMP?")
 - slanted orange-to-red bar with the subtitle in Estedad Bold
@@ -112,8 +111,9 @@ def slanted_bar(img, s, cy, angle=5.0):
     left, right = np.array([250, 105, 15], np.float32), np.array([205, 22, 38], np.float32)
     grad = (left * (1 - t) + right * t).repeat(bh, axis=0)
     bar = Image.fromarray(grad.astype(np.uint8)).convert("RGBA")
-    txt, _ = text_layer(s, fnt("Estedad-Bold.ttf", 54), (255, 255, 255))
-    bar.alpha_composite(txt, (int(bw / 2 - txt.width / 2 + 40), int(bh / 2 - txt.height / 2 + 4)))
+    if s:
+        txt, _ = text_layer(s, fnt("Estedad-Bold.ttf", 54), (255, 255, 255))
+        bar.alpha_composite(txt, (int(bw / 2 - txt.width / 2 + 40), int(bh / 2 - txt.height / 2 + 4)))
     bar = bar.rotate(angle, resample=Image.BICUBIC, expand=True)
     shadow_paste(img, bar, W / 2 - bar.width / 2, cy - bar.height / 2, blur=20, alpha=0.5, off=(0, 14))
 
@@ -125,36 +125,20 @@ def bottom_fade(img, start):
     img.alpha_composite(layer)
 
 
-def main(out):
+def main(out, with_text=False):
     img = background()
 
-    # object: film strip with stills from three other series, tilted, running off the top-left
-    H_ = A / "hires"
-    strip = film_strip([
-        (H_ / "389_973816.jpg", (2100, 0, 3700, 1150)),     # Billions
-        (H_ / "396_990282.jpg", (1950, 0, 3450, 1050)),     # Mad Men
-        (H_ / "219_547612.jpg", (500, 150, 1450, 800)),     # Suits
-    ])
-    strip = strip.rotate(-28, resample=Image.BICUBIC, expand=True)
-    shadow_paste(img, strip, -170, -160, blur=30, alpha=0.7)
+    # one hero: the front figure of the Succession group art, cut out on his own
+    hero = Image.open(A / "characters" / "succession_front_cut.png")
+    sc = 1.15
+    hero = hero.resize((int(hero.width * sc), int(hero.height * sc)), Image.LANCZOS)
+    shadow_paste(img, hero, 600 - hero.width / 2, 380, blur=40, alpha=0.8, off=(0, 0))
 
-    # people: Succession group cut-out, large, heads in the upper half, bleeding off the bottom/right
-    people = Image.open(A / "characters" / "succession_group_cut.png")
-    s = 1.0
-    people = people.resize((int(people.width * s), int(people.height * s)), Image.LANCZOS)
-    # keep the eye on the front figure: darken the people layer away from him
-    px, py = -60, H - people.height + 40
-    yy, xx = np.mgrid[0:people.height, 0:people.width].astype(np.float32)
-    dist = np.sqrt(((xx + px - 420) / 1.0) ** 2 + ((yy + py - 650) / 1.6) ** 2)
-    k = np.clip(1.0 - (dist - 200) / 330, 0.4, 1.0)[..., None]
-    rgb = np.array(people.convert("RGB")).astype(np.float32) * k
-    lit = Image.fromarray(rgb.astype(np.uint8)).convert("RGBA")
-    lit.putalpha(people.getchannel("A"))
-    shadow_paste(img, lit, px, py, blur=40, alpha=0.8, off=(0, 0))
-
-    bottom_fade(img, 1350)
-    title(img, 1440)
-    slanted_bar(img, "به جاش این ۷ سریال رو ببین.", 1590)
+    bottom_fade(img, 1450)
+    if with_text:
+        title(img, 1440)
+    # the slanted bar is kept as an empty frame, ready for text to be added in the app
+    slanted_bar(img, "به جاش این ۷ سریال رو ببین." if with_text else "", 1590)
 
     img.convert("RGB").save(out, quality=95, subsampling=0)
     print(f"wrote {out}")
