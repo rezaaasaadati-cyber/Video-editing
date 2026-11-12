@@ -1,4 +1,4 @@
-"""Render the "MBA nakhoon / 7 series" reel (1080x1920, 30fps, silent), v3.
+"""Render the "MBA nakhoon / 7 series" reel (1080x1920, 30fps, silent), v4.
 
 v3 look: kinetic typography on alternating flat navy / cream backgrounds, SAZAN brand
 colours, blur-in words, a rolling counter, a "save" button that gets tapped, logo outro.
@@ -6,8 +6,7 @@ colours, blur-in words, a rolling counter, a "save" button that gets tapped, log
 Frames are drawn with Pillow (raqm for Persian shaping) and piped into ffmpeg.
 Usage: python3 build.py [--safe] [--out renders/7-series-v3.mp4] [--stills 0,10,60]
 
-Fonts (all OFL): Rubik (main Persian/Latin), Reem Kufi (display numbers, accent),
-Noto Nastaliq Urdu (one calligraphic word), Anton (English series titles).
+One font throughout: Rubik (OFL), in Black / Bold / Medium weights.
 """
 import argparse
 import math
@@ -47,7 +46,7 @@ BEAT = 12              # hook word length in frames (0.4s)
 HOOK_F = BEAT * 4      # 1.6s
 EACH_F = 42            # 1.4s per series
 SAVE_F = 54            # 1.8s grid + save tap
-OUTRO_F = 36           # 1.2s logo
+OUTRO_F = 60           # 2.0s logo
 TOTAL = HOOK_F + EACH_F * len(SERIES) + SAVE_F + OUTRO_F
 
 # ---------- fonts ----------
@@ -66,18 +65,6 @@ def font(name, size, var=None):
 
 def rubik(size, w="Black"):
     return font("Rubik[wght].ttf", size, w)
-
-
-def kufi(size):
-    return font("ReemKufi[wght].ttf", size, "Bold")
-
-
-def nastaliq(size):
-    return font("NotoNastaliqUrdu[wght].ttf", size, "Bold")
-
-
-def anton(size):
-    return font("Anton-Regular.ttf", size)
 
 
 # ---------- easing ----------
@@ -202,11 +189,11 @@ LOGO = Image.open(A / "sazan-logo.png").convert("RGBA")
 
 # ---------- hook: four words, four beats, alternating backgrounds ----------
 HOOK = [
-    (CREAM, [(text_layer("MBA", anton(380), NAVY, rtl=False), 0, 860)]),
+    (CREAM, [(text_layer("MBA", rubik(300), NAVY, rtl=False), 0, 860)]),
     (NAVY, [(text_layer("نخون.", rubik(300), ORANGE), 0, 860)]),
     (CREAM, [(text_layer("به جاش این", rubik(84, "Bold"), NAVY), 0, 690),
-             (text_layer("۷ سریال", kufi(270), CYAN), 2, 900)]),
-    (NAVY, [(text_layer("رو ببین", nastaliq(230), CREAM), 0, 860)]),
+             (text_layer("۷ سریال", rubik(250), CYAN), 2, 900)]),
+    (NAVY, [(text_layer("رو ببین", rubik(250), CREAM), 0, 860)]),
 ]
 
 
@@ -222,7 +209,7 @@ def frame_hook(f):
             blur_in(img, layer, W / 2, cy, local, start=delay, dur=6)
     if k == 1:
         # strike-through of the word before, small, as a reminder above
-        mba = text_layer("MBA", anton(150), (CREAM[0], CREAM[1], CREAM[2], 120), rtl=False)
+        mba = text_layer("MBA", rubik(130), (CREAM[0], CREAM[1], CREAM[2], 120), rtl=False)
         place(img, mba, W / 2, 600, alpha=0.6)
         d = ImageDraw.Draw(img)
         p = ease_out((local - 2) / 5)
@@ -242,7 +229,7 @@ def text_on(bg):
 
 def counter(img, i, f, colour):
     """Rolling digit (slot-machine roll from the previous number) + static /7."""
-    big = kufi(170)
+    big = rubik(170)
     roll = ease_in_out(f / 8)
     win_h = 190
     col = Image.new("RGBA", (180, win_h * 2), (0, 0, 0, 0))
@@ -254,7 +241,7 @@ def counter(img, i, f, colour):
     y = int(win_h * (1 - roll))
     window = col.crop((0, y, 180, y + win_h))
     img.alpha_composite(window, (int(W / 2 - 60 - 90), 285 - win_h // 2))
-    of = text_layer("/" + fa_num(len(SERIES)), kufi(70), colour[:3] + (150,) if len(colour) == 3 else colour,
+    of = text_layer("/" + fa_num(len(SERIES)), rubik(64), colour[:3] + (150,) if len(colour) == 3 else colour,
                     rtl=False)
     place(img, of, W / 2 + 70, 300)
 
@@ -278,7 +265,7 @@ def frame_series(i, f):
     # lesson as a highlighted pill, words blur in
     pill = pill_layer(L_LESSON[i], rubik(50, "Bold"), accent, NAVY if accent == CYAN else NAVY)
     blur_in(img, pill, W / 2, 1222, f, start=3, dur=6)
-    en = text_layer(SERIES[i][1], anton(84), fg, rtl=False)
+    en = text_layer(SERIES[i][1], rubik(68), fg, rtl=False)
     blur_in(img, en, W / 2, 1330, f, start=5, dur=6)
     fa = text_layer(L_FA[i], rubik(42, "Medium"), fg)
     blur_in(img, fa, W / 2, 1410, f, start=7, dur=6)
@@ -373,19 +360,93 @@ def frame_save(f):
 
 
 # ---------- outro ----------
-L_HANDLE = text_layer(HANDLE, rubik(48, "Medium"), NAVY, rtl=False)
+def logo_for_dark(logo):
+    """Recolour the grey tagline to cream so it reads on the dark background."""
+    arr = np.array(logo).astype(int)
+    rgb = arr[:, :, :3]
+    sat = rgb.max(axis=2) - rgb.min(axis=2)
+    grey = (sat < 40) & (arr[:, :, 3] > 0)
+    arr[grey, 0], arr[grey, 1], arr[grey, 2] = CREAM
+    return Image.fromarray(arr.astype(np.uint8), "RGBA")
+
+
+LOGO_D = logo_for_dark(LOGO)
+MARK_W, WORD_X = 383, 428          # alpha gap between the S mark and the wordmark
+MARK = LOGO_D.crop((0, 0, MARK_W, LOGO_D.height))
+WORD = LOGO_D.crop((WORD_X, 0, LOGO_D.width, LOGO_D.height))
+LOGO_S = 0.78                      # final logo scale (about 860px wide)
+LOGO_CY = 860
+L_HANDLE = text_layer(HANDLE, rubik(46, "Medium"), CREAM, rtl=False)
+
+
+def glow(radius, colour, alpha):
+    size = int(radius * 2.6)
+    g = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    ImageDraw.Draw(g).ellipse((size / 2 - radius, size / 2 - radius, size / 2 + radius, size / 2 + radius),
+                              fill=colour + (int(255 * alpha),))
+    return g.filter(ImageFilter.GaussianBlur(radius * 0.45))
+
+
+GLOW_C = glow(300, CYAN, 0.35)
+GLOW_O = glow(240, ORANGE, 0.30)
 
 
 def frame_outro(f):
-    img = solid(CREAM)
-    t = ease_out(f / 8)
-    place(img, LOGO, W / 2, 860, 0.82 * (1.1 - 0.1 * t), alpha=clamp((f + 2) / 4), blur=16 * (1 - t))
-    blur_in(img, L_HANDLE, W / 2, 1110, f, start=5, dur=7)
-    # thin accent rule that draws itself
-    p = ease_out((f - 8) / 10)
+    img = solid(NAVY)
+    s = LOGO_S
+    full_w = LOGO_D.width * s
+    left = W / 2 - full_w / 2
+    mark_final_x = left + MARK_W * s / 2
+    word_final_x = left + (WORD_X + WORD.width / 2) * s
+
+    # 1. soft brand-coloured glows breathe in behind the mark
+    g = ease_out(f / 16)
+    place(img, GLOW_C, W / 2 - 120, LOGO_CY - 40, 0.5 + 0.6 * g, alpha=g)
+    place(img, GLOW_O, W / 2 + 160, LOGO_CY + 60, 0.5 + 0.6 * g, alpha=g)
+
+    # 2. the S mark spins in at the centre with an overshoot
+    pop = ease_back(f / 12, 1.8)
+    spin = 200 * (1 - ease_out(f / 14))
+    # 3. then glides left to make room for the wordmark
+    slide = ease_in_out((f - 12) / 12)
+    mx = W / 2 + (mark_final_x - W / 2) * slide
+    mscale = s * (1.35 - 0.35 * slide) * max(0.01, pop)
+
+    # 4. wordmark reveals left to right out of the mark, with a short blur
+    if f >= 17:
+        r = ease_out((f - 17) / 11)
+        word = WORD.resize((int(WORD.width * s), int(WORD.height * s)), Image.LANCZOS)
+        m = Image.new("L", word.size, 0)
+        ImageDraw.Draw(m).rectangle((0, 0, int(word.width * r), word.height), fill=255)
+        word.putalpha(Image.fromarray(np.minimum(np.array(word.getchannel("A")), np.array(m))))
+        place(img, word, word_final_x - 40 * (1 - r), LOGO_CY, 1.0, blur=10 * (1 - r))
+
+    # the mark is drawn on top so the wordmark appears to come out from behind it
+    place(img, MARK, mx, LOGO_CY, mscale, alpha=clamp(f / 3), rot=spin, blur=8 * (1 - ease_out(f / 8)))
+
+    # 5. light sweep across the finished logo
+    if 30 <= f < 46:
+        t = (f - 30) / 16
+        band = Image.new("L", (W, H), 0)
+        x = left - 200 + (full_w + 400) * t
+        ImageDraw.Draw(band).polygon([(x, LOGO_CY - 200), (x + 70, LOGO_CY - 200),
+                                      (x - 30, LOGO_CY + 200), (x - 100, LOGO_CY + 200)], fill=150)
+        band = band.filter(ImageFilter.GaussianBlur(14))
+        logo_alpha = Image.new("L", (W, H), 0)
+        ls = LOGO_D.resize((int(LOGO_D.width * s), int(LOGO_D.height * s)))
+        logo_alpha.paste(ls.getchannel("A"), (int(left), int(LOGO_CY - ls.height / 2)))
+        band = Image.fromarray(np.minimum(np.array(band), np.array(logo_alpha)))
+        shine = Image.new("RGBA", (W, H), (255, 255, 255, 0))
+        shine.putalpha(band)
+        img.alpha_composite(shine)
+
+    # 6. handle and an accent rule
+    blur_in(img, L_HANDLE, W / 2, 1110, f, start=24, dur=8)
+    p = ease_out((f - 28) / 12)
     if p > 0:
         d = ImageDraw.Draw(img)
-        d.rounded_rectangle((W / 2 - 160 * p, 1180, W / 2 + 160 * p, 1188), 4, fill=CYAN)
+        d.rounded_rectangle((W / 2 - 170 * p, 1180, W / 2 + 170 * p, 1188), 4, fill=CYAN)
+        d.ellipse((W / 2 + 170 * p + 14, 1176, W / 2 + 170 * p + 30, 1192), fill=ORANGE)
     return img
 
 
@@ -405,7 +466,7 @@ def render_frame(n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--safe", action="store_true")
-    ap.add_argument("--out", default=str(ROOT / "renders" / "7-series-v3.mp4"))
+    ap.add_argument("--out", default=str(ROOT / "renders" / "7-series-v4.mp4"))
     ap.add_argument("--stills")
     a = ap.parse_args()
 
