@@ -1,7 +1,7 @@
 """Original phonk-style beat + sound design, synced to the reel's timeline (no samples, no
 copyrighted audio: everything is synthesised here).
 
-150 BPM, one beat = 12 video frames (0.4s), one bar = 1.6s.
+150 BPM grid played as a half-time (75 BPM feel) groove; one beat = 12 video frames (0.4s), one bar = 1.6s.
   0.0 - 1.6   hook: a kick on every word cut, riser into the drop
   1.6 - 12.8  7 bars, one per series: kick/clap/hats, 808, cowbell melody, whoosh on each cut
   12.8 - 14.4 save card: half-time, click on the tap (14.0s) and a confirm chime
@@ -173,37 +173,37 @@ def build():
 
     # hook: hit on each word cut, rising tension
     for b in range(4):
-        add(drums, kick(0.9 + 0.1 * b), b * BEAT, 0.9)
+        add(drums, kick(1.0), b * BEAT, 0.9 if b % 2 == 0 else 0.5)
         add(fx, whoosh(0.18, True), b * BEAT, 0.6)
     add(bass, bass808(note_hz(-30), 0.5), 0, 0.8)           # A1-ish thump on frame 0
     add(fx, riser(HOOK_END - 0.2), 0.2, 1.0)
     for k in range(8):                                          # snare roll into the drop
         add(drums, clap(), HOOK_END - BEAT * 2 + k * BEAT / 4, 0.25 + 0.06 * k)
 
-    # main loop: one bar per series
-    # cowbell riff in F# minor (semitones from A4), 16th grid, None = rest
-    riff = [-3, None, -3, 0, None, -3, 2, None, 3, None, 2, 0, None, -3, -5, None]
-    riff_b = [-3, None, -3, 0, None, -3, 2, None, 5, None, 3, 2, None, 0, -3, None]
-    bass_notes = [-27, -27, -25, -22]                          # F#1 F#1 G#1 B1 by beat
+    # main loop: one bar per series, HALF-TIME groove (feels like 75 BPM) so it sits back
+    # instead of rushing; the cut still lands on the downbeat of every bar.
+    # cowbell riff in F# minor (semitones from A4), 8th-note grid, None = rest
+    riff = [-3, None, 0, -3, None, 2, 0, None]
+    riff_b = [-3, None, 0, -3, None, 5, 3, 2]
     for bar in range(7):
         t0 = HOOK_END + bar * BAR
-        add(fx, whoosh(0.32, True), t0 - 0.22, 0.9)           # whoosh lands on the cut
-        add(drums, kick(1.1), t0, 1.0)
-        add(drums, kick(), t0 + 2.5 * BEAT, 0.85)
-        add(drums, kick(), t0 + 3 * BEAT, 0.7)
-        add(drums, clap(), t0 + BEAT, 0.8)
-        add(drums, clap(), t0 + 3 * BEAT, 0.8)
-        for e in range(8):
-            add(drums, hat(open_=(e == 7 and bar % 2 == 1)), t0 + e * BEAT / 2, 0.9)
-        if bar % 2 == 1:                                       # trap hat roll at the end of the bar
-            for r in range(6):
-                add(drums, hat(), t0 + 3 * BEAT + BEAT / 2 + r * BEAT / 12, 0.6)
-        add(bass, bass808(note_hz(bass_notes[0]), 0.9, glide_from=note_hz(bass_notes[0] + 7)), t0)
-        add(bass, bass808(note_hz(bass_notes[2 if bar % 2 else 1]), 0.5), t0 + 2.5 * BEAT)
+        add(fx, whoosh(0.32, True), t0 - 0.22, 0.8)           # whoosh lands on the cut
+        add(drums, kick(1.05), t0, 1.0)
+        add(drums, kick(), t0 + 3.5 * BEAT, 0.6)               # pickup into the next cut
+        add(drums, clap(), t0 + 2 * BEAT, 0.85)                 # one snare, on beat 3
+        for q in range(4):
+            add(drums, hat(open_=(q == 3 and bar % 2 == 1)), t0 + q * BEAT, 0.8)
+            add(drums, hat(), t0 + q * BEAT + BEAT / 2, 0.35)  # ghost 8ths
+        if bar % 2 == 1:                                       # one triplet roll every other bar
+            for r in range(3):
+                add(drums, hat(), t0 + 3 * BEAT + r * BEAT / 3, 0.5)
+        add(bass, bass808(note_hz(-27), 1.3, glide_from=note_hz(-20)), t0)
+        if bar % 2 == 1:
+            add(bass, bass808(note_hz(-22), 0.5), t0 + 3 * BEAT)
         r = riff_b if bar % 2 else riff
-        for s, n in enumerate(r):
+        for k, n in enumerate(r):
             if n is not None:
-                add(melody, cowbell(note_hz(n + 12)), t0 + s * BEAT / 4)
+                add(melody, cowbell(note_hz(n + 12), 0.24), t0 + k * BEAT / 2)
 
     # save card: half-time, tap click + confirm chime
     t0 = SERIES_END
@@ -237,7 +237,7 @@ def build():
     kick_times = [b * BEAT for b in range(4)]
     for bar in range(7):
         t0 = HOOK_END + bar * BAR
-        kick_times += [t0, t0 + 2.5 * BEAT, t0 + 3 * BEAT]
+        kick_times += [t0, t0 + 3.5 * BEAT]
     dk = 1 - 0.45 * env(0.25, 0.001, 0.08)
     for kt in kick_times:
         i = int(kt * SR)

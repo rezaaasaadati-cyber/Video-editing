@@ -455,7 +455,7 @@ def render_frame(n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--safe", action="store_true")
-    ap.add_argument("--out", default=str(ROOT / "renders" / "7-series-v5.mp4"))
+    ap.add_argument("--out", default=str(ROOT / "renders" / "7-series-v6.mp4"))
     ap.add_argument("--stills")
     ap.add_argument("--audio", default=str(A / "music.wav"), help="wav to lay under the video; 'none' for silent")
     a = ap.parse_args()
