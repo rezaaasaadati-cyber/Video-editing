@@ -1,160 +1,162 @@
-"""Reel cover (1080x1920) in the page's current cover style: dark background with an olive
-glow and a blurred stock-board, cut-out people, a symbolic object on top, a big white title
-and a slanted orange-to-red bar. Title stays inside the 4:5 grid crop (y 285-1635).
+"""Reel cover (1080x1920), v2, matched to the page's current covers:
+- dark background, olive glow from the left, big blurred stock-board digits top right
+- a symbolic object top left behind the people (here: a film strip with three series stills)
+- cut-out people large in the frame, heads in the upper half, bodies running off the bottom
+- off-white title: Persian in Aref Ruqaa (closest free match to the covers' calligraphic
+  title face), Latin in DM Serif Display (matches "STOMP?")
+- slanted orange-to-red bar with the subtitle in Estedad Bold
 
+Source images are high resolution (3840x2160 series art from TVmaze), so nothing is upscaled.
 Usage: python3 cover.py [out.jpg]
 """
 import sys
 from pathlib import Path
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).parent
 A = ROOT / "assets"
 W, H = 1080, 1920
-FONT = A / "fonts" / "Rubik[wght].ttf"
+OFF_WHITE = (243, 237, 228)
 
 
-def rubik(size, weight="Black"):
-    f = ImageFont.truetype(str(FONT), size)
-    f.set_variation_by_name(weight)
-    return f
+def fnt(name, size):
+    return ImageFont.truetype(str(A / "fonts" / name), size)
 
 
 def background():
     y, x = np.mgrid[0:H, 0:W].astype(np.float32)
-    base = np.zeros((H, W, 3), np.float32) + np.array([10, 13, 11], np.float32)
-    # olive / yellow-green glow from the left, like the page's covers
-    g = np.exp(-(((x + 150) / 900) ** 2 + ((y - 800) / 900) ** 2))
-    base += g[..., None] * np.array([95, 105, 10], np.float32)
-    g2 = np.exp(-(((x - 200) / 500) ** 2 + ((y - 1500) / 600) ** 2))
-    base += g2[..., None] * np.array([30, 60, 25], np.float32)
+    base = np.zeros((H, W, 3), np.float32) + np.array([8, 10, 9], np.float32)
+    g = np.exp(-(((x + 100) / 800) ** 2 + ((y - 700) / 950) ** 2))
+    base += g[..., None] * np.array([92, 100, 6], np.float32)
     img = Image.fromarray(np.clip(base, 0, 255).astype(np.uint8)).convert("RGBA")
 
-    # blurred stock board on the right
     board = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(board)
-    f = rubik(120, "Bold")
-    for row in range(9):
-        yy = 60 + row * 150
-        d.text((600, yy), "1,000", font=f, fill=(40, 170, 140, 110))
-        d.text((985, yy), "3" + "5791"[row % 4], font=f, fill=(210, 40, 50, 120))
-    board = board.filter(ImageFilter.GaussianBlur(9))
-    fade = Image.linear_gradient("L").resize((W, H)).point(lambda v: 255 - v)  # strong at top
-    board.putalpha(Image.fromarray(np.minimum(np.array(board.getchannel("A")), np.array(fade))))
+    f = fnt("Anton-Regular.ttf", 150)
+    for row in range(8):
+        yy = -40 + row * 175
+        d.text((620, yy), "1,000", font=f, fill=(30, 150, 120, 120))
+        d.text((1010, yy), "3", font=f, fill=(200, 35, 45, 140))
+    board = board.filter(ImageFilter.GaussianBlur(7))
+    fade = np.clip(1.25 - np.linspace(0, 1, H) * 1.6, 0, 1)
+    a = np.array(board.getchannel("A")).astype(np.float32) * fade[:, None]
+    board.putalpha(Image.fromarray(a.astype(np.uint8)))
     img.alpha_composite(board)
     return img
 
 
-def card(path, h, radius=18):
-    p = Image.open(path).convert("RGB")
-    p = p.resize((int(p.width * h / p.height), h), Image.LANCZOS)
-    m = Image.new("L", p.size, 0)
-    ImageDraw.Draw(m).rounded_rectangle((0, 0, p.width - 1, p.height - 1), radius, fill=255)
-    out = p.convert("RGBA")
-    out.putalpha(m)
-    return out
+def film_strip(stills, frame_w=420, frame_h=290):
+    """A 35mm-style strip holding the given stills, returned as RGBA."""
+    gap, edge = 26, 70
+    w = edge * 2 + frame_w
+    h = len(stills) * (frame_h + gap) + gap
+    strip = Image.new("RGBA", (w, h), (18, 18, 20, 255))
+    d = ImageDraw.Draw(strip)
+    for i, (path, box) in enumerate(stills):
+        im = Image.open(path).convert("RGB").crop(box)
+        s = max(frame_w / im.width, frame_h / im.height)
+        im = im.resize((int(im.width * s + 1), int(im.height * s + 1)), Image.LANCZOS)
+        im = im.crop(((im.width - frame_w) // 2, (im.height - frame_h) // 2,
+                      (im.width - frame_w) // 2 + frame_w, (im.height - frame_h) // 2 + frame_h))
+        strip.paste(im, (edge, gap + i * (frame_h + gap)))
+    for y in range(14, h - 20, 44):
+        for x in (22, w - 22 - 26):
+            d.rounded_rectangle((x, y, x + 26, y + 20), 5, fill=(235, 232, 225, 255))
+    # glossy highlight
+    gl = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(gl).polygon([(0, 0), (w * 0.45, 0), (0, h * 0.35)], fill=40)
+    hl = Image.new("RGBA", (w, h), (255, 255, 255, 0))
+    hl.putalpha(gl.filter(ImageFilter.GaussianBlur(30)))
+    strip.alpha_composite(hl)
+    return strip
 
 
-def shadowed(layer, blur=22, alpha=0.6, dy=18):
+def shadow_paste(img, layer, x, y, blur=28, alpha=0.65, off=(10, 22)):
     pad = blur * 3
-    out = Image.new("RGBA", (layer.width + 2 * pad, layer.height + 2 * pad + dy), (0, 0, 0, 0))
-    sh = Image.new("RGBA", layer.size, (0, 0, 0, 255))
-    sh.putalpha(layer.getchannel("A").point(lambda v: int(v * alpha)))
-    out.alpha_composite(sh, (pad, pad + dy))
-    out = out.filter(ImageFilter.GaussianBlur(blur))
-    out.alpha_composite(layer, (pad, pad))
-    return out, pad
+    sh = Image.new("RGBA", (layer.width + 2 * pad, layer.height + 2 * pad), (0, 0, 0, 0))
+    s = Image.new("RGBA", layer.size, (0, 0, 0, 255))
+    s.putalpha(layer.getchannel("A").point(lambda v: int(v * alpha)))
+    sh.alpha_composite(s, (pad, pad))
+    sh = sh.filter(ImageFilter.GaussianBlur(blur))
+    img.alpha_composite(sh, (int(x - pad + off[0]), int(y - pad + off[1])))
+    img.alpha_composite(layer, (int(x), int(y)))
 
 
-def paste_center(img, layer, cx, top, rot=0):
-    if rot:
-        layer = layer.rotate(rot, resample=Image.BICUBIC, expand=True)
-    s, pad = shadowed(layer)
-    img.alpha_composite(s, (int(cx - s.width / 2), int(top - pad)))
+def text_layer(s, f, fill, rtl=True):
+    kw = {"direction": "rtl", "language": "fa"} if rtl else {}
+    b = ImageDraw.Draw(Image.new("L", (1, 1))).textbbox((0, 0), s, font=f, **kw)
+    layer = Image.new("RGBA", (b[2] - b[0] + 40, b[3] - b[1] + 40), (0, 0, 0, 0))
+    ImageDraw.Draw(layer).text((20 - b[0], 20 - b[1]), s, font=f, fill=fill, **kw)
+    return layer, -b[1] + 20  # layer, y of the text origin inside the layer
 
 
-def person(name, height, dim=1.0, sharpen=True):
-    p = Image.open(A / "characters" / f"{name}_cut.png").convert("RGBA")
-    p = p.resize((int(p.width * height / p.height), height), Image.LANCZOS)
-    if sharpen:
-        rgb = p.convert("RGB").filter(ImageFilter.UnsharpMask(2, 80, 2))
-        a = p.getchannel("A")
-        p = rgb.convert("RGBA")
-        p.putalpha(a)
-    # soften the bottom edge so cropped torsos melt into the background
-    fade = Image.linear_gradient("L").resize(p.size).point(lambda v: 255 if v < 150 else int(255 * (255 - v) / 105))
-    p.putalpha(Image.fromarray(np.minimum(np.array(p.getchannel("A")), np.array(fade))))
-    if dim != 1.0:
-        a = p.getchannel("A")
-        p = ImageEnhance.Brightness(p.convert("RGB")).enhance(dim).convert("RGBA")
-        p.putalpha(a)
-    return p
+def title(img, cy):
+    """'MBA' (serif) on the right, 'نخون!' (Ruqaa) on the left, as one RTL line."""
+    fa, fa_top = text_layer("نخون!", fnt("ArefRuqaa-Bold.ttf", 250), OFF_WHITE)
+    en, en_top = text_layer("MBA", fnt("DMSerifDisplay-Regular.ttf", 210), OFF_WHITE, rtl=False)
+    gap = 10
+    total = fa.width + en.width + gap
+    x0 = (W - total) / 2
+    row = Image.new("RGBA", (int(total), max(fa.height, en.height) + 60), (0, 0, 0, 0))
+    # align the Latin baseline with the Persian main line
+    row.alpha_composite(fa, (0, 0))
+    row.alpha_composite(en, (fa.width + gap, int(fa.height * 0.5 - en.height * 0.5) - 8))
+    shadow_paste(img, row, x0, cy - row.height / 2, blur=16, alpha=0.75, off=(0, 8))
 
 
-def bottom_fade(img, start, colour=(8, 10, 9)):
-    grad = Image.new("L", (1, H), 0)
-    for y in range(H):
-        grad.putpixel((0, y), int(255 * max(0, min(1, (y - start) / (H - start))) ** 1.4))
-    layer = Image.new("RGBA", (W, H), colour + (255,))
-    layer.putalpha(grad.resize((W, H)))
-    img.alpha_composite(layer)
-
-
-def rtl_text(img, s, f, cx, cy, fill, shadow=True):
-    tmp = ImageDraw.Draw(Image.new("L", (1, 1)))
-    b = tmp.textbbox((0, 0), s, font=f, direction="rtl", language="fa")
-    w, h = b[2] - b[0], b[3] - b[1]
-    layer = Image.new("RGBA", (w + 80, h + 80), (0, 0, 0, 0))
-    ImageDraw.Draw(layer).text((40 - b[0], 40 - b[1]), s, font=f, fill=fill, direction="rtl", language="fa")
-    if shadow:
-        sh = Image.new("RGBA", layer.size, (0, 0, 0, 255))
-        sh.putalpha(layer.getchannel("A").filter(ImageFilter.GaussianBlur(14)).point(lambda v: int(v * 0.8)))
-        img.alpha_composite(sh, (int(cx - layer.width / 2), int(cy - layer.height / 2) + 8))
-    img.alpha_composite(layer, (int(cx - layer.width / 2), int(cy - layer.height / 2)))
-
-
-def slanted_bar(img, s, cy, angle=4.5):
-    bw, bh = 1400, 150
-    x = np.linspace(0, 1, bw, dtype=np.float32)[None, :, None]
-    left, right = np.array([250, 110, 20], np.float32), np.array([200, 25, 40], np.float32)
-    grad = (left * (1 - x) + right * x).repeat(bh, axis=0)
+def slanted_bar(img, s, cy, angle=5.0):
+    bw, bh = 1500, 112
+    t = np.linspace(0, 1, bw, dtype=np.float32)[None, :, None]
+    left, right = np.array([250, 105, 15], np.float32), np.array([205, 22, 38], np.float32)
+    grad = (left * (1 - t) + right * t).repeat(bh, axis=0)
     bar = Image.fromarray(grad.astype(np.uint8)).convert("RGBA")
-    rtl_text(bar, s, rubik(64, "Bold"), bw / 2, bh / 2, (255, 255, 255), shadow=False)
+    txt, _ = text_layer(s, fnt("Estedad-Bold.ttf", 54), (255, 255, 255))
+    bar.alpha_composite(txt, (int(bw / 2 - txt.width / 2 + 40), int(bh / 2 - txt.height / 2 + 4)))
     bar = bar.rotate(angle, resample=Image.BICUBIC, expand=True)
-    sh = Image.new("RGBA", bar.size, (0, 0, 0, 255))
-    sh.putalpha(bar.getchannel("A").filter(ImageFilter.GaussianBlur(18)).point(lambda v: int(v * 0.5)))
-    img.alpha_composite(sh, (int(W / 2 - bar.width / 2), int(cy - bar.height / 2) + 14))
-    img.alpha_composite(bar, (int(W / 2 - bar.width / 2), int(cy - bar.height / 2)))
+    shadow_paste(img, bar, W / 2 - bar.width / 2, cy - bar.height / 2, blur=20, alpha=0.5, off=(0, 14))
+
+
+def bottom_fade(img, start):
+    a = np.clip((np.arange(H) - start) / (H - start), 0, 1) ** 1.3 * 235
+    layer = Image.new("RGBA", (W, H), (8, 10, 9, 255))
+    layer.putalpha(Image.fromarray(np.repeat(a[:, None], W, axis=1).astype(np.uint8)))
+    img.alpha_composite(layer)
 
 
 def main(out):
     img = background()
 
-    # symbolic object: a fan of three series posters, top left (like the street sign / arrows)
-    for i, (p, cx, top, rot) in enumerate([("p2.jpg", 190, 150, 14), ("p4.jpg", 330, 110, 4),
-                                           ("p3.jpg", 470, 150, -8)]):
-        paste_center(img, card(A / "posters" / p, 470), cx, top, rot)
+    # object: film strip with stills from three other series, tilted, running off the top-left
+    H_ = A / "hires"
+    strip = film_strip([
+        (H_ / "389_973816.jpg", (2100, 0, 3700, 1150)),     # Billions
+        (H_ / "396_990282.jpg", (1950, 0, 3450, 1050)),     # Mad Men
+        (H_ / "219_547612.jpg", (500, 150, 1450, 800)),     # Suits
+    ])
+    strip = strip.rotate(-28, resample=Image.BICUBIC, expand=True)
+    shadow_paste(img, strip, -170, -160, blur=30, alpha=0.7)
 
-    # back row of characters, a little darker, then the hero in front
-    for name, h, cx, top, dim in [("don_draper", 640, 150, 560, 0.8),
-                                  ("logan_roy", 640, 330, 640, 0.85),
-                                  ("bobby_axelrod", 700, 900, 470, 0.85)]:
-        p = person(name, h, dim)
-        s, pad = shadowed(p, 30, 0.7, 10)
-        img.alpha_composite(s, (int(cx - s.width / 2), int(top - pad)))
-    hero = person("harvey_specter", 1180)
-    hero.putalpha(Image.open(A / "characters" / "harvey_specter_cut.png").getchannel("A").resize(hero.size, Image.LANCZOS))
-    s, pad = shadowed(hero, 34, 0.8, 0)
-    img.alpha_composite(s, (int(620 - s.width / 2), int(H - hero.height - pad + 30)))
+    # people: Succession group cut-out, large, heads in the upper half, bleeding off the bottom/right
+    people = Image.open(A / "characters" / "succession_group_cut.png")
+    s = 1.0
+    people = people.resize((int(people.width * s), int(people.height * s)), Image.LANCZOS)
+    # keep the eye on the front figure: darken the people layer away from him
+    px, py = -60, H - people.height + 40
+    yy, xx = np.mgrid[0:people.height, 0:people.width].astype(np.float32)
+    dist = np.sqrt(((xx + px - 420) / 1.0) ** 2 + ((yy + py - 650) / 1.6) ** 2)
+    k = np.clip(1.0 - (dist - 200) / 330, 0.4, 1.0)[..., None]
+    rgb = np.array(people.convert("RGB")).astype(np.float32) * k
+    lit = Image.fromarray(rgb.astype(np.uint8)).convert("RGBA")
+    lit.putalpha(people.getchannel("A"))
+    shadow_paste(img, lit, px, py, blur=40, alpha=0.8, off=(0, 0))
 
-    bottom_fade(img, 1250)
+    bottom_fade(img, 1350)
+    title(img, 1440)
+    slanted_bar(img, "به جاش این ۷ سریال رو ببین.", 1590)
 
-    rtl_text(img, "MBA نخون!", rubik(175), W / 2, 1390, (255, 255, 255))
-    slanted_bar(img, "به جاش این ۷ سریال رو ببین.", 1545)
-
-    img.convert("RGB").save(out, quality=95)
+    img.convert("RGB").save(out, quality=95, subsampling=0)
     print(f"wrote {out}")
 
 
