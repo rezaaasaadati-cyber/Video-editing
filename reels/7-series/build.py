@@ -1,4 +1,4 @@
-"""Render the "MBA nakhoon / 7 series" reel (1080x1920, 30fps), v7. Audio from music.py.
+"""Render the "MBA nakhoon / 7 series" reel (1080x1920, 30fps), v8. Audio from music.py.
 
 v7: graphic dark backgrounds (grid, glow, outlined marquee titles, progress bar), new hook
 "این ۷ سریال رو ببینی / دیگه / دانشگاه / نیاز نداری." with poster flash-cuts behind it.
@@ -9,7 +9,7 @@ colours, blur-in words, a rolling counter, a "save" button that gets tapped, log
 Frames are drawn with Pillow (raqm for Persian shaping) and piped into ffmpeg.
 Usage: python3 build.py [--safe] [--out renders/7-series-v3.mp4] [--stills 0,10,60]
 
-One font throughout: Rubik (OFL), in Black / Bold / Medium weights.
+One font throughout: Estedad (OFL), in Black / ExtraBold / Bold weights.
 """
 import argparse
 import math
@@ -67,7 +67,9 @@ def font(name, size, var=None):
 
 
 def rubik(size, w="Black"):
-    return font("Rubik[wght].ttf", size, w)
+    """One font throughout: Estedad (OFL). Name kept so call sites stay unchanged."""
+    weight = {"Black": "Black", "ExtraBold": "ExtraBold", "Bold": "Bold", "Medium": "Bold"}[w]
+    return font(f"Estedad-{weight}.ttf", size)
 
 
 # ---------- easing ----------
@@ -266,9 +268,49 @@ MARQ = [(marquee_strip(en, 200, WHITE, 38), marquee_strip(en, 200, WHITE, 22)) f
 
 # ---------- hook: "این ۷ سریال رو ببینی / دیگه / دانشگاه / نیاز نداری." ----------
 FLASH = [cover(p, W, H, 0.3) for p in POSTERS]
-L_IN = text_layer("این", rubik(96, "Bold"), CREAM)
-L_7 = text_layer("۷ سریال", rubik(250), CYAN)
-L_BEBINI = text_layer("رو ببینی...", rubik(96, "Bold"), CREAM)
+def two_tone_line(parts, size):
+    """RTL line made of (text, colour) parts, first part on the right, tight word spacing."""
+    f = rubik(size)
+    space = int(size * 0.28)
+    layers = [text_layer(t, f, c) for t, c in parts]
+    asc = max(l.height for l in layers)
+    w = sum(l.width - 80 for l in layers) + space * (len(layers) - 1) + 80
+    line = Image.new("RGBA", (w, asc), (0, 0, 0, 0))
+    x = w - 40
+    for l in layers:
+        x -= l.width - 80
+        # align on the font baseline: same font/size, so same top padding works
+        line.alpha_composite(l, (x - 40, 0))
+        x -= space
+    return line
+
+
+def baseline_layer(s, size, colour):
+    """Text drawn from the font's ascender, so lines of the same size share a baseline."""
+    f = rubik(size)
+    asc, desc = f.getmetrics()
+    w = int(f.getlength(s, direction="rtl", language="fa")) + 40
+    layer = Image.new("RGBA", (w, asc + desc), (0, 0, 0, 0))
+    ImageDraw.Draw(layer).text((20, 0), s, font=f, fill=colour, direction="rtl", language="fa")
+    return layer
+
+
+def hook_line(parts, size):
+    f = rubik(size)
+    space = int(f.getlength(" "))
+    layers = [baseline_layer(t, size, c) for t, c in parts]
+    w = sum(l.width - 40 for l in layers) + space * (len(layers) - 1) + 40
+    line = Image.new("RGBA", (w, layers[0].height), (0, 0, 0, 0))
+    x = w - 20
+    for l in layers:
+        x -= l.width - 40
+        line.alpha_composite(l, (x - 20, 0))
+        x -= space
+    return line
+
+
+L_LINE1 = hook_line([("این", CREAM), ("۷ سریال", CYAN)], 170)
+L_LINE2 = hook_line([("رو ببینی...", CREAM)], 170)
 L_DIGE = text_layer("دیگه", rubik(260), CREAM)
 L_DANESHGAH = text_layer("دانشگاه", rubik(250), NAVY)
 L_NIAZ = text_layer("نیاز نداری.", rubik(220), ORANGE)
@@ -290,10 +332,10 @@ def frame_hook(f):
     if k == 0:
         img = flash_bg(f)
         # everything readable on frame 0: small / giant / small, the giant one punches in
-        punch = 1.08 - 0.08 * ease_back(local / 5, 2.0)
-        place(img, L_IN, W / 2, 700)
-        place(img, L_7, W / 2, 870, punch)
-        place(img, L_BEBINI, W / 2, 1050)
+        punch = 1.06 - 0.06 * ease_back(local / 5, 2.0)
+        lh = int(L_LINE1.height * 0.82)          # tight, even leading between the two lines
+        place(img, L_LINE1, W / 2, 860 - lh / 2, punch)
+        place(img, L_LINE2, W / 2, 860 + lh / 2, punch)
     elif k == 1:
         img = BG_ACCENT[CYAN].copy()
         blur_in(img, L_DIGE, W / 2, 860, local, dur=5)
@@ -550,7 +592,7 @@ def render_frame(n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--safe", action="store_true")
-    ap.add_argument("--out", default=str(ROOT / "renders" / "7-series-v7.mp4"))
+    ap.add_argument("--out", default=str(ROOT / "renders" / "7-series-v8.mp4"))
     ap.add_argument("--stills")
     ap.add_argument("--audio", default=str(A / "music.wav"), help="wav to lay under the video; 'none' for silent")
     a = ap.parse_args()
