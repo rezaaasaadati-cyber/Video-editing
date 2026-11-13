@@ -14,7 +14,7 @@ SRC = {
     "C": f"{U}/88a3cd6f-20261111_114739.mp4",  # rolling
 }
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = sys.argv[1] if len(sys.argv) > 1 else f"{HERE}/renders/lavashak-v3.mp4"
+OUT = sys.argv[1] if len(sys.argv) > 1 else f"{HERE}/renders/lavashak-v4.mp4"
 
 # (clip, in, out, speed)
 EDL = [
@@ -44,8 +44,20 @@ for i, (c, a, b, sp) in enumerate(EDL):
 for i, (c, a, b, sp) in enumerate(EDL):
     dur = (b - a) / sp
     starts.append((t, dur))
+    # motion: zoom punch on the cut that settles fast, a short decaying shake, then a slow push-in
+    if c == "C":
+        Z = f"(1.04+0.16*exp(-t/0.12)+0.10*pow(t/{dur:.3f},1.3))"
+        flash = ",eq=brightness='0.30*exp(-t/0.06)':eval=frame"   # quick flash into the payoff
+    else:
+        Z = f"(1.06+0.12*exp(-t/0.10)+0.05*t/{dur:.3f})"
+        flash = ""
+    shx = "14*exp(-t/0.09)*sin(t*95)"
+    shy = "10*exp(-t/0.09)*cos(t*80)"
     vf.append(f"[{i}:v]setpts=(PTS-STARTPTS)/{sp},fps={FPS},scale=1080:1920:force_original_aspect_ratio=increase,"
-              f"crop=1080:1920,{GRADE[c]},unsharp=5:5:0.5,setsar=1,format=yuv420p,trim=duration={dur:.4f}[v{i}]")
+              f"crop=1080:1920,{GRADE[c]},"
+              f"scale=w='trunc(1080*{Z}/2)*2':h='trunc(1920*{Z}/2)*2':eval=frame:flags=bicubic,"
+              f"crop=1080:1920:x='(iw-1080)/2+{shx}':y='(ih-1920)/2+{shy}'{flash},"
+              f"unsharp=5:5:0.5,setsar=1,format=yuv420p,trim=duration={dur:.4f}[v{i}]")
     tempo = f",atempo={sp}" if sp != 1.0 else ""
     af.append(f"[{n + i}:a]asetpts=PTS-STARTPTS{tempo},aformat=sample_rates=48000:channel_layouts=stereo,"
               f"atrim=duration={dur:.4f},afade=t=in:d=0.012,afade=t=out:st={dur - 0.02:.4f}:d=0.02[a{i}]")
