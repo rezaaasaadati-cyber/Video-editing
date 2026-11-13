@@ -1,4 +1,7 @@
-"""Render the "MBA nakhoon / 7 series" reel (1080x1920, 30fps), v5. Audio from music.py.
+"""Render the "MBA nakhoon / 7 series" reel (1080x1920, 30fps), v7. Audio from music.py.
+
+v7: graphic dark backgrounds (grid, glow, outlined marquee titles, progress bar), new hook
+"این ۷ سریال رو ببینی / دیگه / دانشگاه / نیاز نداری." with poster flash-cuts behind it.
 
 v3 look: kinetic typography on alternating flat navy / cream backgrounds, SAZAN brand
 colours, blur-in words, a rolling counter, a "save" button that gets tapped, logo outro.
@@ -179,42 +182,131 @@ def safe_guide(img):
     d.line((W - 100, 1155, W - 100, SAFE_BOTTOM), fill=(255, 0, 0, 255), width=4)
 
 
+# ---------- graphic backgrounds ----------
+def graphic_base(accent=None):
+    """Navy gradient + fine grid + vignette, optionally with an accent glow behind the poster."""
+    y, x = np.mgrid[0:H, 0:W].astype(np.float32)
+    top, bot = np.array([18, 32, 56], np.float32), np.array([7, 12, 22], np.float32)
+    base = top * (1 - y / H)[..., None] + bot * (y / H)[..., None]
+    if accent is not None:
+        g = np.exp(-(((x - W / 2) / 520) ** 2 + ((y - 800) / 640) ** 2))
+        base += g[..., None] * np.array(accent, np.float32) * 0.28
+    # vignette
+    v = np.clip(1.15 - np.sqrt(((x - W / 2) / W) ** 2 + ((y - H / 2) / H) ** 2) * 1.1, 0.55, 1)
+    base *= v[..., None]
+    img = Image.fromarray(np.clip(base, 0, 255).astype(np.uint8)).convert("RGBA")
+    # fine grid
+    grid = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(grid)
+    for gx in range(0, W, 90):
+        d.line((gx, 0, gx, H), fill=(255, 255, 255, 14), width=1)
+    for gy in range(0, H, 90):
+        d.line((0, gy, W, gy), fill=(255, 255, 255, 14), width=1)
+    # small crosshair marks on a few intersections (editorial detail)
+    for cx, cy in [(90, 270), (990, 270), (90, 1440), (990, 1440)]:
+        d.line((cx - 14, cy, cx + 14, cy), fill=(255, 255, 255, 90), width=2)
+        d.line((cx, cy - 14, cx, cy + 14), fill=(255, 255, 255, 90), width=2)
+    img.alpha_composite(grid)
+    return img
+
+
+def outline_text(s, size, colour, alpha, width=3):
+    """Stroke-only text layer (outlined type), Latin."""
+    f = rubik(size)
+    b = ImageDraw.Draw(Image.new("L", (1, 1))).textbbox((0, 0), s, font=f)
+    m = Image.new("L", (b[2] - b[0] + 20, b[3] - b[1] + 20), 0)
+    ImageDraw.Draw(m).text((10 - b[0], 10 - b[1]), s, font=f, fill=255)
+    ring = np.array(m.filter(ImageFilter.MaxFilter(2 * width + 1))).astype(int) - np.array(
+        m.filter(ImageFilter.MinFilter(3))).astype(int)
+    out = Image.new("RGBA", m.size, colour + (0,))
+    out.putalpha(Image.fromarray(np.clip(ring * alpha / 255, 0, 255).astype(np.uint8)))
+    return out
+
+
+def marquee_strip(word, size, colour, alpha):
+    unit = outline_text(word + "  •  ", size, colour, alpha)
+    reps = int(np.ceil((W * 2 + unit.width) / unit.width)) + 1
+    strip = Image.new("RGBA", (unit.width * reps, unit.height), (0, 0, 0, 0))
+    for r in range(reps):
+        strip.alpha_composite(unit, (r * unit.width, 0))
+    return strip, unit.width
+
+
+def draw_marquee(img, strip, unit_w, y, f, speed):
+    off = int((f * speed) % unit_w)
+    if speed < 0:
+        off = unit_w - int((-f * speed) % unit_w)
+    img.alpha_composite(strip.crop((off, 0, off + W, strip.height)), (0, int(y - strip.height / 2)))
+
+
+def progress(img, i, f, accent):
+    """Seven-segment progress bar under the counter."""
+    d = ImageDraw.Draw(img)
+    seg, gap = 52, 10
+    total = 7 * seg + 6 * gap
+    x0, y = W / 2 - total / 2, 392
+    for k in range(7):
+        x = x0 + k * (seg + gap)
+        d.rounded_rectangle((x, y, x + seg, y + 10), 5, fill=(255, 255, 255, 50))
+        fill = 1.0 if k < i else (ease_out(f / 30) if k == i else 0)
+        if fill > 0:
+            d.rounded_rectangle((x, y, x + seg * fill, y + 10), 5, fill=accent + (255,))
+
+
 # ---------- prebuilt assets ----------
 POSTERS = [Image.open(A / "posters" / p).convert("RGB") for p, *_ in SERIES]
 POSTER_H = 760
-POSTER_CY = 400 + POSTER_H // 2
+POSTER_CY = 430 + POSTER_H // 2
 CARDS = [drop_shadow(round_corners(p.resize((int(p.width * POSTER_H / p.height), POSTER_H),
                                             Image.LANCZOS), 30)) for p in POSTERS]
 LOGO = Image.open(A / "sazan-logo.png").convert("RGBA")
+BG_PLAIN = graphic_base()
+BG_ACCENT = {CYAN: graphic_base(CYAN), ORANGE: graphic_base(ORANGE)}
+MARQ = [(marquee_strip(en, 200, WHITE, 38), marquee_strip(en, 200, WHITE, 22)) for _, en, _, _ in SERIES]
 
-# ---------- hook: four words, four beats, alternating backgrounds ----------
-HOOK = [
-    (CREAM, [(text_layer("MBA", rubik(300), NAVY, rtl=False), 0, 860)]),
-    (NAVY, [(text_layer("نخون.", rubik(300), ORANGE), 0, 860)]),
-    (CREAM, [(text_layer("به جاش این", rubik(84, "Bold"), NAVY), 0, 690),
-             (text_layer("۷ سریال", rubik(250), CYAN), 2, 900)]),
-    (NAVY, [(text_layer("رو ببین", rubik(250), CREAM), 0, 860)]),
-]
+# ---------- hook: "این ۷ سریال رو ببینی / دیگه / دانشگاه / نیاز نداری." ----------
+FLASH = [cover(p, W, H, 0.3) for p in POSTERS]
+L_IN = text_layer("این", rubik(96, "Bold"), CREAM)
+L_7 = text_layer("۷ سریال", rubik(250), CYAN)
+L_BEBINI = text_layer("رو ببینی...", rubik(96, "Bold"), CREAM)
+L_DIGE = text_layer("دیگه", rubik(260), CREAM)
+L_DANESHGAH = text_layer("دانشگاه", rubik(250), NAVY)
+L_NIAZ = text_layer("نیاز نداری.", rubik(220), ORANGE)
+
+
+def flash_bg(f):
+    """Posters flash-cut behind the first beat, two frames each, heavily darkened."""
+    p = FLASH[(f // 2) % len(FLASH)].convert("RGBA")
+    img = p.filter(ImageFilter.GaussianBlur(6))
+    img.alpha_composite(Image.new("RGBA", (W, H), (7, 12, 22, 200)))
+    grid = BG_PLAIN.copy()
+    grid.putalpha(110)
+    img.alpha_composite(grid)
+    return img
 
 
 def frame_hook(f):
     k, local = divmod(f, BEAT)
-    bg, words = HOOK[k]
-    img = solid(bg)
-    for layer, delay, cy in words:
-        if k == 0 and local == 0:
-            # frame 0 must already read: show MBA sharp, no blur-in
-            place(img, layer, W / 2, cy)
-        else:
-            blur_in(img, layer, W / 2, cy, local, start=delay, dur=6)
-    if k == 1:
-        # strike-through of the word before, small, as a reminder above
-        mba = text_layer("MBA", rubik(130), (CREAM[0], CREAM[1], CREAM[2], 120), rtl=False)
-        place(img, mba, W / 2, 600, alpha=0.6)
-        d = ImageDraw.Draw(img)
-        p = ease_out((local - 2) / 5)
-        if p > 0:
-            d.line((W / 2 - 150, 615, W / 2 - 150 + 300 * p, 585), fill=ORANGE, width=14)
+    if k == 0:
+        img = flash_bg(f)
+        # everything readable on frame 0: small / giant / small, the giant one punches in
+        punch = 1.08 - 0.08 * ease_back(local / 5, 2.0)
+        place(img, L_IN, W / 2, 700)
+        place(img, L_7, W / 2, 870, punch)
+        place(img, L_BEBINI, W / 2, 1050)
+    elif k == 1:
+        img = BG_ACCENT[CYAN].copy()
+        blur_in(img, L_DIGE, W / 2, 860, local, dur=5)
+    elif k == 2:
+        img = solid(CREAM)
+        blur_in(img, L_DANESHGAH, W / 2, 860, local, dur=5)
+        p = ease_out((local - 3) / 5)
+        if p > 0:   # orange strike through "university"
+            d = ImageDraw.Draw(img)
+            d.line((W / 2 + 330, 845, W / 2 + 330 - 660 * p, 890), fill=ORANGE, width=26)
+    else:
+        img = BG_ACCENT[ORANGE].copy()
+        blur_in(img, L_NIAZ, W / 2, 860, local, dur=5)
     return img
 
 
@@ -247,12 +339,15 @@ def counter(img, i, f, colour):
 
 
 def frame_series(i, f):
-    bg = NAVY if i % 2 == 0 else CREAM
-    fg = text_on(bg)
+    fg = CREAM
     accent = CYAN if i % 2 == 0 else ORANGE
-    img = solid(bg)
+    img = BG_ACCENT[accent].copy()
+    (top, uw), (bot, uw2) = MARQ[i]
+    draw_marquee(img, top, uw, 560, f, 6)
+    draw_marquee(img, bot, uw2, 1030, f, -6)
 
     counter(img, i, f, accent)
+    progress(img, i, f, accent)
 
     # poster: blur-in, scale settle, slight rotation that straightens
     t = ease_back(f / 9, 1.3)
@@ -324,7 +419,7 @@ BTN = [save_button(False), save_button(True)]
 
 
 def frame_save(f):
-    img = solid(NAVY)
+    img = BG_PLAIN.copy()
     rows = [[0, 1, 2, 3], [4, 5, 6]]
     y0 = 290 + GH // 2
     k = 0
@@ -455,7 +550,7 @@ def render_frame(n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--safe", action="store_true")
-    ap.add_argument("--out", default=str(ROOT / "renders" / "7-series-v6.mp4"))
+    ap.add_argument("--out", default=str(ROOT / "renders" / "7-series-v7.mp4"))
     ap.add_argument("--stills")
     ap.add_argument("--audio", default=str(A / "music.wav"), help="wav to lay under the video; 'none' for silent")
     a = ap.parse_args()
