@@ -14,7 +14,7 @@ SRC = {
     "C": f"{U}/88a3cd6f-20261111_114739.mp4",  # rolling
 }
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = sys.argv[1] if len(sys.argv) > 1 else f"{HERE}/renders/lavashak-v4.mp4"
+OUT = sys.argv[1] if len(sys.argv) > 1 else f"{HERE}/renders/lavashak-v5.mp4"
 
 # (clip, in, out, speed)
 EDL = [
@@ -32,7 +32,7 @@ GRADE = {
     "C": f"{BASE},vibrance=intensity=0.10,eq=saturation=1.05",
 }
 FPS = 30
-GAIN = float(os.environ.get("GAIN", "35"))
+GAIN = float(os.environ.get("GAIN", "37"))
 
 inputs, vf, af, vl, al = [], [], [], [], []
 t, starts = 0.0, []
@@ -44,33 +44,49 @@ for i, (c, a, b, sp) in enumerate(EDL):
 for i, (c, a, b, sp) in enumerate(EDL):
     dur = (b - a) / sp
     starts.append((t, dur))
-    # motion: zoom punch on the cut that settles fast, a short decaying shake, then a slow push-in
+    # cute motion: springy "boing" zoom + jelly squash/stretch + a little wiggle on every cut
+    def jelly(t0, amp, dec, hz):
+        return f"(gte(t,{t0})*{amp}*exp(-(t-{t0})/{dec})*sin(2*PI*{hz}*(t-{t0})))"
     if c == "C":
-        Z = f"(1.04+0.16*exp(-t/0.12)+0.10*pow(t/{dur:.3f},1.3))"
-        flash = ",eq=brightness='0.30*exp(-t/0.06)':eval=frame"   # quick flash into the payoff
+        J = f"({jelly(0, 0.07, 0.16, 4.5)}+{jelly(1.90, 0.06, 0.18, 5)})"   # boing when the roll is finished
+        Z = f"(1.10+0.08*exp(-t/0.14)*cos(2*PI*3*t)+0.06*t/{dur:.3f})"
+        ROT = f"(0.022*{jelly(1.90, 1, 0.2, 3.5)})"
     else:
-        Z = f"(1.06+0.12*exp(-t/0.10)+0.05*t/{dur:.3f})"
-        flash = ""
-    shx = "14*exp(-t/0.09)*sin(t*95)"
-    shy = "10*exp(-t/0.09)*cos(t*80)"
+        J = jelly(0, 0.07, 0.16, 4.5)
+        Z = f"(1.10+0.08*exp(-t/0.14)*cos(2*PI*3*t)+0.04*t/{dur:.3f})"
+        side = 1 if i % 2 == 0 else -1
+        ROT = f"({side}*0.026*exp(-t/0.22)*sin(2*PI*3.2*t))"
+    SX, SY = f"({Z}*(1+{J}))", f"({Z}*(1-{J}))"
     vf.append(f"[{i}:v]setpts=(PTS-STARTPTS)/{sp},fps={FPS},scale=1080:1920:force_original_aspect_ratio=increase,"
               f"crop=1080:1920,{GRADE[c]},"
-              f"scale=w='trunc(1080*{Z}/2)*2':h='trunc(1920*{Z}/2)*2':eval=frame:flags=bicubic,"
-              f"crop=1080:1920:x='(iw-1080)/2+{shx}':y='(ih-1920)/2+{shy}'{flash},"
+              f"scale=w='trunc(1080*{SX}/2)*2':h='trunc(1920*{SY}/2)*2':eval=frame:flags=bicubic,"
+              f"rotate=a='{ROT}':ow=iw:oh=ih:c=black,"
+              f"crop=1080:1920:x='(iw-1080)/2':y='(ih-1920)/2',"
               f"unsharp=5:5:0.5,setsar=1,format=yuv420p,trim=duration={dur:.4f}[v{i}]")
     tempo = f",atempo={sp}" if sp != 1.0 else ""
     af.append(f"[{n + i}:a]asetpts=PTS-STARTPTS{tempo},aformat=sample_rates=48000:channel_layouts=stereo,"
-              f"atrim=duration={dur:.4f},afade=t=in:d=0.012,afade=t=out:st={dur - 0.02:.4f}:d=0.02[a{i}]")
+              f"atrim=duration={dur:.4f},afade=t=in:d=0.025,afade=t=out:st={dur - 0.03:.4f}:d=0.03[a{i}]")
     vl.append(f"[v{i}]"); al.append(f"[a{i}]")
     t += dur
 TOTAL = t
 
 fc = ";".join(vf + af)
 fc += f";{''.join(vl)}concat=n={n}:v=1:a=0[vout]"
-# even out the crackle between takes, then master: ~-15 LUFS, true peak under -3 dBFS
-fc += (f";{''.join(al)}concat=n={n}:v=0:a=1,"
-       f"acompressor=threshold=-36dB:ratio=6:attack=0.5:release=40:makeup=1,"
-       f"volume={GAIN}dB,aresample=192000,alimiter=limit=0.6:attack=1:release=30:level=0,lowpass=f=18000,alimiter=limit=0.6:attack=0.5:release=20:level=0,"
+# soft sticky crackle bed under the roll (rolling itself is near-silent), from B's later peel
+BED_START = [st for (st, _), e in zip(starts, EDL) if e[0] == "C"][0]
+inputs += ["-ss", "3.6", "-t", "3.0", "-i", f"{HERE}/audio/B_clean.wav"]
+bed = (f"[{2 * n}:a]aformat=sample_rates=48000:channel_layouts=stereo,volume=-10dB,"
+       f"afade=t=in:d=0.25,afade=t=out:st=2.0:d=0.6,adelay={int(BED_START * 1000)}:all=1[bed]")
+fc += ";" + bed
+# ASMR master: gentle dynamics, warm + crisp EQ, close-mic stereo with a slow left/right drift, tiny room
+fc += (f";{''.join(al)}concat=n={n}:v=0:a=1[pk];[pk][bed]amix=inputs=2:normalize=0,"
+       f"acompressor=threshold=-32dB:ratio=2.5:attack=3:release=90:makeup=1,"
+       f"equalizer=f=350:t=q:w=1:g=3,equalizer=f=6000:t=q:w=1.2:g=2.5,highshelf=f=11000:g=2,"
+       f"pan=mono|c0=c0,haas=level_in=1:level_out=1:side_gain=0.6:middle_source=mid:left_delay=0.4:right_delay=0.9,"
+       f"apulsator=hz=0.22:amount=0.35:mode=sine,"
+       f"aecho=0.85:0.6:13|21:0.10|0.06,"
+       f"volume={GAIN}dB,aresample=192000,alimiter=limit=0.6:attack=1:release=40:level=0,lowpass=f=18000,"
+       f"alimiter=limit=0.6:attack=0.5:release=20:level=0,"
        f"aresample=48000,atrim=duration={TOTAL:.4f}[aout]")
 
 cmd = ["ffmpeg", "-y", "-v", "error"] + inputs + ["-filter_complex", fc, "-map", "[vout]", "-map", "[aout]",
