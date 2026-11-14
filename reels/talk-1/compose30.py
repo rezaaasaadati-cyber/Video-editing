@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).parent
 sys.path.insert(0, str(ROOT))
@@ -112,7 +112,7 @@ def word_t(token, sid):
 
 
 # ---------------- moments ----------------
-c.NAME_T = word_t("هاوارد", 1) - 0.1
+c.NAME_T = EDL[1]["at"] - 0.05          # name is shown, not spoken
 c.SB_T = word_t("استارباکس", 1) - 0.05
 IDEA_GFX = (to_out("a", 38.0), to_out("a", 40.22))
 
@@ -139,13 +139,13 @@ c.GFX["idea"] = gfx_idea
 
 MOMENTS = [
     ("hook", 0.0, EDL[1]["at"]),
-    ("name", c.NAME_T, EDL[3]["at"]),
+    ("name", c.NAME_T, EDL[2]["at"]),
     ("idea", *IDEA_GFX),
-    ("count", EDL[4]["at"] + 0.05, EDL[5]["at"]),
-    ("no", EDL[5]["at"], EDL[6]["at"]),
-    ("yes", EDL[6]["at"], EDL[8]["at"]),
-    ("keyword", word_t("جسارت", 6) - 0.05, EDL[9]["at"]),
-    ("question", EDL[9]["at"], DURATION + 1),
+    ("count", EDL[3]["at"] + 0.05, EDL[4]["at"]),
+    ("no", EDL[4]["at"], EDL[5]["at"]),
+    ("yes", EDL[5]["at"], EDL[7]["at"]),
+    ("keyword", word_t("جسارت", 6) - 0.05, EDL[8]["at"]),
+    ("question", EDL[8]["at"], DURATION + 1),
 ]
 CUTAWAYS = {"idea", "count", "no", "yes"}
 HIDE_SUBS = {"hook", "question", "count", "no", "yes", "idea"}
@@ -183,7 +183,7 @@ def active(t):
 
 # ---------------- card <-> full screen ----------------
 # 1 = full screen. Hook, the idea line, "no, no, no" lead-in and the closing question go full.
-FULL_SPANS = [(0.0, EDL[1]["at"]), (EDL[3]["at"], IDEA_GFX[0]), (EDL[8]["at"], EDL[9]["at"])]
+FULL_SPANS = [(0.0, EDL[1]["at"]), (EDL[2]["at"], IDEA_GFX[0]), (EDL[7]["at"], EDL[8]["at"])]
 TR = 0.28                      # transition length (s)
 
 
@@ -224,6 +224,55 @@ TOP_GRAD.putalpha(Image.fromarray((np.linspace(170, 0, 420)[:, None].repeat(W, 1
 BOT_GRAD = Image.new("RGBA", (W, 700), NAVY_D + (0,))
 BOT_GRAD.putalpha(Image.fromarray((np.linspace(0, 190, 700)[:, None].repeat(W, 1)).astype(np.uint8)))
 READER = c.Reader()
+LOGO_Y = 238                   # logo centre (was 278)
+
+
+def _overlay():
+    y, x = np.mgrid[0:H, 0:W].astype(np.float32)
+    v = np.clip(np.sqrt(((x - W / 2) / (W * 0.62)) ** 2 + ((y - H / 2) / (H * 0.62)) ** 2) - 0.35, 0, 1)
+    ov = Image.new("RGBA", (W, H), NAVY_D + (0,))
+    ov.putalpha(Image.fromarray((v * 230).astype(np.uint8)))
+    ov.alpha_composite(c.SHADOW, (c.CX0 - 80, c.CY0 - 80))
+    return ov
+
+
+OVERLAY = _overlay()
+
+
+def story_bar(img, t):
+    """Story-style progress: one segment per sentence, gradient fill with a glowing head."""
+    sids = sorted({s["sid"] for s in EDL})
+    spans = []
+    for sid in sids:
+        ps = [s for s in EDL if s["sid"] == sid]
+        spans.append((ps[0]["at"], ps[-1]["at"] + ps[-1]["out"] - ps[-1]["in"]))
+    n, gap, y, hgt = len(spans), 8, 318, 7
+    x_r, x_l = W - 90, 90
+    seg_w = (x_r - x_l - gap * (n - 1)) / n
+    layer = Image.new("RGBA", (W, 60), (0, 0, 0, 0))     # draw on a layer so alpha blends
+    d = ImageDraw.Draw(layer)
+    y0 = y; y = 20
+    head = None
+    for i, (s0, s1) in enumerate(spans):            # right to left: first sentence on the right
+        xr = x_r - i * (seg_w + gap)
+        xl = xr - seg_w
+        d.rounded_rectangle((xl, y, xr, y + hgt), hgt // 2, fill=(255, 255, 255, 55))
+        p = clamp((t - s0) / max(0.01, s1 - s0))
+        if p > 0:
+            fx = xr - seg_w * p
+            col = tuple(int(CYAN[j] + (ORANGE[j] - CYAN[j]) * (i / (n - 1))) for j in range(3))
+            d.rounded_rectangle((fx, y, xr, y + hgt), hgt // 2, fill=col + (255,))
+            if p < 1:
+                head = (fx, y + hgt / 2, col)
+    img.alpha_composite(layer, (0, y0 - 20))
+    if head:
+        gx, gy, col = head
+        gy = gy - 20 + y0
+        glow = Image.new("RGBA", (60, 60), (0, 0, 0, 0))
+        ImageDraw.Draw(glow).ellipse((18, 18, 42, 42), fill=col + (200,))
+        glow = glow.filter(ImageFilter.GaussianBlur(7))
+        img.alpha_composite(glow, (int(gx - 30), int(gy - 30)))
+        ImageDraw.Draw(img).ellipse((gx - 7, gy - 7, gx + 7, gy + 7), fill=WHITE)
 
 
 def render(n):
@@ -235,7 +284,7 @@ def render(n):
     f = 0.0 if name in CUTAWAYS else fullness(t)
 
     img = c.ambient(fr)
-    img.alpha_composite(c.OVERLAY if f < 0.5 else Image.new("RGBA", (W, H), (0, 0, 0, 0)))
+    img.alpha_composite(OVERLAY if f < 0.5 else Image.new("RGBA", (W, H), (0, 0, 0, 0)))
     x0, y0, x1, y1, rad = rect(f)
     w, h = x1 - x0, y1 - y0
     grey = 1 - clamp((t - 0.9) / 0.3) if t < 1.2 else 0.0
@@ -259,14 +308,9 @@ def render(n):
         tg = TOP_GRAD.copy(); tg.putalpha(tg.getchannel("A").point(lambda v: int(v * f)))
         bg = BOT_GRAD.copy(); bg.putalpha(bg.getchannel("A").point(lambda v: int(v * f)))
         img.alpha_composite(tg, (0, 0)); img.alpha_composite(bg, (0, H - 700))
-        img.alpha_composite(c.LOGO, (W // 2 - c.LOGO.width // 2, 278 - c.LOGO.height // 2))
 
-    # progress line
-    d = ImageDraw.Draw(img)
-    py = 340
-    d.rounded_rectangle((90, py, W - 90, py + 6), 3, fill=(255, 255, 255, 60))
-    px = W - 90 - (W - 180) * (t / DURATION)
-    d.rounded_rectangle((px, py, W - 90, py + 6), 3, fill=ORANGE)
+    img.alpha_composite(c.LOGO, (W // 2 - c.LOGO.width // 2, LOGO_Y - c.LOGO.height // 2))
+    story_bar(img, t)
 
     if name in OVER:
         OVER[name](img, tl, dur, f > 0.5)
@@ -284,7 +328,7 @@ def render(n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--stills")
-    ap.add_argument("--out", default=str(ROOT / "renders" / "talk-1-30s-v1.mp4"))
+    ap.add_argument("--out", default=str(ROOT / "renders" / "talk-1-30s-v2.mp4"))
     ap.add_argument("--audio", default=str(ROOT / "work" / "mix30.wav"))
     a = ap.parse_args()
     if a.stills:
