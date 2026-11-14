@@ -33,11 +33,11 @@ GREEN = (40, 200, 120)
 WHITE = (255, 255, 255)
 
 # card that holds the speaker
-CX0, CY0, CW, CH = 50, 340, 980, 1200
+CX0, CY0, CW, CH = 50, 400, 980, 1160
 RADIUS = 38
 SRC_Y0 = 230                            # top of the crop inside the prepped frame
 FACE = (480, 560)                       # zoom anchor (prepped coords)
-SUB_Y = 1330
+SUB_Y = 1345
 
 
 # ---------------- fonts ----------------
@@ -138,7 +138,7 @@ def logo_for_dark():
     grey = (sat < 40) & (arr[:, :, 3] > 0)
     arr[grey, 0], arr[grey, 1], arr[grey, 2] = CREAM
     out = Image.fromarray(arr.astype(np.uint8), "RGBA")
-    return out.resize((360, int(out.height * 360 / out.width)), Image.LANCZOS)
+    return out.resize((300, int(out.height * 300 / out.width)), Image.LANCZOS)
 
 
 BG = brand_bg()
@@ -152,14 +152,28 @@ SHADOW.alpha_composite(_sh, (80, 100))
 SHADOW = SHADOW.filter(ImageFilter.GaussianBlur(36))
 
 
-def static_frame():
-    img = BG.copy()
-    img.alpha_composite(SHADOW, (CX0 - 80, CY0 - 80))
-    img.alpha_composite(LOGO, (W // 2 - LOGO.width // 2, 262 - LOGO.height // 2))
-    return img
+def static_overlay():
+    """Vignette + card shadow + logo, laid over the ambient background every frame."""
+    y, x = np.mgrid[0:H, 0:W].astype(np.float32)
+    v = np.clip(np.sqrt(((x - W / 2) / (W * 0.62)) ** 2 + ((y - H / 2) / (H * 0.62)) ** 2) - 0.35, 0, 1)
+    ov = Image.new("RGBA", (W, H), NAVY_D + (0,))
+    ov.putalpha(Image.fromarray((v * 230).astype(np.uint8)))
+    ov.alpha_composite(SHADOW, (CX0 - 80, CY0 - 80))
+    ov.alpha_composite(LOGO, (W // 2 - LOGO.width // 2, 278 - LOGO.height // 2))
+    return ov
 
 
-STATIC = static_frame()
+OVERLAY = static_overlay()
+TINT = Image.new("RGB", (W, H), NAVY_D)
+
+
+def ambient(fr):
+    """The speaker's own frame, hugely blurred and darkened, as a moving background."""
+    small = fr.resize((96, 170), Image.BILINEAR).filter(ImageFilter.GaussianBlur(5))
+    big = small.resize((W, int(W * 170 / 96)), Image.BILINEAR)
+    top = (big.height - H) // 2
+    big = big.crop((0, top, W, top + H))
+    return Image.blend(big, TINT, 0.6).convert("RGBA")
 
 
 # ---------------- edit decision list ----------------
@@ -235,7 +249,47 @@ def build_words():
     return words
 
 
-WORDS = build_words()
+def _norm(w):
+    import re
+    w = w.replace("\u200c", "").replace("ي", "ی").replace("ك", "ک")
+    return re.sub(r"[«»،,:؟?.!\"]", "", w)
+
+
+def build_words_aligned():
+    """Align the corrected script to Whisper words of the FINAL voice track (times already on the output
+    timeline). Matched words take their exact times; the rest are interpolated between neighbours."""
+    import difflib
+    proportional = build_words()                          # gives clip/seg per token, rough times
+    out_words = json.load(open(ROOT / "work" / "words_out.json"))
+    a = [_norm(w["w"]) for w in proportional]
+    b = [_norm(w["w"]) for w in out_words]
+    sm = difflib.SequenceMatcher(None, a, b, autojunk=False)
+    times = [None] * len(a)
+    for blk in sm.get_matching_blocks():
+        for k in range(blk.size):
+            times[blk.a + k] = (out_words[blk.b + k]["s"], out_words[blk.b + k]["e"])
+    for op, i1, i2, j1, j2 in sm.get_opcodes():
+        if op == "replace" and i2 > i1 and j2 > j1:          # spread the replaced span over the heard words
+            s0, e0 = out_words[j1]["s"], out_words[j2 - 1]["e"]
+            lens = [max(1, len(a[i])) for i in range(i1, i2)]
+            tot, acc = sum(lens), 0
+            for i, L in zip(range(i1, i2), lens):
+                times[i] = (s0 + (e0 - s0) * acc / tot, s0 + (e0 - s0) * (acc + L) / tot)
+                acc += L
+    # anything left: interpolate between known neighbours
+    for i in range(len(times)):
+        if times[i] is None:
+            prev = next((times[j][1] for j in range(i - 1, -1, -1) if times[j]), 0.0)
+            nxt = next((times[j][0] for j in range(i + 1, len(times)) if times[j]), prev + 0.4)
+            times[i] = (prev, max(prev + 0.08, min(nxt, prev + 0.4)))
+    for w, (s_, e_) in zip(proportional, times):
+        w["s"], w["e"] = s_, max(e_, s_ + 0.08)
+    matched = sum(1 for blk in sm.get_matching_blocks() for _ in range(blk.size))
+    print(f"caption alignment: {matched}/{len(a)} words matched exactly")
+    return proportional
+
+
+WORDS = build_words_aligned()
 
 
 def build_chunks(words, maxw=3):
@@ -318,14 +372,19 @@ def active_moment(t):
 
 
 # ---------------- graphics for the cutaways ----------------
+def _canvas():
+    y, x = np.mgrid[0:CH, 0:CW].astype(np.float32)
+    base = np.array([20, 34, 58], np.float32) * (1 - y / CH * 0.5)[..., None]
+    g = np.exp(-(((x - CW / 2) / 420) ** 2 + ((y - 420) / 420) ** 2))
+    base += g[..., None] * np.array(CYAN, np.float32) * 0.14
+    return Image.fromarray(np.clip(base, 0, 255).astype(np.uint8)).convert("RGBA")
+
+
+CANVAS = _canvas()
+
+
 def card_canvas(colour=NAVY):
-    c = Image.new("RGBA", (CW, CH), colour + (255,))
-    d = ImageDraw.Draw(c)
-    for gx in range(0, CW, 70):
-        d.line((gx, 0, gx, CH), fill=(255, 255, 255, 14))
-    for gy in range(0, CH, 70):
-        d.line((0, gy, CW, gy), fill=(255, 255, 255, 14))
-    return c
+    return CANVAS.copy()
 
 
 def icon_house(size, colour):
@@ -374,7 +433,7 @@ def gfx_home(t, dur):
     if t > 0.35:
         place(c, icon_cup(190, ORANGE, t), CW / 2, 470, ease_back((t - 0.35) / 0.3), alpha=1)
     blur_in(c, text_layer("قهوه = خونه", fnt("Heavy", 110), CREAM), CW / 2, 770, t - 0.5)
-    blur_in(c, text_layer("دستگاه اسپرسو و پاد، توی آشپزخونهٔ خودمون", fnt("Medium", 42), (200, 210, 225)),
+    blur_in(c, text_layer("دستگاه اسپرسو و پودر قهوه، توی آشپزخونهٔ خودمون", fnt("Medium", 42), (200, 210, 225)),
             CW / 2, 880, t - 0.8)
     return c
 
@@ -495,7 +554,7 @@ def ov_cta(img, t, dur):
     box = Image.new("RGBA", (900, 300), (0, 0, 0, 0))
     ImageDraw.Draw(box).rounded_rectangle((0, 0, 899, 299), 36, fill=CYAN + (250,))
     l1 = text_layer("بفرستش برای کسی که", fnt("Heavy", 60), NAVY_D)
-    l2 = text_layer("از «نه» شنیدن می‌ترسه", fnt("ExtraBlack", 78), NAVY_D)
+    l2 = text_layer("از «نه» می‌ترسه", fnt("ExtraBlack", 78), NAVY_D)
     box.alpha_composite(l1, (450 - l1.width // 2, 40))
     box.alpha_composite(l2, (450 - l2.width // 2, 140))
     place(img, box, W / 2, 1210, ease_back(t / .35))
@@ -573,15 +632,16 @@ def render(n):
     t = n / FPS
     k, seg = seg_at(t)
     t_in = seg["in"] + (t - seg["at"])
-    img = STATIC.copy()
     name, tl, dur = active_moment(t)
+    fr = READER.frame(k, seg, t_in)
+    img = ambient(fr)
+    img.alpha_composite(OVERLAY)
 
     if name in CUTAWAYS:
         card = GFX[name](tl, dur)
         # quick wipe in / out so the cutaway feels deliberate
         inn, out = ease_out(tl / .18), ease_out((dur - tl) / .18)
         if inn < 1 or out < 1:
-            fr = READER.frame(k, seg, t_in)
             base = speaker_card(fr, zoom_for(t))
             m = Image.new("L", (CW, CH), 0)
             w = int(CW * min(inn, out))
@@ -589,7 +649,6 @@ def render(n):
             base.paste(card, (0, 0), m)
             card = base
     else:
-        fr = READER.frame(k, seg, t_in)
         grey = 1 - clamp((t - 0.9) / 0.3) if t < 1.2 else 0.0      # hook opens in black & white
         card = speaker_card(fr, zoom_for(t), grey)
     img.paste(card, (CX0, CY0), CARD_MASK)
@@ -615,7 +674,7 @@ def render(n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--stills")
-    ap.add_argument("--out", default=str(ROOT / "renders" / "talk-1-v1.mp4"))
+    ap.add_argument("--out", default=str(ROOT / "renders" / "talk-1-v2.mp4"))
     ap.add_argument("--audio", default=str(ROOT / "work" / "voice.wav"))
     a = ap.parse_args()
     if a.stills:
