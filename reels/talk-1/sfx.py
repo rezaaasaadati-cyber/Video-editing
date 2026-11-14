@@ -39,8 +39,8 @@ def buzz():
 M = {name: (s, e) for name, s, e in c.MOMENTS}
 
 # hook
-add(m.impact()[: int(1.0 * SR)], 0.0, 0.55)
-add(thud(), M["hook"][0] + 0.5, 0.7); add(buzz(), M["hook"][0] + 0.5, 0.6)
+# (no impact / buzz at the very start: it sounded odd on the first word)
+add(pop(800), M["hook"][0] + 0.5, 0.5)
 add(m.whoosh(0.3), M["hook"][0] + 1.6, 0.6); add(pop(1100), M["hook"][0] + 1.72, 0.5)
 # name card: pop for the photo, chime when the Starbucks logo lands
 add(m.whoosh(0.35), M["name"][0] - 0.05, 0.6); add(pop(900), M["name"][0] + 0.05, 0.6)

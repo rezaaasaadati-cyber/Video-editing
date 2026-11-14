@@ -8,7 +8,10 @@ from PIL import Image, ImageFilter
 
 c, src = sys.argv[1], sys.argv[2]
 W, H = 480, 852
-GRADE = "hqdn3d=1.5:1.5:3:3,scale=960:1704:flags=lanczos,unsharp=5:5:0.6,vignette=PI/6"
+GRADE = ("hqdn3d=2:2:3:3,eq=contrast=1.08:brightness=0.03:saturation=1.12:gamma=1.04,"
+         "colorbalance=rs=0.03:bs=-0.03:rm=0.02:bm=-0.02,curves=all='0/0 0.25/0.22 0.75/0.8 1/1',"
+         "scale=960:1704:flags=lanczos,unsharp=5:5:0.8,vignette=PI/5")
+USE_PRO_GRADE = False        # grade.py look (v3); the user preferred the v2 light
 import importlib.util
 _s = importlib.util.spec_from_file_location("grade", "grade.py"); G = importlib.util.module_from_spec(_s); _s.loader.exec_module(G)
 dec = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-i", src, "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
@@ -29,7 +32,8 @@ while True:
     a = np.maximum(np.frombuffer(m, np.uint8).reshape(H, W) / 255.0, yramp)
     a = Image.fromarray((a * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(2))
     out = Image.composite(fr, fr.filter(ImageFilter.GaussianBlur(5)), a)
-    out = G.grade(np.array(out), np.array(a).astype(np.float32) / 255)
+    if USE_PRO_GRADE:
+        out = Image.fromarray(G.grade(np.array(out), np.array(a).astype(np.float32) / 255))
     enc.stdin.write(out.tobytes())
     n += 1
 enc.stdin.close(); enc.wait()

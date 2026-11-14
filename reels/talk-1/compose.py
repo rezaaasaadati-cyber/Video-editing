@@ -38,6 +38,8 @@ RADIUS = 38
 SRC_Y0 = 230                            # top of the crop inside the prepped frame
 FACE = (480, 560)                       # zoom anchor (prepped coords)
 SUB_Y = 1345
+SUB_Y_LOW = 1420                        # used while an overlay with text is on screen
+SUB_LOW = {"name", "cafe", "keyword", "home"}
 
 
 # ---------------- fonts ----------------
@@ -553,7 +555,6 @@ def ov_name(img, t, dur):
     a = clamp(t / .15) * (1 - clamp((t - dur + .3) / .3))
     s_ph = ease_back(t / .35, 1.6)
     place(img, PHOTO, W - 230, 950, s_ph, alpha=a)
-    place(img, CREDIT, W - 230, 1122, alpha=a * .9)
     name = pill("هاوارد شولتز", fnt("Heavy", 56), CREAM, NAVY_D)
     place(img, name, W - 230 - 20 * (1 - ease_out((t - .15) / .3)), 1190, alpha=a * clamp((t - .15) / .15))
     tb = SB_T - NAME_T                       # when "استارباکس" is spoken, relative to this moment
@@ -704,7 +705,8 @@ def render(n):
             if ch["s"] <= t < ch["e"]:
                 cap = caption_layer(ch, t)
                 pop = ease_back(min(1, (t - ch["s"]) / 0.12), 1.4)
-                place(img, cap, W / 2, SUB_Y, 0.9 + 0.1 * pop)
+                y = SUB_Y_LOW if name in SUB_LOW else SUB_Y      # keep clear of on-screen text
+                place(img, cap, W / 2, y, 0.9 + 0.1 * pop)
                 break
     return img.convert("RGB")
 
@@ -712,7 +714,7 @@ def render(n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--stills")
-    ap.add_argument("--out", default=str(ROOT / "renders" / "talk-1-v3.mp4"))
+    ap.add_argument("--out", default=str(ROOT / "renders" / "talk-1-v4.mp4"))
     ap.add_argument("--audio", default=str(ROOT / "work" / "voice.wav"))
     a = ap.parse_args()
     if a.stills:
