@@ -42,8 +42,10 @@ M = {name: (s, e) for name, s, e in c.MOMENTS}
 add(m.impact()[: int(1.0 * SR)], 0.0, 0.55)
 add(thud(), M["hook"][0] + 0.5, 0.7); add(buzz(), M["hook"][0] + 0.5, 0.6)
 add(m.whoosh(0.3), M["hook"][0] + 1.6, 0.6); add(pop(1100), M["hook"][0] + 1.72, 0.5)
-# name card
-add(m.whoosh(0.35), M["name"][0] - 0.05, 0.7); add(m.chime(m.note_hz(15)), M["name"][0] + 0.2, 0.9)
+# name card: pop for the photo, chime when the Starbucks logo lands
+add(m.whoosh(0.35), M["name"][0] - 0.05, 0.6); add(pop(900), M["name"][0] + 0.05, 0.6)
+add(m.chime(m.note_hz(15)), c.SB_T + 0.05, 0.9); add(pop(1200), c.SB_T, 0.5)
+s, e = M["cafe"]; add(pop(1100), s + 0.05, 0.6); add(m.chime(m.note_hz(19)), s + 0.25, 0.6)
 # cutaways: whoosh in and out
 for k in ["home", "decade", "count", "no", "yes"]:
     s, e = M[k]

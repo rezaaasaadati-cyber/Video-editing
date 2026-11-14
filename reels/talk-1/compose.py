@@ -348,14 +348,18 @@ def span(c, s, e):
     return to_out(c, s), to_out(c, e)
 
 
+NAME_T = word_time("a", 1, "هاوارد") - 0.1
+SB_T = word_time("a", 1, "استارباکس") - 0.05
+
 MOMENTS = [
     ("hook", *span("a", 0.0, 3.6)),
-    ("name", *span("a", 7.55, 12.9)),
+    ("name", NAME_T, NAME_T + 5.2),
     ("home", *span("a", 18.1, 21.8)),
     ("decade", *span("a", 32.75, 36.2)),
     ("count", *span("b", 0.5, 4.1)),
     ("no", *span("b", 8.6, 14.45)),
     ("yes", *span("b", 15.05, 19.0)),
+    ("cafe", word_time("b", 5, "کافه") - 0.25, word_time("b", 5, "کافه") + 2.6),
     ("keyword", word_time("b", 7, "جسارت"), word_time("b", 7, "جسارت") + 2.6),
     ("question", *span("b", 45.4, 50.25)),
     ("cta", *span("b", 56.7, 59.4)),
@@ -523,13 +527,47 @@ def ov_hook(img, t, dur):
         blur_in(img, pill("اما الان یه اسطوره‌ست", fnt("Heavy", 56), CYAN, NAVY_D), W / 2, 1420, t - 1.7)
 
 
+PHOTO = None
+SB_LOGO = Image.open(A / "images" / "starbucks_logo.png").convert("RGBA")
+
+
+def schultz_photo(d=300):
+    """Circular crop of the Wikimedia Commons portrait with a ring, plus the required credit."""
+    im = Image.open(A / "images" / "howard_schultz.jpg").convert("RGB")
+    face = im.crop((120, 0, 1280, 1160)).resize((d, d), Image.LANCZOS)
+    m = Image.new("L", (d, d), 0)
+    ImageDraw.Draw(m).ellipse((0, 0, d - 1, d - 1), fill=255)
+    out = Image.new("RGBA", (d + 16, d + 16), (0, 0, 0, 0))
+    ImageDraw.Draw(out).ellipse((0, 0, d + 15, d + 15), fill=CREAM + (255,))
+    face = face.convert("RGBA"); face.putalpha(m)
+    out.alpha_composite(face, (8, 8))
+    return out
+
+
+PHOTO = schultz_photo()
+CREDIT = text_layer("Photo: Gage Skidmore, CC BY-SA 2.0", fnt("Medium", 20), (210, 215, 225), rtl=False)
+
+
 def ov_name(img, t, dur):
-    x = W - 90 - 300 * (1 - ease_out(t / .35))
+    """Howard Schultz: photo + name when his name is said, Starbucks logo when the brand is said."""
     a = clamp(t / .15) * (1 - clamp((t - dur + .3) / .3))
-    name = pill("هاوارد شولتز", fnt("Heavy", 58), CREAM, NAVY_D)
-    sub = pill("استارباکس", fnt("Bold", 42), (0, 112, 74), WHITE)
-    place(img, name, x - name.width / 2, 1080, alpha=a)
-    place(img, sub, x - sub.width / 2 - 10, 1170, alpha=a * clamp((t - .2) / .2))
+    s_ph = ease_back(t / .35, 1.6)
+    place(img, PHOTO, W - 230, 950, s_ph, alpha=a)
+    place(img, CREDIT, W - 230, 1122, alpha=a * .9)
+    name = pill("هاوارد شولتز", fnt("Heavy", 56), CREAM, NAVY_D)
+    place(img, name, W - 230 - 20 * (1 - ease_out((t - .15) / .3)), 1190, alpha=a * clamp((t - .15) / .15))
+    tb = SB_T - NAME_T                       # when "استارباکس" is spoken, relative to this moment
+    if t > tb:
+        p = ease_back((t - tb) / .35, 1.8)
+        place(img, SB_LOGO.resize((230, 230), Image.LANCZOS), 250, 960, p, alpha=a, rot=-10 * (1 - p))
+        place(img, pill("استارباکس", fnt("Bold", 42), (0, 112, 74), WHITE), 250, 1130, alpha=a * clamp((t - tb - .15) / .15))
+
+
+def ov_cafe(img, t, dur):
+    a = clamp(t / .12) * (1 - clamp((t - dur + .25) / .25))
+    p = ease_back(t / .35, 1.8)
+    place(img, SB_LOGO.resize((200, 200), Image.LANCZOS), W - 200, 1010, p, alpha=a)
+    place(img, pill("اولین کافه", fnt("Heavy", 44), (0, 112, 74), WHITE), W - 200, 1160, alpha=a * clamp((t - .2) / .15))
 
 
 def ov_keyword(img, t, dur):
@@ -566,7 +604,7 @@ def ov_cta(img, t, dur):
           rot=20 * fly)
 
 
-OVERLAYS = {"hook": ov_hook, "name": ov_name, "keyword": ov_keyword, "question": ov_question, "cta": ov_cta}
+OVERLAYS = {"hook": ov_hook, "name": ov_name, "cafe": ov_cafe, "keyword": ov_keyword, "question": ov_question, "cta": ov_cta}
 
 
 # ---------------- zoom per sentence ----------------
@@ -674,7 +712,7 @@ def render(n):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--stills")
-    ap.add_argument("--out", default=str(ROOT / "renders" / "talk-1-v2.mp4"))
+    ap.add_argument("--out", default=str(ROOT / "renders" / "talk-1-v3.mp4"))
     ap.add_argument("--audio", default=str(ROOT / "work" / "voice.wav"))
     a = ap.parse_args()
     if a.stills:
