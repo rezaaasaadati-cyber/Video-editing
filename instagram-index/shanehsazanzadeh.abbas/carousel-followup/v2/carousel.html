@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Follow-up carousel v2</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#f5efe4; --ink:#141414; --muted:#6b645a; --accent:#ef5b24; --line:#e2d9c8; --bubble:#ffffff; --me:#ef5b24; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:#999; font-family:'Vazirmatn',sans-serif; }
+  .slide { width:1080px; height:1350px; position:relative; overflow:hidden; background:var(--bg); color:var(--ink);
+    padding:140px 130px; display:flex; flex-direction:column; justify-content:center; margin-bottom:20px; }
+  .num { position:absolute; top:110px; right:130px; font:900 40px 'Vazirmatn'; color:var(--accent); }
+  .num small { color:var(--muted); font-weight:500; }
+  .foot { position:absolute; bottom:96px; left:130px; right:130px; display:flex; justify-content:space-between; align-items:center;
+    font:500 30px 'Vazirmatn'; color:var(--muted); border-top:2px solid var(--line); padding-top:28px; }
+  .foot .h { direction:ltr; }
+  h1 { font-weight:900; font-size:112px; line-height:1.22; letter-spacing:-1px; }
+  h2 { font-weight:900; font-size:84px; line-height:1.3; margin-bottom:44px; }
+  p { font-weight:500; font-size:50px; line-height:1.65; color:var(--muted); }
+  .acc { color:var(--accent); }
+  .under { background:linear-gradient(transparent 62%, rgba(239,91,36,.28) 62%); }
+  .kicker { font:700 40px 'Vazirmatn'; color:var(--muted); margin-bottom:40px; }
+  .chat { display:flex; flex-direction:column; gap:26px; margin-top:20px; }
+  .bubble { max-width:760px; font:500 46px/1.6 'Vazirmatn'; padding:30px 40px; border-radius:44px; }
+  .them { align-self:flex-end; background:var(--bubble); border-bottom-left-radius:10px; color:var(--ink); box-shadow:0 6px 18px rgba(0,0,0,.06); }
+  .me { align-self:flex-start; background:var(--me); color:#fff; border-bottom-right-radius:10px; }
+  .meta { font:500 30px 'Vazirmatn'; color:var(--muted); align-self:flex-start; margin-top:-12px; }
+  .seen { align-self:flex-start; font:500 30px 'Vazirmatn'; color:var(--muted); }
+  .when { display:inline-block; font:900 40px 'Vazirmatn'; color:#fff; background:var(--ink); padding:12px 30px; border-radius:999px; margin-bottom:40px; }
+  .bad { text-decoration:line-through; text-decoration-color:var(--accent); text-decoration-thickness:6px; color:var(--muted); }
+  .list { list-style:none; margin-top:10px; }
+  .list li { display:flex; align-items:center; gap:34px; padding:34px 0; border-bottom:2px solid var(--line); font:700 50px 'Vazirmatn'; }
+  .list li i { font-style:normal; flex:0 0 76px; height:76px; border-radius:50%; background:var(--accent); color:#fff;
+    display:flex; align-items:center; justify-content:center; font:900 40px 'Vazirmatn'; }
+  .list li span { color:var(--muted); font-weight:500; margin-right:auto; }
+  .arrow { font:700 40px 'Vazirmatn'; color:var(--accent); margin-top:60px; }
+</style>
+</head>
+<body>
+
+<!-- 1 COVER -->
+<section class="slide">
+  <div class="num">۱<small>/۹</small></div>
+  <div class="kicker">چیزی که تو کسب‌وکار راحت از ذهنمون می‌پره</div>
+  <h1>مشتری<br>نگفت <span class="acc">نه.</span><br><span class="under">تو پیگیری نکردی.</span></h1>
+  <div class="arrow">ورق بزن ←</div>
+  <div class="foot"><span>عباس شانه‌سازان</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 2 STAKE -->
+<section class="slide">
+  <div class="num">۲<small>/۹</small></div>
+  <div class="chat">
+    <div class="bubble them">ممنون، بهتون خبر میدم 🙏</div>
+    <div class="seen">… و دیگه خبری نشد.</div>
+  </div>
+  <h2 style="margin-top:80px">بیشتر وقتا جوابش «نه» نبود.<br><span class="acc">فقط یادش رفت.</span></h2>
+  <div class="foot"><span>عباس شانه‌سازان</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <div class="num">۳<small>/۹</small></div>
+  <h2>چرا پیگیری نمی‌کنیم؟</h2>
+  <p style="color:var(--ink);font-weight:700">چون فکر می‌کنیم مزاحمیم.</p>
+  <p style="margin-top:30px">ولی مشتری <span class="acc" style="font-weight:700">سرش شلوغه</span>،<br>نه اینکه بی‌علاقه باشه.</p>
+  <div class="foot"><span>عباس شانه‌سازان</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <div class="num">۴<small>/۹</small></div>
+  <span class="when" style="align-self:flex-start">پیام اول · همون روز</span>
+  <div class="chat">
+    <div class="bubble me">ممنون از وقتتون 🌱<br>خلاصه‌ی صحبتمون اینه…</div>
+  </div>
+  <p style="margin-top:60px">یادش بیار چی گفتین. همین.</p>
+  <div class="foot"><span>عباس شانه‌سازان</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <div class="num">۵<small>/۹</small></div>
+  <span class="when" style="align-self:flex-start">پیام دوم · سه روز بعد</span>
+  <div class="chat">
+    <div class="bubble me bad" style="background:#fff;color:var(--muted)">خب؟ چی شد؟</div>
+    <div class="bubble me">یه مطلب دیدم که به کارتون میاد 👇</div>
+  </div>
+  <p style="margin-top:60px">یه چیز به‌دردبخور بفرست، نه سؤال.</p>
+  <div class="foot"><span>عباس شانه‌سازان</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <div class="num">۶<small>/۹</small></div>
+  <span class="when" style="align-self:flex-start">پیام سوم · یه هفته بعد</span>
+  <div class="chat">
+    <div class="bubble me">هنوز براتون اولویته،<br>یا بذاریم برای بعد؟</div>
+  </div>
+  <p style="margin-top:60px">یه سؤال ساده که جواب دادنش راحته.</p>
+  <div class="foot"><span>عباس شانه‌سازان</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <div class="num">۷<small>/۹</small></div>
+  <div class="chat">
+    <div class="bubble them">فعلاً نه، ممنون.</div>
+    <div class="bubble me">ممنون که گفتین 🙏 هر وقت لازم شد، هستم.</div>
+  </div>
+  <h2 style="margin-top:80px">یه «نه» روشن،<br>از یه <span class="acc">«شاید» بی‌پایان</span> بهتره.</h2>
+  <div class="foot"><span>عباس شانه‌سازان</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 8 RECAP -->
+<section class="slide">
+  <div class="num">۸<small>/۹</small></div>
+  <h2>خلاصه</h2>
+  <ul class="list">
+    <li><i>۱</i>همون روز<span>خلاصه‌ی صحبت</span></li>
+    <li><i>۲</i>سه روز بعد<span>یه چیز مفید</span></li>
+    <li><i>۳</i>یه هفته بعد<span>یه سؤال ساده</span></li>
+    <li><i>✓</i>«نه» شنیدی؟<span>تشکر کن و تموم</span></li>
+  </ul>
+  <div class="foot"><span>عباس شانه‌سازان</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 9 CTA -->
+<section class="slide">
+  <div class="num">۹<small>/۹</small></div>
+  <h1>سیوش کن.</h1>
+  <p style="margin-top:40px;color:var(--ink)">و همین الان،<br>به یه مشتری که جواب نداده<br><span class="under" style="font-weight:700">پیام بده.</span></p>
+  <div class="foot"><span>عباس شانه‌سازان</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+</body>
+</html>
