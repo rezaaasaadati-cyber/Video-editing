@@ -6,7 +6,7 @@ import music as m
 import compose30 as k
 
 SR = m.SR
-N = int((k.DURATION + 1) * SR)
+N = int((k.DURATION + k.OUTRO + 1) * SR)
 bus = np.zeros(N)
 
 
@@ -45,13 +45,22 @@ s, e = M["question"]; add(pop(900), s, 0.7); add(m.whoosh(0.3), s - 0.1, 0.5)
 for s_, e_ in k.FULL_SPANS[1:]:                      # expand / shrink of the frame
     add(m.whoosh(0.3), s_ - 0.1, 0.45); add(m.whoosh(0.3, False), e_ - 0.2, 0.35)
 
-bus = m.reverb(bus, 0.8, 0.12)
+# closing sting on the end card: soft low hit + resolved chord, so it clearly ends
+D = k.DURATION
+add(m.whoosh(0.4, True), D - 0.15, 0.6)
+add(m.kick(0.6) * 0.7, D + 0.3, 0.5)
+for i, n in enumerate([0, 7, 12, 16, 19]):
+    add(m.chime(m.note_hz(3 + n)), D + 0.3 + i * 0.03, 0.75)
+
+bus = m.reverb(bus, 1.4, 0.2)
 bus *= 10 ** (-9 / 20) / max(1e-9, np.abs(bus).max())
 w = wave.open("work/voice30.wav"); v = np.frombuffer(w.readframes(w.getnframes()), "<i2").astype(np.float32) / 32768
-mix = np.zeros(len(v)); mix += v
+L = int((k.DURATION + k.OUTRO) * SR)
+mix = np.zeros(L); mix[: min(L, len(v))] += v[:L]
 env = np.convolve(np.abs(mix), np.ones(2400) / 2400, mode="same")
 duck = 1 - 0.35 * np.clip(env / (env.max() * 0.3), 0, 1)
-mix += bus[: len(mix)] * duck
+mix += bus[: len(mix)] * duck[: len(mix)] if len(bus) >= len(mix) else 0
+fade = int(0.5 * SR); mix[-fade:] *= np.linspace(1, 0, fade) ** 1.5
 mix *= min(1.0, 10 ** (-1.5 / 20) / np.abs(mix).max())
 o = wave.open("work/mix30_raw.wav", "wb"); o.setnchannels(1); o.setsampwidth(2); o.setframerate(SR)
 o.writeframes((np.clip(mix, -1, 1) * 32767).astype("<i2").tobytes()); o.close()

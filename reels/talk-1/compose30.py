@@ -46,7 +46,9 @@ c.SUB_F = fnt("ExtraBold", 62)
 # ---------------- edit ----------------
 EDL = json.load(open(ROOT / "work" / "edl30.json"))
 DURATION = EDL[-1]["at"] + EDL[-1]["out"] - EDL[-1]["in"]
-TOTAL = int(round(DURATION * FPS))
+OUTRO = 1.8                                 # closing end card after the last word
+TOTAL = int(round((DURATION + OUTRO) * FPS))
+c.SUB_Y, c.SUB_Y_LOW = 1415, 1440            # captions lower in the frame
 c.EDL, c.DURATION = EDL, DURATION
 
 
@@ -275,12 +277,32 @@ def story_bar(img, t):
         ImageDraw.Draw(img).ellipse((gx - 7, gy - 7, gx + 7, gy + 7), fill=WHITE)
 
 
+END_LOGO = c.logo_for_dark()
+END_LOGO = END_LOGO.resize((620, int(END_LOGO.height * 620 / END_LOGO.width)), Image.LANCZOS)
+
+
+def end_card(t):
+    """Navy end card: logo pops in, handle and a comment prompt rise in."""
+    img = Image.new("RGBA", (W, H), NAVY_D + (255,))
+    cv = c.CANVAS.resize((W, H))
+    img.alpha_composite(cv)
+    p = ease_back(t / .45, 1.5)
+    c.place(img, END_LOGO, W / 2, 820, 0.7 + 0.3 * p, alpha=clamp(t / .2))
+    c.blur_in(img, c.text_layer("@shanehsazanzadeh.abbas", fnt("Medium", 46), CREAM, rtl=False), W / 2, 1010, t - .3)
+    c.blur_in(img, c.pill("جوابت رو کامنت کن", fnt("ExtraBold", 54), ORANGE, NAVY_D), W / 2, 1140, t - .5)
+    return img
+
+
 def render(n):
     t = n / FPS
+    if t >= DURATION + 0.3:
+        img = end_card(t - DURATION - 0.3)
+        story_bar(img, DURATION)
+        return img.convert("RGB")
     k, seg = seg_at(t)
     t_in = seg["in"] + (t - seg["at"])
     name, tl, dur = active(t)
-    fr = READER.frame(k, seg, t_in)
+    fr = READER.frame(k, dict(seg, clip="hq_" + seg["clip"]), t_in)     # AI-upscaled footage
     f = 0.0 if name in CUTAWAYS else fullness(t)
 
     img = c.ambient(fr)
@@ -322,13 +344,16 @@ def render(n):
                 y = c.SUB_Y_LOW if name in SUB_LOW else c.SUB_Y
                 c.place(img, cap, W / 2, y, 0.9 + 0.1 * pop)
                 break
+    if t >= DURATION:                                  # crossfade into the end card
+        a = ease_in_out((t - DURATION) / 0.3)
+        img = Image.blend(img, end_card(0.0), a)
     return img.convert("RGB")
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--stills")
-    ap.add_argument("--out", default=str(ROOT / "renders" / "talk-1-30s-v2.mp4"))
+    ap.add_argument("--out", default=str(ROOT / "renders" / "talk-1-30s-v3.mp4"))
     ap.add_argument("--audio", default=str(ROOT / "work" / "mix30.wav"))
     a = ap.parse_args()
     if a.stills:
