@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Follow-up carousel</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0b0d0a; --ink:#ffffff; --muted:#c9d1c0; --ribbon1:#e63b2e; --ribbon2:#f58a1f; --glow1:#7fae1d; --glow2:#d8c021; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:#222; font-family:'Vazirmatn',sans-serif; }
+  .slide { width:1080px; height:1350px; position:relative; overflow:hidden; background:var(--bg); color:var(--ink);
+    display:flex; flex-direction:column; justify-content:center; padding:150px 130px; margin-bottom:20px; }
+  .slide::before { content:""; position:absolute; inset:0;
+    background: radial-gradient(900px 700px at 15% 10%, rgba(127,174,29,.55), transparent 65%),
+                radial-gradient(700px 600px at 90% 0%, rgba(216,192,33,.28), transparent 60%),
+                radial-gradient(800px 600px at 50% 110%, rgba(230,59,46,.12), transparent 70%); }
+  .ticker { position:absolute; top:60px; left:70px; font:600 34px/1.55 'Vazirmatn'; direction:ltr; text-align:left;
+    color:rgba(120,220,170,.13); letter-spacing:2px; }
+  .ticker span { color:rgba(230,59,46,.16); }
+  .content { position:relative; z-index:2; }
+  h1 { font-weight:900; font-size:96px; line-height:1.3; }
+  h2 { font-weight:900; font-size:78px; line-height:1.35; margin-bottom:46px; }
+  p { font-weight:600; font-size:50px; line-height:1.7; color:var(--muted); }
+  p + p { margin-top:18px; }
+  .quote { font-weight:800; font-size:52px; line-height:1.7; color:#fff; border-right:10px solid var(--ribbon2); padding-right:36px; }
+  .ribbon { position:relative; z-index:2; margin:56px -130px 0; padding:26px 130px;
+    background:linear-gradient(90deg, var(--ribbon2), var(--ribbon1)); font-weight:800; font-size:44px; color:#fff;
+    transform:rotate(-2deg); box-shadow:0 10px 30px rgba(0,0,0,.35); }
+  .tag { display:inline-block; font-weight:800; font-size:38px; color:#fff; background:linear-gradient(90deg, var(--ribbon2), var(--ribbon1));
+    padding:10px 26px; border-radius:12px; margin-bottom:36px; }
+  .no { color:#ff7a6b; }
+  .foot { position:absolute; z-index:2; bottom:64px; left:130px; right:130px; display:flex; justify-content:space-between;
+    font:600 32px 'Vazirmatn'; color:rgba(255,255,255,.55); }
+  .foot .h { direction:ltr; }
+  .recap { list-style:none; }
+  .recap li { display:flex; justify-content:space-between; gap:30px; font-size:50px; font-weight:800; padding:30px 0;
+    border-bottom:2px solid rgba(255,255,255,.14); }
+  .recap li b { color:var(--glow2); font-weight:900; }
+  .recap li span { color:#fff; }
+  .swipe { position:absolute; z-index:2; bottom:150px; left:130px; font:800 40px 'Vazirmatn'; color:var(--glow2); }
+</style>
+</head>
+<body>
+
+<!-- 1 COVER -->
+<section class="slide">
+  <div class="ticker">1,000 3<br>1,000 3<br>1,600 <span>3</span><br>800<br>1,200</div>
+  <div class="content">
+    <h1>مشتری نگفت <span class="no">نه.</span><br>تو پیگیری نکردی.</h1>
+  </div>
+  <div class="ribbon">چیزی که تو کسب‌وکار راحت از ذهنمون می‌پره</div>
+  <div class="swipe">← ورق بزن</div>
+  <div class="foot"><span>۱/۹</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 2 STAKE -->
+<section class="slide">
+  <div class="content">
+    <h2>«گفت خبر میدم»<br>و دیگه خبری نشد.</h2>
+    <p>بیشتر وقتا جوابش «نه» نبود.</p>
+    <p class="quote">فقط یادش رفت.</p>
+  </div>
+  <div class="foot"><span>۲/۹</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <div class="content">
+    <h2>چرا پیگیری نمی‌کنیم؟</h2>
+    <p class="quote">چون فکر می‌کنیم مزاحمیم.</p>
+    <p style="margin-top:40px">ولی مشتری سرش شلوغه،<br>نه اینکه بی‌علاقه باشه.</p>
+  </div>
+  <div class="foot"><span>۳/۹</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <div class="content">
+    <span class="tag">پیام اول</span>
+    <h2>همون روز</h2>
+    <p class="quote">«ممنون از وقتتون.<br>خلاصه‌ی صحبتمون اینه…»</p>
+  </div>
+  <div class="foot"><span>۴/۹</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <div class="content">
+    <span class="tag">پیام دوم</span>
+    <h2>سه روز بعد</h2>
+    <p class="quote">یه چیز به‌دردبخور بفرست.</p>
+    <p style="margin-top:40px">نه <span class="no">«خب؟ چی شد؟»</span></p>
+  </div>
+  <div class="foot"><span>۵/۹</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <div class="content">
+    <span class="tag">پیام سوم</span>
+    <h2>یه هفته بعد</h2>
+    <p>یه سؤال ساده:</p>
+    <p class="quote" style="margin-top:24px">«هنوز براتون اولویته،<br>یا بذاریم برای بعد؟»</p>
+  </div>
+  <div class="foot"><span>۶/۹</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <div class="content">
+    <h2>«نه» هم جوابه</h2>
+    <p>اگه گفت نه، تشکر کن و تموم.</p>
+    <p class="quote" style="margin-top:40px">یه «نه» روشن،<br>از یه «شاید» بی‌پایان بهتره.</p>
+  </div>
+  <div class="foot"><span>۷/۹</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 8 RECAP -->
+<section class="slide">
+  <div class="content">
+    <h2>خلاصه</h2>
+    <ul class="recap">
+      <li><b>همون روز</b><span>خلاصه‌ی صحبت</span></li>
+      <li><b>سه روز بعد</b><span>یه چیز مفید</span></li>
+      <li><b>یه هفته بعد</b><span>یه سؤال ساده</span></li>
+      <li><b>«نه» شنیدی؟</b><span>تشکر کن و تموم</span></li>
+    </ul>
+  </div>
+  <div class="foot"><span>۸/۹</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+<!-- 9 CTA -->
+<section class="slide">
+  <div class="ticker">1,000 3<br>1,000 3<br>1,600 <span>3</span><br>800<br>1,200</div>
+  <div class="content">
+    <h1>سیوش کن.</h1>
+  </div>
+  <div class="ribbon" style="line-height:1.6">همین الان،<br>به یه مشتری که جواب نداده پیام بده.</div>
+  <div class="foot"><span>۹/۹</span><span class="h">@shanehsazanzadeh.abbas</span></div>
+</section>
+
+</body>
+</html>
