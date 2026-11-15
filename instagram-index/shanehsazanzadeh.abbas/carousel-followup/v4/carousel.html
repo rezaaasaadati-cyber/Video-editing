@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Follow-up carousel v4</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root { --out:#e2ffc8; --in:#ffffff; --tick:#4fae4e; --time:#6d9b5b; --head:#ffffff; --ink:#111; --muted:#7b8a95; --blue:#3390ec; --yellow:#ffd60a; --red:#e5261b; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:#777; font-family:'Vazirmatn',sans-serif; }
+  .slide { width:1080px; height:1350px; position:relative; overflow:hidden; margin-bottom:20px;
+    background:
+      radial-gradient(circle at 20% 20%, rgba(255,255,255,.18) 0 3px, transparent 4px) 0 0/90px 90px,
+      radial-gradient(circle at 70% 60%, rgba(255,255,255,.14) 0 5px, transparent 6px) 0 0/140px 140px,
+      linear-gradient(160deg, #cfe3a2 0%, #9fcf9b 40%, #8fc3c6 75%, #a7c7e8 100%); }
+  /* header */
+  .head { position:absolute; top:0; left:0; right:0; height:150px; background:var(--head); display:flex; align-items:center; gap:28px;
+    padding:0 46px; box-shadow:0 2px 10px rgba(0,0,0,.08); z-index:3; }
+  .back { font:500 60px 'Vazirmatn'; color:var(--blue); }
+  .ava { width:92px; height:92px; border-radius:50%; background:linear-gradient(135deg,#ffb36b,#f0743b); color:#fff;
+    display:flex; align-items:center; justify-content:center; font:900 44px 'Vazirmatn'; }
+  .ava.saved { background:linear-gradient(135deg,#6ec6ff,#3390ec); }
+  .who b { display:block; font:700 44px 'Vazirmatn'; color:var(--ink); }
+  .who span { font:500 32px 'Vazirmatn'; color:var(--muted); }
+  .num { margin-right:auto; font:700 32px 'Vazirmatn'; color:var(--muted); direction:ltr; }
+  /* chat */
+  .chat { position:absolute; top:190px; left:46px; right:46px; display:flex; flex-direction:column; gap:22px; z-index:2; }
+  .date { align-self:center; background:rgba(0,0,0,.28); color:#fff; font:700 32px 'Vazirmatn'; padding:8px 28px; border-radius:999px; margin:8px 0; }
+  .b { max-width:820px; font:500 44px/1.55 'Vazirmatn'; padding:24px 34px 18px; border-radius:36px; position:relative; box-shadow:0 2px 2px rgba(0,0,0,.08); }
+  .b .t { display:block; text-align:left; font:500 28px 'Vazirmatn'; margin-top:6px; direction:ltr; }
+  .in  { align-self:flex-end; background:var(--in); border-bottom-left-radius:8px; }
+  .in .t { color:var(--muted); }
+  .out { align-self:flex-start; background:var(--out); border-bottom-right-radius:8px; }
+  .out .t { color:var(--time); }
+  .out .t::after { content:"  ✓✓"; color:var(--tick); font-weight:700; }
+  .strike { text-decoration:line-through; text-decoration-color:var(--red); text-decoration-thickness:6px; opacity:.6; }
+  .preview { margin-top:12px; border-right:6px solid var(--tick); padding:6px 22px 6px 0; }
+  .preview b { display:block; font:700 36px 'Vazirmatn'; color:#2f7d32; }
+  .preview span { font:500 34px 'Vazirmatn'; color:#333; }
+  .typing { align-self:flex-end; background:var(--in); font:500 36px 'Vazirmatn'; color:var(--muted); padding:16px 30px; border-radius:30px; }
+  .sys { align-self:center; font:500 32px 'Vazirmatn'; color:#fff; background:rgba(0,0,0,.22); padding:8px 26px; border-radius:999px; }
+  /* lesson card */
+  .card { position:absolute; left:46px; right:46px; bottom:170px; background:#0d0d0d; color:#fff; border-radius:40px; padding:44px 54px; z-index:4;
+    box-shadow:0 18px 40px rgba(0,0,0,.25); }
+  .card::after { content:"@shanehsazanzadeh.abbas"; display:block; direction:ltr; text-align:left; font:500 26px Vazirmatn; color:#8a8a8a; margin-top:18px; }
+  .card .k { display:inline-block; background:var(--yellow); color:#0d0d0d; font:900 34px 'Vazirmatn'; padding:6px 22px; border-radius:12px; margin-bottom:20px; }
+  .card h2 { font:900 64px/1.35 'Vazirmatn'; }
+  .card h1 { font:900 92px/1.25 'Vazirmatn'; }
+  .card p { font:500 42px/1.6 'Vazirmatn'; color:#d9d9d9; margin-top:12px; }
+  .y { color:var(--yellow); }
+  .r { color:#ff6b5e; }
+  /* input bar */
+  .bar { position:absolute; left:0; right:0; bottom:0; height:130px; background:#fff; display:flex; align-items:center; gap:24px; padding:0 40px; z-index:3; }
+  .bar .field { flex:1; font:500 40px 'Vazirmatn'; color:#9aa5ad; }
+  .bar .field.typed { color:var(--ink); }
+  .bar .send { width:90px; height:90px; border-radius:50%; background:var(--blue); color:#fff; display:flex; align-items:center; justify-content:center; font:900 44px 'Vazirmatn'; transform:scaleX(-1); }
+  .bar .clip { font:500 50px 'Vazirmatn'; color:#9aa5ad; }
+  .cursor { display:inline-block; width:4px; height:46px; background:var(--blue); vertical-align:middle; margin-right:4px; }
+  .handle { position:absolute; top:168px; left:46px; z-index:3; direction:ltr; font:700 28px 'Vazirmatn'; color:rgba(0,0,0,.45); }
+  .rec { list-style:none; margin-top:8px; }
+  .rec li { font:700 42px/1.75 'Vazirmatn'; }
+  .rec li span { font-weight:500; color:#444; }
+</style>
+</head>
+<body>
+
+<!-- 1 COVER -->
+<section class="slide">
+  <div class="head"><span class="back">→</span><div class="ava">م</div><div class="who"><b>مشتری</b><span>آخرین بازدید: اخیراً</span></div><span class="num">1/9</span></div>
+  <div class="chat">
+    <div class="date">۲ هفته پیش</div>
+    <div class="b in">ممنون، بهتون خبر میدم 🙏<span class="t">18:42</span></div>
+    <div class="date">امروز</div>
+    <div class="sys">… هنوز خبری نشده</div>
+  </div>
+  <div class="card">
+    <span class="k">چیزی که تو کسب‌وکار راحت از ذهنمون می‌پره</span>
+    <h1>مشتری نگفت <span class="r">نه.</span><br><span class="y">تو پیگیری نکردی.</span></h1>
+  </div>
+  <div class="bar"><span class="clip">📎</span><span class="field">پیام</span><span class="send">➤</span></div>
+</section>
+
+<!-- 2 -->
+<section class="slide">
+  <div class="head"><span class="back">→</span><div class="ava">م</div><div class="who"><b>مشتری</b><span>آخرین بازدید: اخیراً</span></div><span class="num">2/9</span></div>
+  <div class="chat">
+    <div class="date">۱۴ آبان</div>
+    <div class="b out">قیمت و شرایط رو براتون فرستادم 👆<span class="t">17:10</span></div>
+    <div class="b in">ممنون، بهتون خبر میدم 🙏<span class="t">18:42</span></div>
+  </div>
+  <div class="card">
+    <h2>و دیگه خبری نشد.</h2>
+    <p>بیشتر وقتا جوابش «نه» نبود. <span class="y" style="font-weight:900">فقط یادش رفت.</span></p>
+  </div>
+  <div class="bar"><span class="clip">📎</span><span class="field">پیام</span><span class="send">➤</span></div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <div class="head"><span class="back">→</span><div class="ava">م</div><div class="who"><b>مشتری</b><span>آخرین بازدید: اخیراً</span></div><span class="num">3/9</span></div>
+  <div class="chat">
+    <div class="b in">ممنون، بهتون خبر میدم 🙏<span class="t">18:42</span></div>
+  </div>
+  <div class="card">
+    <span class="k">چرا پیگیری نمی‌کنیم؟</span>
+    <h2>چون فکر می‌کنیم <span class="r">مزاحمیم.</span></h2>
+    <p>ولی مشتری سرش شلوغه، نه اینکه بی‌علاقه باشه.</p>
+  </div>
+  <div class="bar"><span class="clip">📎</span><span class="field typed">سلام، ببخشید مزاحم میشم…<span class="cursor"></span></span><span class="send">➤</span></div>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <div class="head"><span class="back">→</span><div class="ava">م</div><div class="who"><b>مشتری</b><span>آنلاین</span></div><span class="num">4/9</span></div>
+  <div class="chat">
+    <div class="date">همون روز</div>
+    <div class="b out">ممنون از وقتتون 🌱<br>خلاصه‌ی صحبتمون:<br>• نیازتون: …<br>• قدم بعدی: پیش‌فاکتور تا پنجشنبه<span class="t">19:05</span></div>
+    <div class="b in">ممنون 🙏<span class="t">19:20</span></div>
+  </div>
+  <div class="card">
+    <span class="k">پیام اول · همون روز</span>
+    <h2>یادش بیار چی گفتین.</h2>
+  </div>
+  <div class="bar"><span class="clip">📎</span><span class="field">پیام</span><span class="send">➤</span></div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <div class="head"><span class="back">→</span><div class="ava">م</div><div class="who"><b>مشتری</b><span>آخرین بازدید: اخیراً</span></div><span class="num">5/9</span></div>
+  <div class="chat">
+    <div class="date">۳ روز بعد</div>
+    <div class="b out"><span class="strike">خب؟ چی شد؟</span><span class="t">10:15</span></div>
+    <div class="b out">یه مطلب دیدم که به کارتون میاد 👇
+      <div class="preview"><b>۵ اشتباه رایج در …</b><span>یه مطلب کوتاه و کاربردی</span></div><span class="t">10:16</span></div>
+  </div>
+  <div class="card">
+    <span class="k">پیام دوم · سه روز بعد</span>
+    <h2>یه چیز <span class="y">به‌دردبخور</span> بفرست،<br>نه سؤال.</h2>
+  </div>
+  <div class="bar"><span class="clip">📎</span><span class="field">پیام</span><span class="send">➤</span></div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <div class="head"><span class="back">→</span><div class="ava">م</div><div class="who"><b>مشتری</b><span>در حال نوشتن…</span></div><span class="num">6/9</span></div>
+  <div class="chat">
+    <div class="date">یه هفته بعد</div>
+    <div class="b out">هنوز براتون اولویته،<br>یا بذاریم برای بعد؟<span class="t">09:30</span></div>
+    <div class="typing">در حال نوشتن…</div>
+  </div>
+  <div class="card">
+    <span class="k">پیام سوم · یه هفته بعد</span>
+    <h2>یه سؤال ساده،<br>که <span class="y">جواب دادنش راحته.</span></h2>
+  </div>
+  <div class="bar"><span class="clip">📎</span><span class="field">پیام</span><span class="send">➤</span></div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <div class="head"><span class="back">→</span><div class="ava">م</div><div class="who"><b>مشتری</b><span>آخرین بازدید: اخیراً</span></div><span class="num">7/9</span></div>
+  <div class="chat">
+    <div class="b in">فعلاً نه، ممنون.<span class="t">12:40</span></div>
+    <div class="b out">ممنون که گفتین 🙏<br>هر وقت لازم شد، هستم.<span class="t">12:41</span></div>
+  </div>
+  <div class="card">
+    <span class="k">«نه» هم جوابه</span>
+    <h2>یه «نه» روشن،<br>از یه <span class="y">«شاید» بی‌پایان</span> بهتره.</h2>
+  </div>
+  <div class="bar"><span class="clip">📎</span><span class="field">پیام</span><span class="send">➤</span></div>
+</section>
+
+<!-- 8 RECAP: Saved Messages -->
+<section class="slide">
+  <div class="head"><span class="back">→</span><div class="ava saved">🔖</div><div class="who"><b>پیام‌های ذخیره‌شده</b><span>یادداشت برای خودم</span></div><span class="num">8/9</span></div>
+  <div class="chat">
+    <div class="b out" style="max-width:940px">
+      <b style="font-weight:900">📌 قانون پیگیری</b>
+      <ul class="rec">
+        <li>۱. همون روز ← <span>خلاصه‌ی صحبت</span></li>
+        <li>۲. سه روز بعد ← <span>یه چیز مفید</span></li>
+        <li>۳. یه هفته بعد ← <span>یه سؤال ساده</span></li>
+        <li>✓ «نه» شنیدی؟ ← <span>تشکر کن و تموم</span></li>
+      </ul><span class="t">20:00</span></div>
+  </div>
+  <div class="card" style="padding:34px 54px">
+    <h2 style="font-size:56px">اسکرین‌شات بگیر 📸</h2>
+  </div>
+  <div class="bar"><span class="clip">📎</span><span class="field">پیام</span><span class="send">➤</span></div>
+</section>
+
+<!-- 9 CTA -->
+<section class="slide">
+  <div class="head"><span class="back">→</span><div class="ava">م</div><div class="who"><b>مشتری</b><span>آخرین بازدید: اخیراً</span></div><span class="num">9/9</span></div>
+  <div class="chat">
+    <div class="b in">ممنون، بهتون خبر میدم 🙏<span class="t">18:42</span></div>
+  </div>
+  <div class="card">
+    <h1>سیوش کن.</h1>
+    <p style="font-size:48px">و همین الان، به یه مشتری که جواب نداده <span class="y" style="font-weight:900">پیام بده.</span></p>
+    
+  </div>
+  <div class="bar"><span class="clip">📎</span><span class="field typed">سلام، وقتتون بخیر 🌱<span class="cursor"></span></span><span class="send">➤</span></div>
+</section>
+
+</body>
+</html>
